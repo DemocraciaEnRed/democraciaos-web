@@ -9,18 +9,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.1",
-    "body-scroll-lock": "^2.6.4",
-    "bulma": "^0.8.0",
-    "gatsby": "^2.19.16",
-    "gatsby-plugin-react-helmet": "^3.1.22",
-    "gatsby-plugin-sass": "^2.1.28",
-    "node-sass": "^4.13.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "react-slick": "^0.25.2",
-    "slick-carousel": "^1.8.1",
-    "smooth-scroll": "^16.1.2"
+    "@fortawesome/fontawesome-free": "5.12.1",
+    "body-scroll-lock": "2.6.4",
+    "bulma": "0.8.0",
+    "gatsby": "2.19.16",
+    "gatsby-plugin-react-helmet": "3.1.22",
+    "gatsby-plugin-sass": "2.1.28",
+    "node-sass": "4.13.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-helmet": "5.2.1",
+    "react-slick": "0.25.2",
+    "slick-carousel": "1.8.1",
+    "smooth-scroll": "16.1.2"
   }
 }
