@@ -1,6 +1,5 @@
 import React from "react"
 import "./styles.scss"
-import scrollToSectionHandler  from "../../utils/scrollToSectionHandler"
 
 export default ({ products }) =>  {
     return (
@@ -13,9 +12,9 @@ export default ({ products }) =>  {
                         </figure>
                         <h4 className="title is-spaced has-text-grey-dark">{product.title}</h4>
                         <p className="subtitle is-6 is-spaced has-text-grey-dark">{product.subtitle}</p>
-                        <button className="icon is-large" onClick={scrollToSectionHandler} data-target={product.id}>
-                            <i className="fas fa-plus fa-inverse" data-target={product.id}></i>
-                        </button>
+                        <a className="icon is-large" href={`#${product.id}`}>
+                            <i className="fas fa-plus fa-inverse"></i>
+                        </a>
                     </div>
                 )}
             </div>

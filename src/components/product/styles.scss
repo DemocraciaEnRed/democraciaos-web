@@ -20,6 +20,7 @@ $blue: #29abe2;
         color: white;
     }
     .button {
+        display: table;
         border-color: white;
         &:hover {
             background-color: transparent;

@@ -6,6 +6,9 @@
     width: 100%;
 }
 .navbar-burger {
+    border: none;
+    background-color: transparent;
+    outline: none !important;
     span {
         width: 30px;
         height: 2px;

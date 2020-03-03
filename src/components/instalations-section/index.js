@@ -19,7 +19,7 @@ export default ({ data }) =>  (
                                 <li>{requirement}</li>
                             )}
                         </ul>
-                        <a className="button is-rounded is-medium is-dark" href={instalation.button_link} target="_blank">{instalation.button_text}</a>
+                        <a className="button is-rounded is-medium is-dark" href={instalation.button_link} target="_blank" rel="noopener noreferrer">{instalation.button_text}</a>
                     </div>
                 )}
             </div>

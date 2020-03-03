@@ -1,6 +1,5 @@
 import React from "react"
 import "./styles.scss"
-import scrollToSectionHandler  from "../../utils/scrollToSectionHandler"
 
 export default ({ data }) =>  (
     <section id={data.id} className={`hero product product-${data.color}`}>
@@ -24,7 +23,7 @@ export default ({ data }) =>  (
                 <figure className="image is-square is-hidden-touch">
                     <img src="https://bulma.io/images/placeholders/480x480.png" />
                 </figure>
-                <button className="button is-rounded is-medium" onClick={scrollToSectionHandler} data-target="implementar">Implementar</button>
+                <a className="button is-rounded is-medium" href="#implementar">Implementar</a>
             </div>
         </div>    
     </section>

@@ -15,7 +15,10 @@ import CasesSection from "../components/cases-section"
 import casesData from "../../content/cases.json"
 import Footer from "../components/footer"
 
-//TODO: hay que agregar markup de html?
+//Sets smooth scroll animation for anchor links
+import SmoothScroll from "smooth-scroll"
+new SmoothScroll('a[href*="#"]');
+
 export default () =>  (
     <React.Fragment>
         <SEO />

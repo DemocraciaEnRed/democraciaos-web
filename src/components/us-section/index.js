@@ -12,7 +12,7 @@ export default ({ data }) =>  (
                 <p className="subtitle is-size-4-desktop">
                     {data.subtitle}
                 </p>
-                <a className="has-text-white has-text-underline is-size-5" href={data.link} target="_blank">{data.text_link}</a>
+                <a className="has-text-white has-text-underline is-size-5" href={data.link} target="_blank" rel="noopener noreferrer">{data.text_link}</a>
             </div>
         </div>
     </section>

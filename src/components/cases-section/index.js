@@ -13,7 +13,7 @@ export default ({data}) =>  (
                         </figure>
                         <h4 className="title is-4 is-size-3-desktop">{useCase.title}</h4>
                         <p className="subtitle is-6 is-spaced">{useCase.subtitle}</p>
-                        <a className="icon is-large" target="_blank" href={useCase.link}>
+                        <a className="icon is-large" target="_blank" href={useCase.link} rel="noopener noreferrer">
                             <i className="fas fa-plus fa-inverse"></i>
                         </a>
                     </div>
