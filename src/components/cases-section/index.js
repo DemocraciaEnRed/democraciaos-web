@@ -6,8 +6,8 @@ export default ({data}) =>  (
         <div className="container has-text-centered">
             <h3 className="title is-4 is-size-1-desktop">{data.title}</h3>
             <div className="columns">
-                {data.cases.map((useCase) =>
-                    <div className={`column use-case-item use-case-item-${useCase.color}`}>
+                {data.cases.map((useCase, index) =>
+                    <div key={index} className={`column use-case-item use-case-item-${useCase.color}`}>
                         <figure className="image is-128x128">
                             <img src="https://bulma.io/images/placeholders/128x128.png" />
                         </figure>
