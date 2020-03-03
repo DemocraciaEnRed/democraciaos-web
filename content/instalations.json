@@ -1,0 +1,41 @@
+{
+    "title": "Tres maneras de implementar nuestros productos:",
+    "instalations": [
+        {
+            "title": "D.I.Y. Hazlo tu mismo",
+            "description": "Todos los productos de  Democracia OS son de código abierto y tienen licencia GPL-v3. Esto significa que el producto puede instalarse e instalarse de acuerdo a sus necesidades sin costo.",
+            "requirements": [
+                "Equipo de desarrollo.", 
+                "Servidor.",
+                "Equipo para coordinar el proyecto."
+            ],
+            "button_text": "Github",
+            "button_link": "https://github.com/democraciaenred",
+            "icon":""
+        },
+        {
+            "title": "Instalación standard",
+            "description": "Instalamos y dejamos el producto funcionando en su servidor con nuestro equipo técnico.",
+            "requirements": [
+                "Completar el formulario de requerimientos.",
+                "Un equipo para coordinar el proyecto.",
+                "Precio básico: USD 1000"
+            ],
+            "button_text": "Contratar",
+            "button_link": "https://preguntarparaacordar.typeform.com/to/bkXtFW",
+            "icon":"" 
+        },
+        {
+            "title": "Instalación a medida",
+            "description": "Versión a medida. Nosotros podemos customizarlo con nuestro equipo técnico y acompañarte en la gestión integral del proyecto.",
+            "requirements": [
+                "Completar el formulario de requerimientos.",
+                "Un equipo para coordinar el proyecto.",
+                "Precio: Solicitar presupuesto"
+            ],
+            "button_text": "Contratar",
+            "button_link": "https://preguntarparaacordar.typeform.com/to/bkXtFW",
+            "icon":"" 
+        }
+    ]
+}

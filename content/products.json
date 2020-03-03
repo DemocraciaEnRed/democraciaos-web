@@ -1,0 +1,51 @@
+[
+    {
+        "title":"Presupuesto Participativo",
+        "subtitle":"Plataforma digital para la gestión integral de un Presupuesto participativo que pone en dialogo ciudadania, autores de proyectos y gobiernos.",
+        "description": "Plataforma digital para la gestión integral de un presupuesto participativo que pone en dialogo ciudadania, autores de proyectos y gobiernos.",
+        "features": [
+            "Alta de propuestas",
+            "Factibilidad de propuestas",
+            "Fases de ejecución de proyectos",
+            "Seguimiento de proyectos",
+            "Comentarios",
+            "Votación"
+        ],
+        "color": "red",
+        "icon": "",
+        "image": "",
+        "id": "presupuesto_participativo"
+    },
+    {
+        "title":"Consulta pública",
+        "subtitle":"Plataforma digital de consulta, diálogo y debate que conecta al gobierno con la comunidad.",
+        "description": "Busca favorecer la participación, el debate y la interacción entre entidades y personas sobre diversas temáticas",
+        "features": [
+            "Alta de consultas",
+            "Alta de propuestas ciudadanas",
+            "Comentarios",
+            "Votación",
+            "Encuestas",
+            "Priorización"
+        ],
+        "color": "orange",
+        "icon": "",
+        "image": "",
+        "id": "consulta_publica"
+    },
+    {
+        "title":"Co-construcción de leyes",
+        "subtitle":"Plataforma digital de elaboración colaborativa de normas entre diputados y ciudadanía.",
+        "description": "Plataforma digital de elaboración colaborativa de normas entre diputados y ciudadanía.",
+        "features": [
+            "Alta de proyectos de ley",
+            "Comentarios",
+            "Sugerencias",
+            "Seguimiento de proyectos"
+        ],
+        "color": "blue",
+        "icon": "",
+        "image": "",
+        "id": "co-construccion_leyes"
+    }
+]

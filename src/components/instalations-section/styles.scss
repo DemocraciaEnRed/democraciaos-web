@@ -1,0 +1,31 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+.instalations {
+    .button.is-dark {
+        background-color: #4d4d4d;	
+        &:hover {
+            background-color: transparent;
+            color: #4d4d4d;
+            border-color: #444444;
+        }
+    }
+    .column {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}
+
+@include desktop {
+    .instalations {
+        padding: 6rem;
+        .title:first-child {
+            padding-bottom: 4rem;
+        }
+        .column {
+            padding: 1rem 4rem;
+            .subtitle {
+                flex-grow: 1;
+            }
+        }
+    }
+}

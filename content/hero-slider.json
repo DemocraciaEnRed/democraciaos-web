@@ -1,0 +1,40 @@
+[
+  {
+    "type": "text",
+    "data": {
+      "title": "Democratizar la democracia",
+      "subtitle": "Herramientas digitales de participación ciudadana para gobiernos e instituciones.",
+      "bg_image": "slider1"
+    }
+  },
+  {
+    "type": "icons",
+    "data": {
+      "title": "Tecnología",
+      "bg_image": "slider1",
+      "assets": [
+        {
+          "title": "Personalizable",
+          "icon": "customizable"
+        },
+        {
+          "title": "Código Abierto",
+          "icon": "open_code"
+        },
+        {
+          "title": "Fácil instalación",
+          "icon": "folder"
+        }
+      ]
+    }
+  },
+  {
+    "type": "text",
+    "data": {
+      "bg_image": "slider3",
+      "title": "Soluciones",
+      "subtitle": "Para el poder legislativo, ejecutivo, judicial, organismos descentralizados, partidos políticos, organizaciones y otras instituciones."
+    }
+  }
+]
+      

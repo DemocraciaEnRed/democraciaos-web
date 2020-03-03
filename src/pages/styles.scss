@@ -1,0 +1,61 @@
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+// FontAwesome
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+// Update Bulma's global variables
+$family-sans-serif: "Lexend Deca", sans-serif;
+$navbar-background-color: transparent;
+$navbar-item-color: #FFF;
+$navbar-item-hover-color: #FFF;
+$navbar-item-hover-background-color: transparent;
+$navbar-item-active-color: #FFF;
+$navbar-height: 5rem;
+$title-weight: 400;
+$subtitle-weight: 400;
+$subtitle-line-height: 1.5;
+$size-2: 2.4rem;
+$size-4: 1.75rem;
+$size-5: 1.13rem;
+$size-6: 1rem;
+$grey-dark: #4d4d4d;
+$red: #f15a24;
+$orange: #fbb03b;
+$blue: #29abe2;
+
+// Import only what you need from Bulma
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/elements/container.sass";
+@import "~bulma/sass/elements/title.sass";
+@import "~bulma/sass/elements/icon.sass";
+@import "~bulma/sass/components/navbar.sass";
+@import "~bulma/sass/layout/hero.sass";
+@import "~bulma/sass/layout/section.sass";
+@import "~bulma/sass/grid/columns.sass";
+
+.list-title {
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+}
+.list {
+    list-style-type: disc;
+    li {
+        margin-left: 1rem;
+    }
+}
+
+.button {
+    box-shadow: 3px 3px 5.4px 0 rgba(0, 0, 0, 0.21);
+    margin: 2rem auto;
+    display: block;
+}
+
+.has-text-underline {
+    text-decoration: underline;
+}

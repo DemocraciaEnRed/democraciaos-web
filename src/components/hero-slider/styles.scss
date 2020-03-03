@@ -1,0 +1,89 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+.hero-slider-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    .hero-body {
+        background-color:rgba(60, 36, 21, 0.4);
+        height: 100vh;
+    }
+}
+.hero.is-fullheight.is-primary {
+    background-image: none;
+    background-color: transparent;
+    height: 100vh;
+}
+
+.slick-slider,
+.slick-list,
+.slick-track {
+    height: 100vh;
+}
+.slick-dots {
+    bottom: 2rem;
+    li button:before {
+        color: white;
+        font-size: 0.8rem;
+    }
+    li.slick-active button:before {
+        color: white;
+    }
+}
+
+.slick-next {
+    right: 2rem;
+    &:before {
+        content: '\f105';
+        font-family: 'Font Awesome 5 Free';
+        font-size: 2.5rem;
+    }
+}
+
+.slick-prev {
+    left: 2rem;
+    z-index: 1;
+    &:before {
+        content: '\f104';
+        font-family: 'Font Awesome 5 Free';
+        font-size: 2.5rem;
+    }
+}
+
+@include mobile {
+    .slick-next {
+        right: 0.5rem;
+        &:before {
+            font-size: 2rem;
+        }
+    }
+    .slick-prev {
+        left: 0.5rem;
+        &:before {
+            font-size: 2rem;
+        }
+    }
+}
+
+@include touch {
+    .hero-slider-item {
+        height: 100vh;
+    }
+}
+
+
+@include widescreen {
+    .hero.is-large {
+        .hero-slider-item {
+            .hero-body {
+                padding-left: 18rem;
+                padding-right: 18rem;
+            }
+            &.item-0 {
+                .hero-body {
+                    padding-left: 34rem;
+                    padding-right: 34rem;  
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "title": "Casos",
+    "cases": [
+        {
+            "title": "Presupuesto Participativo",
+            "subtitle": "Vicente López",
+            "color": "red",
+            "link": "https://presupuestoparticipativo.vicentelopez.gob.ar/"
+        },
+        {
+            "title":"Consulta Pública",
+            "subtitle": "Secretaría de Modernización de la Nación Argentina",
+            "color": "orange",
+            "link": "https://consultapublica.argentina.gob.ar/"
+        },
+        {
+            "title": "Leyes Abiertas",
+            "subtitle": "Cámara de Diputados de la Nación",
+            "color": "blue",
+            "link": "https://leyesabiertas.hcdn.gob.ar/"
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+.navbar {
+    transition: background-color 0.3s ease;
+    position: absolute;
+    width: 100%;
+}
+.navbar-burger {
+    span {
+        width: 30px;
+        height: 2px;
+        &:nth-child(1) {
+            top: calc(50% - 14px);
+        }
+        &:nth-child(2) {
+            top: calc(50% - 5px);
+        }
+    }
+    &.is-active {
+        &:hover {
+            background-color: transparent;
+        }
+        span {
+            &:nth-child(1) {
+                transform: translateY(14px) rotate(45deg);
+            }
+            &:nth-child(3){
+                transform: translateY(-3px) rotate(-45deg);
+            }
+        }
+    }
+    &:hover {
+        color: #FFF;
+    }
+}
+
+.navbar-brand {
+    .navbar-item {
+        font-size: 1.75rem;
+    }
+}
+
+@include touch {
+    .navbar.is-active {
+        position: fixed;
+        height: 100%;
+        background-color: #4d4d4d;
+    }
+
+    .navbar-menu {
+        box-shadow: none;
+        .navbar-item {
+            padding: 0.2rem 0.75rem;
+        }
+    }
+    .navbar-start p {
+        position: absolute;
+        bottom: 2rem;
+        left: 1rem;
+        right: 3rem;
+    }
+}
+   
+@include desktop {
+    .navbar {
+        margin-top: 1.5rem;
+        justify-content: flex-end;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar-menu {
+        flex-grow: 0;
+        .navbar-start {
+            align-items: center;
+            margin-right: 2rem;
+        }
+        .navbar-item {
+            padding: 0.2rem 0.75rem;
+            margin-top: 0.3rem;
+            display: inline-block;
+            margin-left: 1rem;
+            cursor: pointer;
+            &:first-child {
+                position: absolute;
+                left: 1.5rem;
+            }
+            &:not(.contact){
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            &.contact {
+                border-radius: 20px;
+                &:hover {
+                    background-color: white;
+                    color: black;
+                    box-shadow: 2.7px 2.7px 4.8px 0 rgba(0, 0, 0, 0.21);
+                }
+            }
+        }
+    }
+}

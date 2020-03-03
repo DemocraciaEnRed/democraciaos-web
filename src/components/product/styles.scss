@@ -1,0 +1,65 @@
+@import "~bulma/sass/utilities/_all.sass";
+$red: #f15a24;
+$orange: #fbb03b;
+$blue: #29abe2;
+
+.product {
+    color: white;
+    .title {
+        color: white;
+        &:after {
+            display: block;
+            content: ' ';
+            height: 3px;
+            margin: 1rem 0;
+            background-color: white;
+            width: 35px;
+        }
+    }
+    .subtitle {
+        color: white;
+    }
+    .button {
+        border-color: white;
+        &:hover {
+            background-color: transparent;
+            color: white !important;
+        }
+    }
+    &.product-red {
+        background-color: $red;
+        .button {
+            color: $red;
+        }
+    }
+    &.product-orange {
+        background-color: $orange;
+        .button {
+            color: $orange;
+        }
+    }
+    &.product-blue {
+        background-color: $blue;
+        .button {
+            color: $blue;
+        }
+    }
+}
+
+@include desktop {
+    .product {
+        .text-content {
+            display: flex;
+            .title,
+            .subtitle,
+            .list-wrapper {
+                flex-grow: 1;
+                flex-basis: 0;
+            }
+        }
+        .image {
+            text-align: center;
+            margin-top: 4rem;
+        }
+    }
+}
