@@ -9,7 +9,7 @@ module.exports = {
         title: `DemocraciaOS`,
         description: `Herramientas digitales de participación ciudadana para gobiernos e instituciones.`,
         author: `Democracia en Red`,
-        url: `democracyos.org`
+        url: `democraciaos.org`
     },
     plugins: [
         `gatsby-plugin-sass`,
