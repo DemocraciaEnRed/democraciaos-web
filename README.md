@@ -25,11 +25,12 @@ gatsby develop
 ```
 Se disponibiliza el sitio en [http://localhost:8000/](http://localhost:8000/)
 
-5. Generar build productivo
+5. Generar build productivo*
 ```bash
 gatsby build
 ```
 Genera archivos estáticos dentro de la carpeta `build`
+* Se aconseja ejecutar `gatsby clean` previo a generar build productivo que limpia cache de gatsby
 
 6. Para probar el build productivo:
 ```bash
@@ -39,4 +40,5 @@ Se disponibiliza el sitio en [http://localhost:9000/](http://localhost:9000/)
 
 
 En la carpeta `content` se encuentran los textos en formato .json de la landing para facilitar su edición.
+
 

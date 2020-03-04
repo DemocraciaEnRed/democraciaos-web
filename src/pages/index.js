@@ -16,8 +16,10 @@ import casesData from "../../content/cases.json"
 import Footer from "../components/footer"
 
 //Sets smooth scroll animation for anchor links
-import SmoothScroll from "smooth-scroll"
-new SmoothScroll('a[href*="#"]');
+if (typeof window !== "undefined") {
+    const SmoothScroll = require("smooth-scroll");
+    new SmoothScroll('a[href*="#"]');
+}
 
 export default () =>  (
     <React.Fragment>
