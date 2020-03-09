@@ -11,7 +11,7 @@
             ],
             "button_text": "Github",
             "button_link": "https://github.com/democraciaenred",
-            "icon":""
+            "icon":"diy"
         },
         {
             "title": "Instalación standard",
@@ -23,7 +23,7 @@
             ],
             "button_text": "Contratar",
             "button_link": "https://preguntarparaacordar.typeform.com/to/bkXtFW",
-            "icon":"" 
+            "icon":"standard" 
         },
         {
             "title": "Instalación a medida",
@@ -35,7 +35,7 @@
             ],
             "button_text": "Contratar",
             "button_link": "https://preguntarparaacordar.typeform.com/to/bkXtFW",
-            "icon":"" 
+            "icon":"custom" 
         }
     ]
 }

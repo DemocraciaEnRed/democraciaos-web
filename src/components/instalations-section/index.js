@@ -1,6 +1,16 @@
 import React from "react"
 import "./styles.scss"
 
+import diy from "./assets/diy.svg"
+import standard from "./assets/standard.svg"
+import custom from "./assets/custom.svg"
+
+const icons = {
+    diy,
+    custom,
+    standard
+};
+
 export default ({ data }) =>  (
    <section id="implementar" className="section instalations">
        <div className="container has-text-centered">
@@ -8,8 +18,8 @@ export default ({ data }) =>  (
             <div className="columns has-text-left">
                 {data.instalations.map((instalation, index) => 
                     <div key={index} className="column">
-                        <figure className="image is-128x128">
-                            <img src="https://bulma.io/images/placeholders/128x128.png" />
+                        <figure className="image is-96x96">
+                            <img src={`${icons[instalation.icon]}`} className={`${instalation.icon}`} alt=""/>
                         </figure>
                         <h4 className="title is-4 is-spaced">{instalation.title}</h4>
                         <p className="subtitle is-6 is-spaced">{instalation.description}</p>

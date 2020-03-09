@@ -12,7 +12,7 @@
             "Votación"
         ],
         "color": "red",
-        "icon": "",
+        "icon": "presupuesto_participativo",
         "image": "",
         "id": "presupuesto_participativo"
     },
@@ -29,7 +29,7 @@
             "Priorización"
         ],
         "color": "orange",
-        "icon": "",
+        "icon": "consulta_publica",
         "image": "",
         "id": "consulta_publica"
     },
@@ -44,7 +44,7 @@
             "Seguimiento de proyectos"
         ],
         "color": "blue",
-        "icon": "",
+        "icon": "co_construccion",
         "image": "",
         "id": "co-construccion_leyes"
     }

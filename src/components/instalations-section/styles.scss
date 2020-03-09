@@ -13,6 +13,16 @@
         display: flex;
         flex-flow: column nowrap;
     }
+    .image {
+        padding: 1rem 0;
+        img {
+            height: 60px;
+            width: auto;
+            &.diy {
+                max-width: 60px;
+            }
+        }
+    }
 }
 
 @include desktop {
@@ -25,6 +35,12 @@
             padding: 1rem 4rem;
             .subtitle {
                 flex-grow: 1;
+            }
+        }
+        .image {
+            padding: 2rem 0;
+            img {
+                height: 80px;
             }
         }
     }
