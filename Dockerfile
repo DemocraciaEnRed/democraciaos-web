@@ -9,7 +9,7 @@ RUN \
 
 COPY . .
 
-RUN npm -g install gatsby-cli && yarn install && yarn cache clean && gatsby build
+RUN npm -g install gatsby-cli && yarn install --network-timeout 300000 && yarn cache clean && gatsby build
 
 FROM nginx:alpine
 MAINTAINER it@democraciaenred.org
