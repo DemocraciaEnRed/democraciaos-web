@@ -14,7 +14,7 @@ export default () =>  (
                         <li><a className="footer-link" href="#productos">productos</a></li>
                         <li><a className="footer-link" href="#nosotros">nosotros</a></li>
                         <li><a className="footer-link" href="https://preguntarparaacordar.typeform.com/to/bkXtFW" target="_blank" rel="noopener noreferrer">contratar</a></li>
-                        <li className="footer-link has-text-underline"><a href="mailto:speak@democracyos.org">speak@democracyos.org</a></li>
+                        <li className="footer-link has-text-underline"><a href="mailto:	contacto@democraciaenred.org">contacto@democraciaenred.org</a></li>
                         <li>
                             <a href="https://www.facebook.com/democraciaenred/" target="_blank" rel="noopener noreferrer">
                                 <span className="icon">

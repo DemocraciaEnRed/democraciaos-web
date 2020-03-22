@@ -40,8 +40,8 @@ export default () => {
                     <a className="navbar-item contact" href="https://preguntarparaacordar.typeform.com/to/bkXtFW" target="_blank" rel="noopener noreferrer">
                         contactar
                     </a>
-                    <a className="navbar-item is-hidden-desktop" href="mailto:speak@democracyos.org">
-                        speak@democracyos.org
+                    <a className="navbar-item is-hidden-desktop" href="mailto:contacto@democraciaenred.org">
+                        contacto@democraciaenred.org
                     </a>
                     <a className="navbar-item is-hidden-desktop is-inline-block" href="https://www.facebook.com/democraciaenred/" target="_blank" rel="noopener noreferrer">
                         <span className="icon">
