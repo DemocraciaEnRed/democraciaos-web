@@ -64,3 +64,12 @@ $blue: #29abe2;
         }
     }
 }
+
+@include tablet {
+    .product {
+        .image {
+            text-align: center;
+            margin-top: 4rem;
+        }
+    }
+}
