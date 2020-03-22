@@ -18,17 +18,19 @@ export default ({ data }) =>  (
             <div className="columns has-text-left">
                 {data.instalations.map((instalation, index) => 
                     <div key={index} className="column">
-                        <figure className="image is-96x96">
+                        <figure className="image">
                             <img src={`${icons[instalation.icon]}`} className={`${instalation.icon}`} alt=""/>
                         </figure>
                         <h4 className="title is-4 is-spaced">{instalation.title}</h4>
                         <p className="subtitle is-6 is-spaced">{instalation.description}</p>
-                        <span className="list-title">Requerimientos</span>
-                        <ul className="list">
-                            {instalation.requirements.map((requirement, index) =>
-                                <li key={index}>{requirement}</li>
-                            )}
-                        </ul>
+                        <div className="list-wrapper">
+                            <span className="list-title">Requerimientos</span>
+                            <ul className="list">
+                                {instalation.requirements.map((requirement, index) =>
+                                    <li key={index}>{requirement}</li>
+                                )}
+                            </ul>
+                        </div>
                         <a className="button is-rounded is-medium is-dark" href={instalation.button_link} target="_blank" rel="noopener noreferrer">{instalation.button_text}</a>
                     </div>
                 )}

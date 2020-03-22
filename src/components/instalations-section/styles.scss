@@ -25,7 +25,7 @@
     }
 }
 
-@include desktop {
+@include desktop{
     .instalations {
         padding: 6rem;
         .title:first-child {
@@ -34,13 +34,30 @@
         .column {
             padding: 1rem 4rem;
             .subtitle {
-                flex-grow: 1;
+                flex-grow: 4;
+            }
+            .list-wrapper {
+                margin-top: auto;
             }
         }
         .image {
             padding: 2rem 0;
             img {
                 height: 80px;
+            }
+        }
+    }
+}
+
+@include tablet {
+    .instalations {
+        .column {
+            padding: 1rem 4rem;
+            .subtitle {
+                flex-grow: 4;
+            }
+            .list-wrapper {
+                margin-top: auto;
             }
         }
     }
