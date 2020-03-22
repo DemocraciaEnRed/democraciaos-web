@@ -2,6 +2,7 @@ import React from "react";
 import { string, object, arrayOf } from "prop-types";
 import Helmet from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
+import favicon from './assets/favicon.png'
 
 const SEO = ({ description, lang, meta, title }) => {
     const { site } = useStaticQuery(
@@ -69,6 +70,7 @@ const SEO = ({ description, lang, meta, title }) => {
                 },
             ].concat(meta)}
         >
+            <link rel="icon" type="image/png" href={favicon} />
             {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
             <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160849560-1"></script>
             <script>
