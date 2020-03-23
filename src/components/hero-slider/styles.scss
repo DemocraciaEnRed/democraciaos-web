@@ -7,6 +7,10 @@
         background-color:rgba(60, 36, 21, 0.4);
         height: 100vh;
     }
+    .slider-icon {
+        display: inline-block;
+        height: 70px;
+    }
 }
 .hero.is-fullheight.is-primary {
     background-image: none;
@@ -67,9 +71,19 @@
 @include touch {
     .hero-slider-item {
         height: 100vh;
+        .slider-icon {
+            margin-bottom: 2rem;
+        }
     }
 }
 
+@include desktop {
+    .hero-slider-item {
+        .slider-icon {
+            margin-bottom: 2rem;
+        }
+    }
+}
 
 @include widescreen {
     .hero.is-large {

@@ -1,5 +1,14 @@
 import React from "react"
 import "./styles.scss"
+import presupuesto_participativo from "./assets/presupuesto_participativo.png"
+import co_construccion from "./assets/co_construccion.png"
+import consulta_publica from "./assets/consulta_publica.png"
+
+const images = {
+    'presupuesto_participativo': presupuesto_participativo,
+    'consulta_publica': consulta_publica,
+    'co_construccion': co_construccion
+};
 
 export default ({ data }) =>  (
     <section id={data.id} className={`hero product product-${data.color}`}>
@@ -9,8 +18,8 @@ export default ({ data }) =>  (
                     <div className="columns">
                         <div className="column">
                             <h4 className="title is-4 is-spaced is-size-2-desktop">{data.title}</h4>
-                            <figure className="image is-square is-hidden-desktop is-hidden-tablet">
-                                <img src="https://bulma.io/images/placeholders/480x480.png" />
+                            <figure className="image is-hidden-desktop is-hidden-tablet">
+                                <img src={`${images[data.image]}`} alt="" />
                             </figure>
                         </div>
                         <div className="column">
@@ -28,8 +37,8 @@ export default ({ data }) =>  (
                         </div>
                     </div>
                 </div>
-                <figure className="image is-square is-hidden-mobile">
-                    <img src="https://bulma.io/images/placeholders/480x480.png" />
+                <figure className="image is-hidden-mobile">
+                    <img src={`${images[data.image]}`} alt="" />
                 </figure>
                 <a className="button is-rounded is-medium" href="#implementar">Implementar</a>
             </div>

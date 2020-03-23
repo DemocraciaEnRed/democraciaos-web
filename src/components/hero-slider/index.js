@@ -3,6 +3,9 @@ import Slider from "react-slick";
 
 import slider1 from "./assets/slider1.jpg"
 import slider3 from "./assets/slider3.jpg"
+import customizable from "./assets/customizable.svg"
+import folder from "./assets/folder.svg"
+import open_code from "./assets/open_code.svg"
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,6 +14,9 @@ import "./styles.scss"
 export default ({ slides }) =>  {
     const images = {
         'slider1': slider1,
+        'customizable': customizable,
+        'folder': folder,
+        'open_code': open_code,
         'slider3': slider3
     };
 
@@ -48,7 +54,7 @@ export default ({ slides }) =>  {
                                         <div className="columns">
                                         {slider.data.assets.map((asset, index) =>
                                             <div className="column" key={index}>
-                                                {/* TODO: Add icon */}
+                                                <img src={`${images[asset.icon]}`} className="slider-icon" alt=""/>
                                                 <h4 className="subtitle is-5 is-size-4-desktop">
                                                     {asset.title}
                                                 </h4>

@@ -13,7 +13,7 @@
         ],
         "color": "red",
         "icon": "presupuesto_participativo",
-        "image": "",
+        "image": "presupuesto_participativo",
         "id": "presupuesto_participativo"
     },
     {
@@ -30,7 +30,7 @@
         ],
         "color": "orange",
         "icon": "consulta_publica",
-        "image": "",
+        "image": "consulta_publica",
         "id": "consulta_publica"
     },
     {
@@ -45,7 +45,7 @@
         ],
         "color": "blue",
         "icon": "co_construccion",
-        "image": "",
+        "image": "co_construccion",
         "id": "co-construccion_leyes"
     }
 ]

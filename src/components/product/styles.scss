@@ -5,6 +5,7 @@ $blue: #29abe2;
 
 .product {
     color: white;
+    overflow: hidden;
     .title {
         color: white;
         &:after {
@@ -61,15 +62,22 @@ $blue: #29abe2;
         .image {
             text-align: center;
             margin-top: 4rem;
+            max-height: 500px;
+            img {
+                max-width: 90%;
+                display: inline-block;
+            }
         }
     }
 }
 
-@include tablet {
+@include fullhd {
     .product {
         .image {
-            text-align: center;
-            margin-top: 4rem;
+            max-height: 600px;
+            img {
+                max-width: 85%;
+            }
         }
     }
 }

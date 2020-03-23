@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58.126" height="78.331" viewBox="0 0 58.126 78.331">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Group_341" data-name="Group 341" transform="translate(-130.937 -341.26)">
+        <g id="prefix__Group_340" data-name="Group 340">
+            <g id="prefix__Group_339" data-name="Group 339">
+                <path id="prefix__Path_202" d="M180.963 393.219v-6.152h-30.886l-3.706-4.635h-13.68v33.282l5.576-22.5z" data-name="Path 202" style="fill:none"/>
+                <path id="prefix__Path_203" d="M181.734 418.82h-49.813l.77-3.106v-33.282h13.68l3.706 4.635h30.886v6.152h1.54v-7.691h-31.686l-3.706-4.635h-15.96v38.7H182.5v-3.876z" class="prefix__cls-2" data-name="Path 203"/>
+            </g>
+            <path id="prefix__Path_204" d="M182.336 419.59h-51.4l6.727-27.141h51.4zm-49.436-1.539h48.226l5.964-24.062h-48.221z" class="prefix__cls-2" data-name="Path 204"/>
+        </g>
+        <text id="prefix__È" transform="translate(147.652 368.799)" style="stroke:#fff;stroke-miterlimit:10;stroke-width:1.54px;font-size:27.715px;font-family:Wingdings3,'Wingdings 3';fill:none">
+            <tspan x="0" y="0">È</tspan>
+        </text>
+    </g>
+</svg>
