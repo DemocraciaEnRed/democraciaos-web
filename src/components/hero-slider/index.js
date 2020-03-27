@@ -2,6 +2,7 @@ import React from "react"
 import Slider from "react-slick";
 
 import slider1 from "./assets/slider1.jpg"
+import slider2 from "./assets/slider2.jpg"
 import slider3 from "./assets/slider3.jpg"
 import customizable from "./assets/customizable.svg"
 import folder from "./assets/folder.svg"
@@ -13,11 +14,12 @@ import "./styles.scss"
 
 export default ({ slides }) =>  {
     const images = {
-        'slider1': slider1,
         'customizable': customizable,
         'folder': folder,
         'open_code': open_code,
-        'slider3': slider3
+        'slider1': slider1,
+        'slider2': slider2,
+        'slider3': slider3,
     };
 
     const sliderSettings = {
