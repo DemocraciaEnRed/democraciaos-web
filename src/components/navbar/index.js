@@ -34,7 +34,7 @@ export default () => {
                     </a>
 
                     <a className="navbar-item" onClick={() => setIsActive(false)} href="#nosotros" data-target="nosotros">
-                        nosotros
+                        ¿quiénes somos?
                     </a>
 
                     <a className="navbar-item contact" href="https://preguntarparaacordar.typeform.com/to/bkXtFW" target="_blank" rel="noopener noreferrer">
