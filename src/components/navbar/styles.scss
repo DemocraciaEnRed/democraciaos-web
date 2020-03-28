@@ -68,6 +68,9 @@
     .navbar {
         margin-top: 1.5rem;
         justify-content: flex-end;
+        .navbar-item {
+            font-size: 18px;
+        }
     }
     .navbar-brand {
         position: absolute;
