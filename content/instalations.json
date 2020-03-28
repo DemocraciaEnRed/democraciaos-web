@@ -21,7 +21,7 @@
                 "Un equipo para coordinar el proyecto.",
                 "Precio básico: USD 1000"
             ],
-            "button_text": "Contratar",
+            "button_text": "Contactar",
             "button_link": "https://preguntarparaacordar.typeform.com/to/bkXtFW",
             "icon":"standard" 
         },
@@ -33,7 +33,7 @@
                 "Un equipo para coordinar el proyecto.",
                 "Precio: Solicitar presupuesto"
             ],
-            "button_text": "Contratar",
+            "button_text": "Contactar",
             "button_link": "https://preguntarparaacordar.typeform.com/to/bkXtFW",
             "icon":"custom" 
         }
