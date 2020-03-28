@@ -4,7 +4,8 @@
     "data": {
       "title": "Democratizar la democracia",
       "subtitle": "Herramientas digitales de participación ciudadana para gobiernos e instituciones.",
-      "bg_image": "slider1"
+      "bg_image": "slider1",
+      "image_description": "Foto: São Paulo, Brasil"
     }
   },
   {
@@ -12,6 +13,7 @@
     "data": {
       "title": "Tecnología",
       "bg_image": "slider2",
+      "image_description": "Foto: Mérida, Mexico",
       "assets": [
         {
           "title": "Personalizable",
@@ -32,6 +34,7 @@
     "type": "text",
     "data": {
       "bg_image": "slider3",
+      "image_description": "Foto: Buenos Aires, Argentina",
       "title": "Soluciones",
       "subtitle": "Para el poder legislativo, ejecutivo, judicial, organismos descentralizados, partidos políticos, organizaciones y otras instituciones."
     }

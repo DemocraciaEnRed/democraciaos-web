@@ -67,6 +67,7 @@ export default ({ slides }) =>  {
                                 }
                             </div>
                         </div>
+                        <span className="slider-image-description">{slider.data.image_description}</span>
                     </div>
                 </div>             
                 )}

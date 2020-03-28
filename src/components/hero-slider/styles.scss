@@ -3,6 +3,7 @@
 .hero-slider-item {
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     .hero-body {
         background-color:rgba(60, 36, 21, 0.4);
         height: 100vh;
@@ -10,6 +11,12 @@
     .slider-icon {
         display: inline-block;
         height: 70px;
+    }
+    .slider-image-description {
+        font-size: $size-7;
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
     }
 }
 .hero.is-fullheight.is-primary {
@@ -64,6 +71,14 @@
         left: 0.5rem;
         &:before {
             font-size: 2rem;
+        }
+    }
+    .hero-slider-item {
+        .slider-image-description {
+            left: auto;
+            right: 20px;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
         }
     }
 }
