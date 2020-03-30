@@ -3,7 +3,7 @@
     "instalations": [
         {
             "title": "D.I.Y. Hazlo tu mismo",
-            "description": "Todos los productos de  Democracia OS son de código abierto y tienen licencia GPL-v3. Esto significa que el producto puede instalarse e instalarse de acuerdo a sus necesidades sin costo.",
+            "description": "Todos los productos de  Democracia OS son de código abierto y tienen licencia GPL-v3. Esto significa que el producto puede instalarse de acuerdo a sus necesidades sin costo.",
             "requirements": [
                 "Equipo de desarrollo.", 
                 "Servidor.",
