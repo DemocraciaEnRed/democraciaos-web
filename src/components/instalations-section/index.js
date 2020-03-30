@@ -14,15 +14,17 @@ const icons = {
 export default ({ data }) =>  (
    <section id="implementar" className="section instalations">
        <div className="container has-text-centered">
-            <h3 className="title is-4 is-size-1-desktop">{data.title}</h3>
+            <h3 className="main-title title is-4 is-size-1-desktop">{data.title}</h3>
             <div className="columns has-text-left">
                 {data.instalations.map((instalation, index) => 
                     <div key={index} className="column">
                         <figure className="image">
                             <img src={`${icons[instalation.icon]}`} className={`${instalation.icon}`} alt=""/>
                         </figure>
-                        <h4 className="title is-4 is-spaced">{instalation.title}</h4>
-                        <p className="subtitle is-6 is-spaced">{instalation.description}</p>
+                        <div className="text-wrapper">
+                            <h4 className="title is-4 is-spaced">{instalation.title}</h4>
+                            <p className="subtitle is-6 is-spaced">{instalation.description}</p>
+                        </div>
                         <div className="list-wrapper">
                             <span className="list-title">Requerimientos</span>
                             <ul className="list">

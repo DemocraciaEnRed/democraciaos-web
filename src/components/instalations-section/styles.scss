@@ -25,19 +25,40 @@
     }
 }
 
+@include touch {
+    .instalations {
+        .column {
+            .subtitle {
+                padding-bottom: 2rem;
+            }
+        }
+    }
+}
+
+@include tablet {
+    .instalations {
+        .column {
+            padding: 1rem 2rem;
+            .text-wrapper {
+                min-height: 340px;
+            }
+            .list-wrapper {
+                margin-bottom: auto;
+            }
+        }
+    }
+}
+
 @include desktop{
     .instalations {
         padding: 6rem;
-        .title:first-child {
+        .main-title {
             padding-bottom: 4rem;
         }
         .column {
             padding: 1rem 4rem;
-            .subtitle {
-                flex-grow: 4;
-            }
             .list-wrapper {
-                margin-top: auto;
+               margin-bottom: auto;
             }
         }
         .image {
@@ -49,15 +70,11 @@
     }
 }
 
-@include tablet {
+@include fullhd {
     .instalations {
-        .column {
-            padding: 1rem 4rem;
-            .subtitle {
-                flex-grow: 4;
-            }
-            .list-wrapper {
-                margin-top: auto;
+        .column { 
+            .text-wrapper {
+                min-height: 230px;
             }
         }
     }
