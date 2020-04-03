@@ -6,10 +6,10 @@
 
 module.exports = {
     siteMetadata: {
-        title: `DemocraciaOS`,
-        description: `Herramientas digitales de participación ciudadana para gobiernos e instituciones.`,
-        author: `Democracia en Red`,
-        url: `democraciaos.org`
+        title: `DemocraciaOS - Herramientas para democratizar la democracia`,
+        description: `Herramientas digitales para las democracias del siglo XXI. Traemos participación ciudadana para gobiernos e instituciones. Visitanos, conocenos. Hecho por Democracia en Red, para toda la humanidad`,
+        author: `@DemocraciaEnRed`,
+        url: `https://democraciaos.org`
     },
     plugins: [
         `gatsby-plugin-sass`,

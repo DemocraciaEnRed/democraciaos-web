@@ -13,6 +13,7 @@ const SEO = ({ description, lang, meta, title }) => {
               title
               description
               author
+              url
             }
           }
         }
@@ -67,6 +68,14 @@ const SEO = ({ description, lang, meta, title }) => {
                 {
                     name: `twitter:url`,
                     content: site.siteMetadata.url,
+                },
+                {
+                    name: `og:image`,
+                    content: `${site.siteMetadata.url}/democraciaos-sharer.jpg`,
+                },
+                {
+                    name: `twitter:image`,
+                    content: `${site.siteMetadata.url}/democraciaos-sharer.jpg`,
                 },
             ].concat(meta)}
         >
