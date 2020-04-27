@@ -1,5 +1,6 @@
 import React from "react"
 import Slider from "react-slick";
+import { useIntl } from "gatsby-plugin-intl"
 
 import slider1 from "./assets/slider1.jpg"
 import slider2 from "./assets/slider2.jpg"
@@ -41,6 +42,8 @@ const NextArrow = ({ className, onClick }) => {
 }
 
 export default ({ slides }) =>  {
+    const intl = useIntl()
+
     const images = {
         'customizable': customizable,
         'folder': folder,
@@ -72,23 +75,23 @@ export default ({ slides }) =>  {
                                 {slider.type === "text" ?
                                     <React.Fragment>
                                         <h2 className="title is-spaced is-size-1-desktop">
-                                            {slider.data.title}
+                                            {intl.formatMessage({ id: slider.data.title })}
                                         </h2>
                                         <h3 className="subtitle is-5 is-size-4-desktop">
-                                            {slider.data.subtitle}
+                                            {intl.formatMessage({id: slider.data.subtitle})}
                                         </h3>
                                     </React.Fragment>
                                 :
                                     <React.Fragment>
                                         <h2 className="title is-spaced is-size-1-desktop is-hidden-touch">
-                                            {slider.data.title}
+                                            {intl.formatMessage({ id:slider.data.title})}
                                         </h2>
                                         <div className="columns">
                                         {slider.data.assets.map((asset, index) =>
                                             <div className="column" key={index}>
                                                 <img src={`${images[asset.icon]}`} className="slider-icon" alt=""/>
                                                 <h4 className="subtitle is-5 is-size-4-desktop">
-                                                    {asset.title}
+                                                    {intl.formatMessage({ id: asset.title})}
                                                 </h4>
                                             </div>
                                         )}
@@ -97,7 +100,7 @@ export default ({ slides }) =>  {
                                 }
                             </div>
                         </div>
-                        <span className="slider-image-description">{slider.data.image_description}</span>
+                        <span className="slider-image-description">{intl.formatMessage({ id: slider.data.image_description })}</span>
                     </div>
                 </div>             
                 )}

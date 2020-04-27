@@ -2,29 +2,29 @@
   {
     "type": "text",
     "data": {
-      "title": "Democratizar la democracia",
-      "subtitle": "Herramientas digitales de participación ciudadana para gobiernos e instituciones.",
+      "title": "hero_slider.title_1",
+      "subtitle": "hero_slider.subtitle_1",
       "bg_image": "slider1",
-      "image_description": "Foto: São Paulo, Brasil"
+      "image_description": "hero_slider.image_description_1"
     }
   },
   {
     "type": "icons",
     "data": {
-      "title": "Tecnología",
+      "title": "hero_slider.title_2",
       "bg_image": "slider2",
-      "image_description": "Foto: Mérida, Mexico",
+      "image_description": "hero_slider.image_description_2",
       "assets": [
         {
-          "title": "Personalizable",
+          "title": "hero_slider.asset_1_title",
           "icon": "customizable"
         },
         {
-          "title": "Código Abierto",
+          "title": "hero_slider.asset_2_title",
           "icon": "open_code"
         },
         {
-          "title": "Fácil instalación",
+          "title": "hero_slider.asset_3_title",
           "icon": "folder"
         }
       ]
@@ -34,9 +34,9 @@
     "type": "text",
     "data": {
       "bg_image": "slider3",
-      "image_description": "Foto: Buenos Aires, Argentina",
-      "title": "Soluciones",
-      "subtitle": "Para el poder legislativo, ejecutivo, judicial, organismos descentralizados, partidos políticos, organizaciones y otras instituciones."
+      "image_description": "hero_slider.image_description_3",
+      "title": "hero_slider.title_3",
+      "subtitle": "hero_slider.subtitle_3"
     }
   }
 ]

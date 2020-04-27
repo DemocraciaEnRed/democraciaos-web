@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react"
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+import { useIntl } from "gatsby-plugin-intl"
 import "./styles.scss"
 
 export default () => {
     const [isActive, setIsActive] = useState(false);
-    
+    const intl = useIntl()
+
     useEffect(() => {
         const navbarElement = document.querySelector('#navbar');
         if(isActive) {
@@ -30,7 +32,7 @@ export default () => {
             <div id="navbarColapse" className={(isActive ? 'navbar-menu is-active' : 'navbar-menu')}>
                 <div className="navbar-start">
                     <a className="navbar-item" onClick={() => setIsActive(false)} href="#productos" data-target="productos">
-                        productos
+                        {intl.formatMessage({ id: "productos" })}
                     </a>
 
                     <a className="navbar-item" onClick={() => setIsActive(false)} href="#nosotros" data-target="nosotros">
