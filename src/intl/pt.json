@@ -12,5 +12,77 @@
         "subtitle_3": "Para poderes legislativos, executivos e judiciários, partidos políticos, organizações de base e outros tipos de instituições.",
         "image_description_3": "Foto: Buenos Aires, Argentina"
     },
-    "productos": "productinios"
+    "products": {
+        "title_1":"Orçamento participativo",
+        "subtitle_1":"Plataforma digital para gestão participativa de orçamento, promovendo o diálogo entre a cidadania, autores de projetos e governos.",
+        "description_1": "Plataforma digital para gestão participativa de orçamento, promovendo o diálogo entre cidadania, autores de projetos e governos.",
+        "features_1_1": "Upload de propostas",
+        "features_1_2": "Viabilidade de propostas",
+        "features_1_3": "Fases de execução do projeto",
+        "features_1_4": "Acompanhamento dos projetos",
+        "features_1_5": "Comentários",
+        "features_1_6": "Voto",
+        "title_2":"Consulta pública",
+        "subtitle_2":"Plataforma digital para consulta, diálogo e debate entre um governo e sua comunidade.",
+        "description_2": "Plataforma digital para consulta, diálogo e debate entre um governo e sua comunidade.",
+        "features_2_1": "Consultar upload",
+        "features_2_2": "Upload da proposta do cidadão",
+        "features_2_3": "Comentários",
+        "features_2_4": "Voto",
+        "features_2_5": "Sondagens",
+        "features_2_6":  "Priorizar",
+        "title_3":"Legislação Participativa",
+        "subtitle_3":"Plataforma digital para elaborar projetos / leis de colaboração entre parlamentos e cidadania.",
+        "description_3": "Plataforma digital para elaborar projetos / leis de colaboração entre parlamentos e cidadania.",
+        "features_3_1": "Enviar projetos",
+        "features_3_2": "Comentários",
+        "features_3_3": "Sugestões",
+        "features_3_4": "Administração descentralizada"
+    },
+    "instalations": {
+        "main_title": "Três maneiras diferentes de implementar nossos produtos:",
+        "title_1": "D.I.Y Faça você mesmo",
+        "description_1": "Todos os produtos Democracy OS são de código aberto e possuem uma licença GPL - v.3. Isso significa que o produto pode ser instalado de acordo com suas próprias necessidades gratuitamente.",
+        "requirements_1_1": "Equipe de desenvolvimento.", 
+        "requirements_1_2": "Servidor.",
+        "requirements_1_3": "Time de gerenciamento.",
+        "button_text_1": "Github",
+        "title_2": "Instalação padrão",
+        "description_2": "Nossa equipe de software realiza a instalação da plataforma no seu servidor.",
+        "requirements_2_1": "Preencha o nosso formulário de requisição.",
+        "requirements_2_2": "Time de gerenciamento.",
+        "requirements_2_3": "Orçamento padrão: USD 2.500",
+        "button_text_2": "Contato",
+        "title_3": "Instalação customizada",
+        "description_3": "Nova versão personalizada. Podemos personalizá-lo com nossa equipe de desenvolvimento e ajudar os gerentes de projeto.",
+        "requirements_3_1": "Preencha o nosso formulário de requisição.",
+        "requirements_3_2": "Time de gerenciamento.",
+        "requirements_3_3": "Peça um orçamento",
+        "button_text_3": "Contato"
+    },
+    "nosotros": {
+        "title":"Sobre nós",
+        "subtitle": "Somos Democracia en Red, uma organização da sociedade civil com sede na Argentina, composta por ativistas, desenvolvedores e cientistas sociais com o objetivo de abrir as instituições públicas e os espaços de decisão."
+    },
+    "cases": {
+        "main_title": "Casos",
+        "title_1": "Orçamento Participativo de Vicente Lopez",
+        "subtitle_1": "Município de Vicente López",
+        "title_2":"Consulta pública",
+        "subtitle_2": "Secretaria de Modernização da Nação",
+        "title_3": "Leis Abertas",
+        "subtitle_3": "Câmara dos Deputados da Nação da Argentina"
+    },
+    "footer": {
+        "title": "democraciaOS",
+        "description": "A tecnologia avança e muda nossas vidas. É hora que os sistemas políticos se abram à participação cidadã.",
+        "copyright_1": "Democracia OS é um projeto da ",
+        "copyright_2": ", uma ONG com sede em Buenos Aires, Argentina."
+    },
+    "requirements": "Requisitos",
+    "features": "Caracteristicas",
+    "implementation": "Implementar",
+    "products_title": "produtos",
+    "us": "sobre nós",
+    "contact": "contato"
 }

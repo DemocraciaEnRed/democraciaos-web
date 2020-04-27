@@ -43,6 +43,13 @@
     }
 }
 
+.navbar-item {
+    border: none;
+    background: none;
+    outline: none !important;
+    font-size: 1rem;
+}
+
 @include touch {
     .navbar.is-active {
         position: fixed;
@@ -56,11 +63,21 @@
             padding: 0.2rem 0.75rem;
         }
     }
+    .navbar-start {
+        position: relative;
+    }
     .navbar-start p {
-        position: absolute;
+        position: fixed;
         bottom: 2rem;
         left: 1rem;
         right: 3rem;
+    }
+    .lang-switch {
+        position: absolute;
+        bottom: -30px;
+    }
+    .navbar-item-lang {
+        display: inline-block;
     }
 }
    
@@ -83,15 +100,27 @@
             align-items: center;
             margin-right: 2rem;
         }
+        .left-wrapper {
+            position: absolute;
+            left: 1.5rem;
+        }
+        .lang-switch {
+            position: relative;
+            bottom: auto;
+        }
         .navbar-item {
             padding: 0.4rem 1.25rem;
             margin-top: 0.3rem;
             display: inline-block;
             margin-left: 1rem;
             cursor: pointer;
-            &:first-child {
-                position: absolute;
-                left: 1.5rem;
+            &.navbar-item-lang {
+                font-size: 13px;
+                letter-spacing: 2px;
+                padding: 0.4rem;
+                &:last-of-type {
+                    padding-right: 2rem;
+                }
             }
             &:not(.contact){
                 &:hover {

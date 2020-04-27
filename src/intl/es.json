@@ -12,5 +12,77 @@
         "subtitle_3": "Para el poder legislativo, ejecutivo, judicial, organismos descentralizados, partidos políticos, organizaciones y otras instituciones.",
         "image_description_3": "Foto: Buenos Aires, Argentina"
     },
-    "productos": "productinios"
+    "products": {
+        "title_1":"Presupuesto Participativo",
+        "subtitle_1":"Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.",
+        "description_1": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.",
+        "features_1_1": "Alta de propuestas",
+        "features_1_2": "Factibilidad de propuestas",
+        "features_1_3": "Fases de ejecución de proyectos",
+        "features_1_4": "Seguimiento de proyectos",
+        "features_1_5": "Comentarios",
+        "features_1_6": "Votación",
+        "title_2":"Consultas Digitales",
+        "subtitle_2":"Plataforma digital de consulta, diálogo y debate que conecta al gobierno con la comunidad.",
+        "description_2": "Busca favorecer la participación, el debate y la interacción entre entidades y personas sobre diversas temáticas",
+        "features_2_1": "Alta de consultas",
+        "features_2_2": "Alta de propuestas ciudadanas",
+        "features_2_3": "Comentarios",
+        "features_2_4": "Votación",
+        "features_2_5": "Encuestas",
+        "features_2_6":  "Priorización",
+        "title_3":"Co-construcción de leyes",
+        "subtitle_3":"Plataforma digital de elaboración colaborativa de normas entre representantes y ciudadanía.",
+        "description_3": "Plataforma digital de elaboración colaborativa de normas entre representantes y ciudadanía.",
+        "features_3_1": "Alta de proyectos de ley",
+        "features_3_2": "Comentarios",
+        "features_3_3": "Sugerencias",
+        "features_3_4": "Seguimiento de proyectos"
+    },
+    "instalations": {
+        "main_title": "Tres maneras de implementar nuestros productos:",
+        "title_1": "D.I.Y. Hazlo tu mismo",
+        "description_1": "Todos los productos de  Democracia OS son de código abierto y tienen licencia GPL-v3. Esto significa que el producto puede instalarse de acuerdo a sus necesidades sin costo.",
+        "requirements_1_1": "Equipo de desarrollo.", 
+        "requirements_1_2": "Servidor.",
+        "requirements_1_3": "Equipo para coordinar el proyecto.",
+        "button_text_1": "Github",
+        "title_2": "Instalación standard",
+        "description_2": "Instalamos y dejamos el producto funcionando en su servidor con nuestro equipo técnico.",
+        "requirements_2_1": "Completar el formulario de requerimientos.",
+        "requirements_2_2": "Un equipo para coordinar el proyecto.",
+        "requirements_2_3": "Precio básico: USD 2.500",
+        "button_text_2": "Contactar",
+        "title_3": "Instalación a medida",
+        "description_3": "Versión a medida. Customizamos la plataforma según tus necesidades y los acompañamos en la co gestión del proceso de participación ciudadana.",
+        "requirements_3_1": "Completar el formulario de requerimientos.",
+        "requirements_3_2": "Un equipo para coordinar el proyecto.",
+        "requirements_3_3": "Precio: Solicitar presupuesto",
+        "button_text_3": "Contactar"
+    },
+    "nosotros": {
+        "title":"¿Quiénes somos?",
+        "subtitle": "Somos Democracia en Red, una organización radicada en Argentina. Conformada por personas activistas, programadores y científicos sociales, que desde el hacer buscamos abrir las instituciones públicas y los procesos de toma de decisión."
+    },
+    "cases": {
+        "main_title": "Casos",
+        "title_1": "Presupuesto Participativo",
+        "subtitle_1": "Vicente López",
+        "title_2":"Consulta Pública",
+        "subtitle_2": "Secretaría de Modernización de la Nación Argentina",
+        "title_3": "Leyes Abiertas",
+        "subtitle_3": "Cámara de Diputados de la Nación"
+    },
+    "footer": {
+        "title": "democraciaOS",
+        "description": "La tecnología avanza y cambia nuestras vidas. Es el momento del sistema político de abrirse al diálogo con la participación ciudadana.",
+        "copyright_1": "Democracia OS es un proyecto de ",
+        "copyright_2": ", una ONG con base en Buenos Aires, Argentina."
+    },
+    "requirements": "Requisitos",
+    "features": "Características",
+    "implementation": "Implementar",
+    "products_title": "productos",
+    "us": "¿quiénes somos?",
+    "contact": "contactar"
 }

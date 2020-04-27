@@ -12,5 +12,77 @@
         "subtitle_3": "For legislative, executive and judiciary power, decentralized bodies, political parties, organisations and other kind of institutions.",
         "image_description_3": "Photo: Buenos Aires, Argentina"
     },
-    "productos": "products"
+    "products": {
+        "title_1":"Participatory Budget",
+        "subtitle_1":"Digital platform for participatory budget management, promoting a dialogue between citizenship, project authors and governments.",
+        "description_1": "Digital platform to manage integrally a participatory budget, promoting a dialogue between citizenship, project authors and governments.",
+        "features_1_1": "Proposals upload",
+        "features_1_2": "Feasibility of proposals",
+        "features_1_3": "Project execution phases",
+        "features_1_4": "Follow of projects",
+        "features_1_5": "Comments",
+        "features_1_6": "Vote",
+        "title_2":"Public Consultation",
+        "subtitle_2":"Digital platform for consultation, dialogue and debate between a government and its community.",
+        "description_2": "Digital platform for consultation, dialogue and debate between a government and its community.",
+        "features_2_1": "Consult upload",
+        "features_2_2": "Citizen proposal upload",
+        "features_2_3": "Comments",
+        "features_2_4": "Vote",
+        "features_2_5": "Polls",
+        "features_2_6":  "Prioritize",
+        "title_3":"Crowd Law Making",
+        "subtitle_3":"Digital platform to elaborate collaboratively bills/laws between parliaments and citizenship.",
+        "description_3": "Digital platform to elaborate collaboratively bills/laws between legislators/deputies and citizenship.",
+        "features_3_1": "Bills submit",
+        "features_3_2": "Comments",
+        "features_3_3": "Suggestions",
+        "features_3_4": "Follow up bills"
+    },
+    "instalations": {
+        "main_title": "Three different ways to implement our products:",
+        "title_1": "D.I.Y Do It Yourself",
+        "description_1": "Every Democracy OS product is open source and has a GPL - v.3 licence. This means that the product can be installed according to your own necessities for free.",
+        "requirements_1_1": "Development team.", 
+        "requirements_1_2": "Server.",
+        "requirements_1_3": "Management team.",
+        "button_text_1": "Github",
+        "title_2": "Standard installation",
+        "description_2": "Our software team carry out the installation of the platform on your server.",
+        "requirements_2_1": "Complete our requirement form",
+        "requirements_2_2": "Management team.",
+        "requirements_2_3": "Standard budget: USD 2.500",
+        "button_text_2": "Contact us",
+        "title_3": "Custom installation",
+        "description_3": "New tailored version. We can customize it with our dev team and assist the project managers.",
+        "requirements_3_1": "Complete our requirement form.",
+        "requirements_3_2": "Management team.",
+        "requirements_3_3": "Ask for a budget",
+        "button_text_3": "Contact us"
+    },
+    "nosotros": {
+        "title":"About us",
+        "subtitle": "We are Democracia en Red, a civil society organization based in Argentina composed by activists, developers and social scientists with the objective of opening public institutions and giving access to decision-making spaces."
+    },
+    "cases": {
+        "main_title": "Cases",
+        "title_1": "Participative Budget of Vicente Lopez",
+        "subtitle_1": "Municipality of Vicente López",
+        "title_2":"Public Consultation",
+        "subtitle_2": "Secretary of Modernization of the Nation",
+        "title_3": "Open Laws",
+        "subtitle_3": "Chamber of Deputies of Argentina"
+    },
+    "footer": {
+        "title": "democraciaOS",
+        "description": "Technology moves forward and changes our lives. It is time for political systems to open up to citizen participation.",
+        "copyright_1": "Democracia OS is a project from ",
+        "copyright_2": ", a NGO based in Buenos Aires, Argentina."
+    },
+    "requirements": "Requirements",
+    "features": "Features",
+    "implementation": "Implement",
+    "products_title": "products",
+    "us": "this is us",
+    "contact": "contact us"
 }

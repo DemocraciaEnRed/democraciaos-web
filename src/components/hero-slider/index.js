@@ -19,7 +19,7 @@ const PrevArrow = ({ className, onClick }) => {
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.44 22.05">
                 <g>
                     <g>
-                        <polyline fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2px" points="11.73 21.34 5.38 14.99 1.41 11.03 11.73 0.71"/>
+                        <polyline fill="none" stroke="#fff" strokeMiterlimit="10" strokeWidth="2px" points="11.73 21.34 5.38 14.99 1.41 11.03 11.73 0.71"/>
                     </g>
                 </g>
             </svg>
@@ -33,7 +33,7 @@ const NextArrow = ({ className, onClick }) => {
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.44 22.05">
                 <g>
                     <g>
-                        <polyline fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2px" points="0.71 0.71 11.03 11.03 5.89 16.16 0.71 21.34"/>
+                        <polyline fill="none" stroke="#fff" strokeMiterlimit="10" strokeWidth="2px" points="0.71 0.71 11.03 11.03 5.89 16.16 0.71 21.34"/>
                     </g>
                 </g>
             </svg>      

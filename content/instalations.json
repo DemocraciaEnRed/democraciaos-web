@@ -1,39 +1,39 @@
 {
-    "title": "Tres maneras de implementar nuestros productos:",
+    "title": "instalations.main_title",
     "instalations": [
         {
-            "title": "D.I.Y. Hazlo tu mismo",
-            "description": "Todos los productos de  Democracia OS son de código abierto y tienen licencia GPL-v3. Esto significa que el producto puede instalarse de acuerdo a sus necesidades sin costo.",
+            "title": "instalations.title_1",
+            "description": "instalations.description_1",
             "requirements": [
-                "Equipo de desarrollo.", 
-                "Servidor.",
-                "Equipo para coordinar el proyecto."
+                "instalations.requirements_1_1", 
+                "instalations.requirements_1_2",
+                "instalations.requirements_1_3"
             ],
-            "button_text": "Github",
+            "button_text": "instalations.button_text_1",
             "button_link": "https://github.com/democraciaenred",
             "icon":"diy"
         },
         {
-            "title": "Instalación standard",
-            "description": "Instalamos y dejamos el producto funcionando en su servidor con nuestro equipo técnico.",
+            "title": "instalations.title_2",
+            "description": "instalations.description_2",
             "requirements": [
-                "Completar el formulario de requerimientos.",
-                "Un equipo para coordinar el proyecto.",
-                "Precio básico: USD 2.500"
+                "instalations.requirements_2_1", 
+                "instalations.requirements_2_2",
+                "instalations.requirements_2_3"
             ],
-            "button_text": "Contactar",
+            "button_text": "instalations.button_text_2",
             "button_link": "https://preguntarparaacordar.typeform.com/to/bkXtFW",
             "icon":"standard" 
         },
         {
-            "title": "Instalación a medida",
-            "description": "Versión a medida. Customizamos la plataforma según tus necesidades y los acompañamos en la co gestión del proceso de participación ciudadana.",
+            "title": "instalations.title_3",
+            "description": "instalations.description_3",
             "requirements": [
-                "Completar el formulario de requerimientos.",
-                "Un equipo para coordinar el proyecto.",
-                "Precio: Solicitar presupuesto"
+                "instalations.requirements_3_1", 
+                "instalations.requirements_3_2",
+                "instalations.requirements_3_3"
             ],
-            "button_text": "Contactar",
+            "button_text": "instalations.button_text_3",
             "button_link": "https://preguntarparaacordar.typeform.com/to/bkXtFW",
             "icon":"custom" 
         }
