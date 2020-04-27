@@ -84,7 +84,7 @@
             margin-right: 2rem;
         }
         .navbar-item {
-            padding: 0.2rem 0.75rem;
+            padding: 0.4rem 1.25rem;
             margin-top: 0.3rem;
             display: inline-block;
             margin-left: 1rem;
@@ -100,6 +100,7 @@
             }
             &.contact {
                 border-radius: 20px;
+                border: 1px solid white;
                 &:hover {
                     background-color: white;
                     color: black;
