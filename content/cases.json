@@ -1,23 +1,23 @@
 {
-    "title": "Casos",
+    "title": "cases.main_title",
     "cases": [
         {
-            "title": "Presupuesto Participativo",
-            "subtitle": "Vicente López",
+            "title": "cases.title_1",
+            "subtitle": "cases.subtitle_1",
             "color": "red",
             "link": "https://medium.com/multitudes/presupuesto-participativo-de-vicente-l%C3%B3pez-9db05cc3147d",
             "image": "presupuesto_participativo"
         },
         {
-            "title":"Consulta Pública",
-            "subtitle": "Secretaría de Modernización de la Nación Argentina",
+            "title":"cases.title_2",
+            "subtitle": "cases.subtitle_2",
             "color": "orange",
             "link": "https://medium.com/multitudes/consulta-p%C3%BAblica-a5836964ad98",
             "image": "consulta_publica"
         },
         {
-            "title": "Leyes Abiertas",
-            "subtitle": "Cámara de Diputados de la Nación",
+            "title":"cases.title_3",
+            "subtitle": "cases.subtitle_3",
             "color": "blue",
             "link": "https://medium.com/multitudes/leyes-abiertas-38249baa7e75",
             "image":"leyes_abiertas"

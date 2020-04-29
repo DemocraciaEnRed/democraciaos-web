@@ -1,10 +1,17 @@
 import React, { useState, useEffect } from "react"
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+import { useIntl, IntlContextConsumer, changeLocale } from "gatsby-plugin-intl"
 import "./styles.scss"
 
 export default () => {
     const [isActive, setIsActive] = useState(false);
-    
+    const intl = useIntl()
+    const languageName = {
+        es: "ESP",
+        en: "ENG",
+        pt: "POR",
+    }
+
     useEffect(() => {
         const navbarElement = document.querySelector('#navbar');
         if(isActive) {
@@ -29,16 +36,35 @@ export default () => {
 
             <div id="navbarColapse" className={(isActive ? 'navbar-menu is-active' : 'navbar-menu')}>
                 <div className="navbar-start">
-                    <a className="navbar-item" onClick={() => setIsActive(false)} href="#productos" data-target="productos">
-                        productos
-                    </a>
+                    <div className="left-wrapper">
+                        <a className="navbar-item" onClick={() => setIsActive(false)} href="#productos" data-target="productos">
+                            {intl.formatMessage({ id: "products_title" })}
+                        </a>
 
-                    <a className="navbar-item" onClick={() => setIsActive(false)} href="#nosotros" data-target="nosotros">
-                        ¿quiénes somos?
-                    </a>
+                        <a className="navbar-item" onClick={() => setIsActive(false)} href="#nosotros" data-target="nosotros">
+                            {intl.formatMessage({ id: "us" })}
+                        </a>
+                    </div>
+                    <div className="lang-switch">
+                    <IntlContextConsumer>
+                        {({ languages, language: currentLocale }) =>
+                            languages.map(language => (
+                                <button className="navbar-item navbar-item-lang"
+                                key={language}
+                                onClick={() => changeLocale(language)}
+                                style={{
+                                    color: currentLocale === language ? `#CCCCCC` : `white`,
+                                }}
+                                >
+                                {languageName[language]}
+                                </button>
+                            ))
+                        }
+                    </IntlContextConsumer>
+                    </div>
 
                     <a className="navbar-item contact" href="https://preguntarparaacordar.typeform.com/to/bkXtFW" target="_blank" rel="noopener noreferrer">
-                        contactar
+                        {intl.formatMessage({ id: "contact" })}
                     </a>
                     <a className="navbar-item is-hidden-desktop" href="mailto:contacto@democraciaenred.org">
                         contacto@democraciaenred.org
@@ -63,7 +89,7 @@ export default () => {
                             <i className="fas fab fa-github"></i>
                         </span>
                     </a>
-                    <p className="is-size-7 is-hidden-desktop has-text-white">Democracia OS es un proyecto de <a className="has-text-underline has-text-white" href="https://democraciaenred.org/" target="_blank" rel="noopener noreferrer">Democracia en Red</a>, una ONG con base en Buenos Aires, Argentina.</p>
+                    <p className="is-size-7 is-hidden-desktop has-text-white">{intl.formatMessage({ id: "footer.copyright_1" })}<a className="has-text-underline has-text-white" href="https://democraciaenred.org/" target="_blank" rel="noopener noreferrer">Democracia en Red</a>{intl.formatMessage({ id: "footer.copyright_2" })}</p>
                 </div>
             </div>
         </nav>

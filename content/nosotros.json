@@ -1,6 +1,6 @@
 {
-    "title":"¿Quiénes somos?",
-    "subtitle": "Somos Democracia en Red, una organización radicada en Argentina. Conformada por personas activistas, programadores y científicos sociales, que desde el hacer buscamos abrir las instituciones públicas y los procesos de toma de decisión.",
+    "title":"nosotros.title",
+    "subtitle": "nosotros.subtitle",
     "text_link":"democraciaenred.org",
     "link":"https://democraciaenred.org"
 }
