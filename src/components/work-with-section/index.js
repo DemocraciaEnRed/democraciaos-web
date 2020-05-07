@@ -13,6 +13,7 @@ import diputados from "./assets/diputados.jpg"
 import bs_as_ciudad from "./assets/bs_as_ciudad.jpeg"
 import red_innovacion from "./assets/red_innovacion.jpg"
 import rosario from "./assets/rosario.jpg"
+import argentina_unida from "./assets/argentina_unida.png"
 
 export default () =>  {
     const intl = useIntl()
@@ -41,7 +42,7 @@ export default () =>  {
                     </div>
                     <div className="column is-one-quarter-tablet is-one-quarter-desktop is-half-mobile">
                         <figure className="image">
-                            <img src={xr} className="client-logo" alt="Argentina Unida"/>
+                            <img src={argentina_unida} className="client-logo argentina-unida" alt="Argentina Unida"/>
                         </figure>
                     </div>
                     <div className="column is-one-fifth-tablet is-one-fifth-desktop is-half-mobile">
