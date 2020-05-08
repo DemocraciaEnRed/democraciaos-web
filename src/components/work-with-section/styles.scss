@@ -1,0 +1,62 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+.work-with {
+    .columns {
+        display: flex;
+        justify-content: center;
+    }
+    .column {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3rem;
+    }
+    .image {
+        display: inline-block;
+        text-align: center;
+    }
+    .client-logo {
+        display: inline-block;
+    }
+}
+
+@include mobile {
+    .work-with {
+        .client-logo {
+            max-width: 80% !important;
+        }
+    }
+}
+
+@include touch {
+    .work-with {
+        .client-logo {
+            max-width: 60%;
+        }
+    }
+}
+
+@include desktop {
+    .work-with {
+        padding: 6rem;
+        .columns {
+            padding: 4rem 0;
+        }
+        .client-logo {
+            width: auto;
+            height: 50px;
+            &.diputados {
+                height: 80px;
+            }
+            &.legislatura {
+                height: 35px;
+            }
+            &.san-martin {
+                height: 60px
+            }
+            &.argentina-unida {
+                height: 35px;
+            }
+        }
+    }
+}
