@@ -1,7 +1,7 @@
 {
     "hero_slider": {
         "title_1": "Democratizar a democracia",
-        "subtitle_1": "Ferramentas digitais para participação cidadã em governos e instituições.",
+        "subtitle_1": "Ferramentas digitais para participação cidadã em governos e instituições",
         "image_description_1": "Foto: São Paulo, Brasil",
         "title_2": "Tecnologia",
         "image_description_2": "Foto: Mérida, Mexico",
@@ -16,7 +16,7 @@
         "title_1":"Orçamento participativo",
         "subtitle_1":"Plataforma digital para gestão participativa de orçamento, promovendo o diálogo entre a cidadania, autores de projetos e governos.",
         "description_1": "Plataforma digital para gestão participativa de orçamento, promovendo o diálogo entre cidadania, autores de projetos e governos.",
-        "features_1_1": "Upload de propostas",
+        "features_1_1": "Carregar propostas",
         "features_1_2": "Viabilidade de propostas",
         "features_1_3": "Fases de execução do projeto",
         "features_1_4": "Acompanhamento dos projetos",
@@ -26,7 +26,7 @@
         "subtitle_2":"Plataforma digital para consulta, diálogo e debate entre um governo e sua comunidade.",
         "description_2": "Plataforma digital para consulta, diálogo e debate entre um governo e sua comunidade.",
         "features_2_1": "Consultar upload",
-        "features_2_2": "Upload da proposta do cidadão",
+        "features_2_2": "Carregar proposta de cidadão",
         "features_2_3": "Comentários",
         "features_2_4": "Voto",
         "features_2_5": "Sondagens",
