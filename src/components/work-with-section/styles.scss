@@ -23,15 +23,35 @@
 @include mobile {
     .work-with {
         .client-logo {
-            max-width: 80% !important;
+            max-width: 80%;
+            &.diputados,
+            &.buenos-aires {
+                max-width: 60%;
+            }
+            &.red-innovacion {
+                max-width: 65%;
+            }
+            &.san-lorenzo {
+                max-width: 70%;
+            }
         }
     }
 }
 
-@include touch {
+@include tablet-only {
     .work-with {
         .client-logo {
             max-width: 60%;
+            &.diputados,
+            &.buenos-aires {
+                max-width: 40%;
+            }
+            &.red-innovacion {
+                max-width: 45%;
+            }
+            &.san-lorenzo {
+                max-width: 50%;
+            }
         }
     }
 }
