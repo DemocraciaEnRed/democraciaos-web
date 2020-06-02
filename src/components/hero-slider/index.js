@@ -4,7 +4,7 @@ import { useIntl } from "gatsby-plugin-intl"
 
 import slider1 from "./assets/slider1.jpg"
 import slider2 from "./assets/slider2.jpg"
-import slider3 from "./assets/slider3.png"
+import slider3 from "./assets/slider3.jpg"
 import customizable from "./assets/customizable.svg"
 import folder from "./assets/folder.svg"
 import open_code from "./assets/open_code.svg"
