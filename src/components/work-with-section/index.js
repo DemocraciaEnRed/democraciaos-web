@@ -67,7 +67,7 @@ export default () =>  {
                     </div>
                     <div className="column is-one-fifth-tablet is-one-fifth-desktop is-half-mobile">
                         <figure className="image">
-                            <img src={san_lorenzo} className="client-logo" alt="Municipalidad de San Lorenzo"/>
+                            <img src={san_lorenzo} className="client-logo san-lorenzo" alt="Municipalidad de San Lorenzo"/>
                         </figure>
                     </div>
                     <div className="column is-one-quarter-tablet is-one-quarter-desktop is-half-mobile">
@@ -77,12 +77,12 @@ export default () =>  {
                     </div>
                     <div className="column is-one-quarter-tablet is-one-quarter-desktop is-half-mobile">
                         <figure className="image">
-                            <img src={bs_as_ciudad} className="client-logo" alt="Buenos Aires Ciudad"/>
+                            <img src={bs_as_ciudad} className="client-logo buenos-aires" alt="Buenos Aires Ciudad"/>
                         </figure>
                     </div>
                     <div className="column is-one-quarter-tablet is-one-quarter-desktop is-half-mobile">
                         <figure className="image">
-                            <img src={red_innovacion} className="client-logo" alt="Red de Innovacion Politica en America Latina"/>
+                            <img src={red_innovacion} className="client-logo red-innovacion" alt="Red de Innovacion Politica en America Latina"/>
                         </figure>
                     </div>
                     <div className="column is-one-quarter-tablet is-one-quarter-desktop is-half-mobile">

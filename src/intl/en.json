@@ -1,7 +1,7 @@
 {
     "hero_slider": {
         "title_1": "Democratize democracy",
-        "subtitle_1": "Digital tools designed for citizen participation for governments and institutions.",
+        "subtitle_1": "Digital tools designed for citizen participation for governments and institutions",
         "image_description_1": "Photo: São Paulo, Brasil",
         "title_2": "Technology",
         "image_description_2": "Photo: Mérida, Mexico",
@@ -10,7 +10,7 @@
         "asset_3_title": "Easy installation",
         "title_3": "Solutions",
         "subtitle_3": "For legislative, executive and judiciary power, decentralized bodies, political parties, organisations and other kind of institutions.",
-        "image_description_3": "Photo: Buenos Aires, Argentina"
+        "image_description_3": "Photo: Guillermo Batakis, Buenos Aires, Argentina"
     },
     "products": {
         "title_1":"Participatory Budget",
@@ -19,7 +19,7 @@
         "features_1_1": "Proposals upload",
         "features_1_2": "Feasibility of proposals",
         "features_1_3": "Project execution phases",
-        "features_1_4": "Follow of projects",
+        "features_1_4": "Project follow-up",
         "features_1_5": "Comments",
         "features_1_6": "Vote",
         "title_2":"Public Consultation",

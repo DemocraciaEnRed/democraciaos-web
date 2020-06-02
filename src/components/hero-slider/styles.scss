@@ -17,6 +17,7 @@
         position: absolute;
         bottom: 50px;
         left: 50px;
+        max-height: unset;
     }
 }
 .hero.is-fullheight.is-primary {
@@ -75,6 +76,7 @@
             right: 20px;
             writing-mode: vertical-rl;
             transform: rotate(180deg);
+            max-height: 180px;
         }
     }
 }
