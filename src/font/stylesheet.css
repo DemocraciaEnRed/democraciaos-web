@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Amfibia';
+    src: url('Amfibia-Black.woff2') format('woff2'),
+        url('Amfibia-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amfibia';
+    src: url('Amfibia-DemiBold.woff2') format('woff2'),
+        url('Amfibia-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amfibia Book';
+    src: url('Amfibia-Book.woff2') format('woff2'),
+        url('Amfibia-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amfibia';
+    src: url('Amfibia-ExtraBold.woff2') format('woff2'),
+        url('Amfibia-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amfibia';
+    src: url('Amfibia-Bold.woff2') format('woff2'),
+        url('Amfibia-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amfibia';
+    src: url('Amfibia-Regular.woff2') format('woff2'),
+        url('Amfibia-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

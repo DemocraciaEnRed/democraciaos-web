@@ -4,14 +4,14 @@
         {
             "title": "cases.title_1",
             "subtitle": "cases.subtitle_1",
-            "color": "red",
+            "color": "pink",
             "link": "https://medium.com/multitudes/presupuesto-participativo-de-vicente-l%C3%B3pez-9db05cc3147d",
             "image": "presupuesto_participativo"
         },
         {
             "title":"cases.title_2",
             "subtitle": "cases.subtitle_2",
-            "color": "orange",
+            "color": "green",
             "link": "https://medium.com/multitudes/consulta-p%C3%BAblica-a5836964ad98",
             "image": "consulta_publica"
         },

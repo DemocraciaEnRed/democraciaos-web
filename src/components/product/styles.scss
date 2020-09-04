@@ -1,7 +1,9 @@
 @import "~bulma/sass/utilities/_all.sass";
 $red: #f15a24;
 $orange: #fbb03b;
-$blue: #29abe2;
+$blue: #8BCCFD;
+$pink: #FD7B92;
+$green:#6ED59F;
 
 .product {
     color: white;
@@ -28,16 +30,16 @@ $blue: #29abe2;
             color: white !important;
         }
     }
-    &.product-red {
-        background-color: $red;
+    &.product-pink {
+        background-color: $pink;
         .button {
-            color: $red;
+            color: $pink;
         }
     }
-    &.product-orange {
-        background-color: $orange;
+    &.product-green {
+        background-color: $green;
         .button {
-            color: $orange;
+            color: $green;
         }
     }
     &.product-blue {

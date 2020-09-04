@@ -3,6 +3,8 @@
 $red: #f15a24;
 $orange: #fbb03b;
 $blue: #29abe2;
+$pink: #FD7B92;
+$green:#6ED59F;
 
 .product-item {
     display: flex;
@@ -31,16 +33,16 @@ $blue: #29abe2;
             outline: none;
         }
     }
-    &.product-item-orange {
+    &.product-item-pink {
         .title:after,
         .icon {
-            background-color: $orange;
+            background-color: $pink;
         }
     }
-    &.product-item-red {
+    &.product-item-green {
         .title:after,
         .icon {
-            background-color: $red;
+            background-color: $green;
         }
     }
     &.product-item-blue {

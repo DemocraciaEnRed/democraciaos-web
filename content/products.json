@@ -11,7 +11,7 @@
             "products.features_1_5",
             "products.features_1_6"
         ],
-        "color": "red",
+        "color": "pink",
         "icon": "presupuesto_participativo",
         "image": "presupuesto_participativo",
         "id": "presupuesto_participativo"
@@ -28,7 +28,7 @@
             "products.features_2_5",
             "products.features_2_6"
         ],
-        "color": "orange",
+        "color": "green",
         "icon": "consulta_publica",
         "image": "consulta_publica",
         "id": "consulta_publica"

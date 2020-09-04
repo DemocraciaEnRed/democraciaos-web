@@ -1,6 +1,9 @@
 $red: #f15a24;
 $orange: #fbb03b;
 $blue: #29abe2;
+$pink: #FD7B92;
+$green:#6ED59F;
+
 
 .use-case-item {
     margin-top: 1rem;
@@ -18,15 +21,15 @@ $blue: #29abe2;
     }
 }
 
-.use-case-item-orange {
+.use-case-item-pink {
     .icon {
-        background-color: $orange;
+        background-color: $pink;
     }
 }
 
-.use-case-item-red {
+.use-case-item-green {
     .icon {
-        background-color: $red;
+        background-color: $green;
     }
 }
 
