@@ -1,0 +1,18 @@
+{
+  "title": "header.main_title",
+  "description": "header.description",
+  "header": [
+    {
+      "title": "header.title_1",
+      "icon":"personalizable" 
+  },
+      {
+        "title": "header.title_2",
+        "icon":"codigo_abierto" 
+    },
+      {
+          "title": "header.title_3",
+          "icon":"instalacion" 
+      }
+  ]
+}

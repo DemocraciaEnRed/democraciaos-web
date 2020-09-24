@@ -1,0 +1,39 @@
+@import "~bulma/sass/utilities/_all.sass";
+$red: #f15a24;
+$orange: #fbb03b;
+$blue: #8BCCFD;
+$pink: #FD7B92;
+$green:#6ED59F;
+
+.product-specs {
+
+    .image {
+        margin-top: 1rem;
+        height: 90px; 
+        line-height: 90px;
+        width: 60%;
+        img {
+            max-height: 90px; 
+            vertical-align: middle;
+        
+        }
+    }
+}
+
+@include desktop {
+   
+    .product-specs {
+        
+        padding: .5rem 2rem;
+        .subtitle {
+            flex-grow: 2;
+            
+        }
+        .title {
+            padding: .2rem 0 0 1rem;
+            flex-grow: 1;
+            
+            
+        }
+    }
+}

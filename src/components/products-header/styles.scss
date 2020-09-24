@@ -1,0 +1,79 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+.header {
+    .button.is-dark {
+        background-color: #4d4d4d;	
+        &:hover {
+            background-color: transparent;
+            color: #4d4d4d;
+            border-color: #444444;
+        }
+    }
+    .column {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .image {
+        padding: 1rem 0;
+        img {
+            height: 60px;
+            width: auto;
+           
+        }
+    }
+    .header-image {
+        padding: 3rem 0;
+         max-height: 300px;
+        width: auto;  
+    }
+}
+
+@include touch {
+    .header {
+        .column {
+            .subtitle {
+                padding-bottom: 2rem;
+            }
+        }
+    }
+}
+
+@include tablet {
+    .header {
+        .column {
+            padding: 1rem 2rem;
+            .text-wrapper {
+                min-height: 340px;
+            }
+            .list-wrapper {
+                margin-bottom: auto;
+            }
+        }
+    }
+}
+
+@include desktop{
+    .header {
+        padding: 6rem;
+        .main-title {
+            padding-bottom: 4rem;
+        }
+        .column {
+            padding: 1rem 4rem;
+            .list-wrapper {
+               margin-bottom: auto;
+            }
+        }
+        
+    }
+}
+
+@include fullhd {
+    .instalations {
+        .column { 
+            .text-wrapper {
+                min-height: 230px;
+            }
+        }
+    }
+}

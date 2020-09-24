@@ -9,11 +9,14 @@ import vicente_lopez from "./assets/vicente_lopez.jpg"
 import extituto from "./assets/extituto.jpg"
 import gob_mx from "./assets/gob_mx.jpg"
 import san_lorenzo from "./assets/san_lorenzo.jpg"
+import presupuesto_participativo from "./assets/presupuestoparticipativo.png"
+import presidencia_nacion from "./assets/presidencianacion.png"
 import diputados from "./assets/diputados.jpg"
 import bs_as_ciudad from "./assets/bs_as_ciudad.jpeg"
 import red_innovacion from "./assets/red_innovacion.jpg"
 import rosario from "./assets/rosario.jpg"
 import argentina_unida from "./assets/argentina_unida.png"
+
 
 export default () =>  {
     const intl = useIntl()
@@ -68,6 +71,16 @@ export default () =>  {
                     <div className="column is-one-fifth-tablet is-one-fifth-desktop is-half-mobile">
                         <figure className="image">
                             <img src={san_lorenzo} className="client-logo san-lorenzo" alt="Municipalidad de San Lorenzo"/>
+                        </figure>
+                    </div>
+                    <div className="column is-one-fifth-tablet is-one-fifth-desktop is-half-mobile">
+                        <figure className="image">
+                            <img src={presupuesto_participativo} className="client-logo presupuesto_participativo" alt="presupuesto_participativo"/>
+                        </figure>
+                    </div>
+                    <div className="column is-one-fifth-tablet is-one-fifth-desktop is-half-mobile">
+                        <figure className="image">
+                            <img src={presidencia_nacion} className="client-logo presidencia_nacion" alt="presidencia_nacion"/>
                         </figure>
                     </div>
                     <div className="column is-one-quarter-tablet is-one-quarter-desktop is-half-mobile">

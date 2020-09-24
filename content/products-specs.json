@@ -1,0 +1,86 @@
+[
+    {
+        "title":"product_specs.title_1",
+        "subtitle":"product_specs.subtitle_1",
+        "features": [
+            "product_specs.features_1_1",
+            "product_specs.features_1_2",
+            "product_specs.features_1_3",
+            "product_specs.features_1_4",
+            "product_specs.features_1_5"
+        ],
+        "icon": "icon1",
+        "image": "img1",
+        "id": "1"
+    },
+    {
+        "title":"product_specs.title_2",
+        "subtitle":"product_specs.subtitle_2",
+        "features": [
+            "product_specs.features_2_1",
+            "product_specs.features_2_2",
+            "product_specs.features_2_3",
+            "product_specs.features_2_4",
+            "product_specs.features_2_5"
+        ],
+        "icon": "icon2",
+        "image": "img2",
+        "id": "2"
+    },
+    {
+        "title":"product_specs.title_3",
+        "subtitle":"product_specs.subtitle_3",
+        "features": [
+            "product_specs.features_3_1",
+            "product_specs.features_3_2",
+            "product_specs.features_3_3",
+            "product_specs.features_3_4",
+            "product_specs.features_3_5"
+        ],
+        "icon": "icon3",
+        "image": "img3",
+        "id": "3"
+    },
+    {
+        "title":"product_specs.title_4",
+        "subtitle":"product_specs.subtitle_4",
+        "features": [
+            "product_specs.features_4_1",
+            "product_specs.features_4_2",
+            "product_specs.features_4_3",
+            "product_specs.features_4_4",
+            "product_specs.features_4_5"
+        ],
+        "icon": "icon4",
+        "image": "img4",
+        "id": "4"
+    },
+    {
+        "title":"product_specs.title_5",
+        "subtitle":"product_specs.subtitle_5",
+        "features": [
+            "product_specs.features_5_1",
+            "product_specs.features_5_2",
+            "product_specs.features_5_3",
+            "product_specs.features_5_4",
+            "product_specs.features_5_5"
+        ],
+        "icon": "icon5",
+        "image": "img5",
+        "id": "5"
+    },
+    {
+        "title":"product_specs.title_6",
+        "subtitle":"product_specs.subtitle_6",
+        "features": [
+            "product_specs.features_6_1",
+            "product_specs.features_6_2",
+            "product_specs.features_6_3",
+            "product_specs.features_6_4",
+            "product_specs.features_6_5"
+        ],
+        "icon": "icon6",
+        "image": "img6",
+        "id": "6"
+    }
+]

@@ -1,0 +1,30 @@
+
+{
+    "title": "features_section.main_title",
+    "data": [
+    {
+        "title":"features_section.title_1",
+        "icon": "jerarquizacion"
+    },
+    {
+        "title":"features_section.title_2",
+        "icon": "causa"
+    },
+    {
+        "title":"features_section.title_3",
+        "icon": "encuesta"
+    },
+    {
+        "title":"features_section.title_3",
+        "icon": "votacion"
+    },
+    {
+        "title":"features_section.title_3",
+        "icon": "rango"
+    },
+    {
+        "title":"features_section.title_3",
+        "icon": "idea"
+    }
+]
+}
