@@ -9,18 +9,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@fortawesome/fontawesome-free": "^5.15.0",
     "body-scroll-lock": "^2.7.1",
     "bulma": "^0.8.2",
-    "gatsby": "^2.21.1",
+    "gatsby": "^2.24.67",
     "gatsby-plugin-intl": "^0.3.3",
-    "gatsby-plugin-react-helmet": "^3.3.0",
-    "gatsby-plugin-sass": "^2.3.0",
+    "gatsby-plugin-react-helmet": "^3.3.12",
+    "gatsby-plugin-sass": "^2.3.14",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
     "react-slick": "^0.25.2",
+    "react-typeform-embed": "^0.2.1",
     "slick-carousel": "^1.8.1",
     "smooth-scroll": "^16.1.3"
   }
