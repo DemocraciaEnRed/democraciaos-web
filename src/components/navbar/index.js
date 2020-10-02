@@ -63,7 +63,7 @@ export default () => {
                     </IntlContextConsumer>
                     </div>
 
-                    <a className="navbar-item contact" href="https://preguntarparaacordar.typeform.com/to/bkXtFWs" target="_blank" rel="noopener noreferrer">
+                    <a className="navbar-item contact" href="https://form.typeform.com/to/bkXtFW" target="_blank" rel="noopener noreferrer">
                         {intl.formatMessage({ id: "contact" })}
                     </a>
                     <a className="navbar-item is-hidden-desktop" href="mailto:contacto@democraciaenred.org">

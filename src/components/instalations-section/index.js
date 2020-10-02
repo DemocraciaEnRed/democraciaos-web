@@ -1,7 +1,7 @@
 import React from "react"
 import "./styles.scss"
 import { useIntl } from "gatsby-plugin-intl"
-import { ReactTypeformEmbed } from 'react-typeform-embed';
+//import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 import diy from "./assets/diy.svg"
 import standard from "./assets/standard.svg"
@@ -44,9 +44,9 @@ export default ({ data }) =>  {
                     </div>
                 
 
-                    <div className="ExampleWidget">
-                    <ReactTypeformEmbed popup={false} url="https://form.typeform.com/to/bkXtFW" />
-                </div>
+                    {/* <div className="">
+                <ReactTypeformEmbed popup={false} url="https://form.typeform.com/to/bkXtFW" />
+                </div> */}
             </div>
             </section>
 

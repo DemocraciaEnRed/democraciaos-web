@@ -32,6 +32,8 @@ export default () =>  (
             <Product data={product} key={product.id}/>
         )}
         <InstalationsSection data={instalationsData}/>
+       
+
         <UsSection data={usData}/>
         <WorkWithSection />
         <CasesSection data={casesData}/>
