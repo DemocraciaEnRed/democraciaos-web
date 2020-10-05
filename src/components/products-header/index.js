@@ -23,26 +23,23 @@ import image from "./assets/consulta_publica.png"
             <div className="container ">
                 <div className="columns">
                 <div className="column">
+                    <div className="is-hidden-desktop">
+                        <br/>
+                        <br/>
+                    </div>
                     <h3 className="main-title title is-4 is-size-2-desktop">{intl.formatMessage({ id: data.title})}</h3>
                     <p className="main-title subtitle has-text-left">{intl.formatMessage({ id: data.description})}</p>
                     </div>
                     <div className="column">
-                    <figure className="header-image ">
                     <img src={`${image}`} alt="" />    
-                    </figure>
                     </div>
                 </div>
             
-                    <div className="columns ">
+                    <div className="columns is-vcentered">
                         {data.header.map((header, index) => 
-                            <div key={index} className="column">
-                                <figure className="image">
-                                    <img src={`${icons[header.icon]}`} className={`${header.icon}`} alt=""/>
-                                </figure>
-                                <div className="">
-                                    <h4 className="title is-4 is-spaced">{intl.formatMessage({ id: header.title})}</h4>
-                                </div>
-                              
+                            <div key={index} className="column has-text-centered-touch">
+                                    <img src={`${icons[header.icon]}`} className={`image the-icons ${header.icon}`} width="100" alt=""/>
+                                    <h4 className="title is-4 is-spaced">{intl.formatMessage({ id: header.title})}</h4>                              
                             </div>
                         )}
                     </div>

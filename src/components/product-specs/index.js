@@ -39,21 +39,19 @@ export default ({ data }) =>  {
     const intl = useIntl()
 
     return (
-        <section id={data.id} className="section product-specs">
+        <section id={data.id} className="section product-specs has-text-centered-mobile">
             <div className="hero-body">
                 <div className="container ">
                     <div className="">
                         <div className="columns ">
                             <div className="column ">
-                                <h4 className="title green is-spaced is-size-2 ">{intl.formatMessage({id: data.title})}</h4>
-                                <figure className="image">
-                                    <img src={`${icon[data.icon]}`} alt="" />
-                                </figure>
+                                <h4 className="title green is-3 has-text-weight-bold">{intl.formatMessage({id: data.title})}</h4>
+                                    <img src={`${icon[data.icon]}`}  className="image the-icon" alt="" />
                             </div>
                             <div className="column">
                                 
                                 <div className="list-wrapper ">
-                                <span className="title is-spaced is-size-3-desktop">{intl.formatMessage({id: "features"})}</span>
+                                <h3 className="title is-3">{intl.formatMessage({id: "features"})}</h3>
                                     <ul className="list ">
                                         {data.features.map((feature, index) =>
                                             <li key={index}>{intl.formatMessage({id: feature})}</li>
@@ -62,11 +60,9 @@ export default ({ data }) =>  {
                                 </div>
                             </div>
                             <div className="column">
-                            <span className="title is-spaced  is-size-3-desktop">{intl.formatMessage({id: "preview"})}</span>
+                            <h3 className="title is-3 has-text-centered">{intl.formatMessage({id: "preview"})}</h3>
 
-                            <figure className="">
-                                    <img src={`${images[data.image]}`} alt="" />
-                                </figure>
+                                    <img src={`${images[data.image]}`}  className="image is-centered"alt="" />
                             </div>
                         </div>
                     </div>

@@ -35,10 +35,8 @@ export default ({ data }) =>  {
                 <div className="columns is-multiline">
                     {data.data.map((product) =>
                         <div key={product.id} className={`feature feature-item feature-item-green column has-text-centered is-parent is-4`}>
-                            <figure className="image">
-                                <img src={`${icons[product.icon]}`} alt="" className="" />
-                            </figure>
-                            <h5 className="subtitle is-spaced has-text-grey-dark">{intl.formatMessage({id: product.title})}</h5>
+                                <img src={`${icons[product.icon]}`} alt="" className="image is-centered" />
+                            <h5 className="subtitle is-5 has-text-grey-dark">{intl.formatMessage({id: product.title})}</h5>
                         </div>
                     )}
                 </div>
