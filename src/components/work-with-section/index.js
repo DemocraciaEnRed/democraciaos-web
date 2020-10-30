@@ -43,11 +43,6 @@ export default () =>  {
                             <img src={xr} className="client-logo" alt="XR Rebelion o Extinsión"/>
                         </figure>
                     </div>
-                    <div className="column is-one-quarter-tablet is-one-quarter-desktop is-half-mobile">
-                        <figure className="image">
-                            <img src={argentina_unida} className="client-logo argentina-unida" alt="Argentina Unida"/>
-                        </figure>
-                    </div>
                     <div className="column is-one-fifth-tablet is-one-fifth-desktop is-half-mobile">
                         <figure className="image">
                             <img src={sunchales_ciudad} className="client-logo" alt="Ciudad de Sunchales"/>

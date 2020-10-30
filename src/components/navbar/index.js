@@ -3,7 +3,7 @@ import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import { useIntl, IntlContextConsumer, changeLocale } from "gatsby-plugin-intl"
 import "./styles.scss"
 
-export default () => {
+export default (props) => {
     const [isActive, setIsActive] = useState(false);
     const intl = useIntl()
     const languageName = {
@@ -22,6 +22,8 @@ export default () => {
             enableBodyScroll(navbarElement);
         }
     }, [isActive]);
+
+    const { handleForm } = props;
 
     return (
         <nav id="navbar" className={(isActive ? 'navbar is-active' : 'navbar')} role="navigation" aria-label="main navigation">
@@ -63,7 +65,7 @@ export default () => {
                     </IntlContextConsumer>
                     </div>
 
-                    <a className="navbar-item contact" href="https://form.typeform.com/to/bkXtFW" target="_blank" rel="noopener noreferrer">
+                    <a className="navbar-item contact" onClick={()=>handleForm()} href="#implementar" rel="noopener noreferrer">
                         {intl.formatMessage({ id: "contact" })}
                     </a>
                     <a className="navbar-item is-hidden-desktop" href="mailto:contacto@democraciaenred.org">

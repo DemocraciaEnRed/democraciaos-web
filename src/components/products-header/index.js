@@ -37,9 +37,13 @@ import image from "./assets/consulta_publica.png"
             
                     <div className="columns is-vcentered">
                         {data.header.map((header, index) => 
-                            <div key={index} className="column has-text-centered-touch">
+                            <div key={index} className="column has-text-centered-touch icon-container">
+                                <div className="img-container">
                                     <img src={`${icons[header.icon]}`} className={`image the-icons ${header.icon}`} width="100" alt=""/>
+                                </div>
+                                <div className="title-container">
                                     <h4 className="title is-4 is-spaced">{intl.formatMessage({ id: header.title})}</h4>                              
+                                </div>
                             </div>
                         )}
                     </div>

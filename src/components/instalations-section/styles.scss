@@ -18,11 +18,13 @@
         img {
             height: 60px;
             width: auto;
-            &.diy {
-                max-width: 60px;
-            }
+
         }
     }
+    .formulario{
+        height: 25em;
+    }
+
 }
 
 @include touch {

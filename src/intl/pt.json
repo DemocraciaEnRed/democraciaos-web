@@ -47,18 +47,21 @@
         "requirements_1_2": "Servidor.",
         "requirements_1_3": "Time de gerenciamento.",
         "button_text_1": "Github",
+        "button_link_1": "https://github.com/democraciaenred",
         "title_2": "Instalação padrão",
         "description_2": "Nossa equipe de software realiza a instalação da plataforma no seu servidor.",
         "requirements_2_1": "Preencha o nosso formulário de requisição.",
         "requirements_2_2": "Time de gerenciamento.",
         "requirements_2_3": "Orçamento padrão: USD 2.500",
         "button_text_2": "Contato",
+        "button_link_2": "https://preguntarparaacordar.typeform.com/to/bkXtFW",
         "title_3": "Instalação customizada",
         "description_3": "Nova versão personalizada. Podemos personalizá-lo com nossa equipe de desenvolvimento e ajudar os gerentes de projeto.",
         "requirements_3_1": "Preencha o nosso formulário de requisição.",
         "requirements_3_2": "Time de gerenciamento.",
         "requirements_3_3": "Peça um orçamento",
-        "button_text_3": "Contato"
+        "button_text_3": "Contato",
+        "button_link_3": "https://preguntarparaacordar.typeform.com/to/bkXtFW"
     },
     "nosotros": {
         "title":"Sobre nós",

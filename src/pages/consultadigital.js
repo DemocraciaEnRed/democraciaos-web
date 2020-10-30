@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import "./styles.scss"
 import SEO from "../components/seo"
 import Navbar from "../components/navbar"
@@ -28,10 +28,17 @@ if (typeof window !== "undefined") {
     new SmoothScroll('a[href*="#"]');
 }
 
-export default () =>  (
+export default () => {
+    const [show, setShow] = useState(false);
+
+    const handleForm = () =>{
+        setShow(true);
+        console.log(show);
+    }
+     return (
     <React.Fragment>
         <SEO />
-        <Navbar />
+        <Navbar handleForm={handleForm}/>
         <ProductHeader data={productsData}/>
         <FeaturesSection data={FeaturesData}/>
   
@@ -39,10 +46,10 @@ export default () =>  (
             <ProductSpecs data={product} key={product.id}/>
         )}
 
-        <InstalationsSection data={instalationsData}/>
+        <InstalationsSection data={instalationsData} handleForm={handleForm} show={show} />
         <UsSection data={usData}/>
         <WorkWithSection />
         <CasesSection data={casesData}/>
         <Footer /> 
     </React.Fragment>
-)
+)}

@@ -1,7 +1,7 @@
-import React from "react"
+import React  from "react"
 import "./styles.scss"
 import { useIntl } from "gatsby-plugin-intl"
-//import { ReactTypeformEmbed } from 'react-typeform-embed';
+import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 import diy from "./assets/diy.svg"
 import standard from "./assets/standard.svg"
@@ -13,13 +13,23 @@ const icons = {
     standard
 };
 
-export default ({ data }) =>  {
+export default (props) =>  {
+    const { data, handleForm, show } = props
     const intl = useIntl()
+    const link = intl.formatMessage({id: data.instalations[1].button_link});
+    console.log(link)
 
     return (
         <section id="implementar" className="section instalations">
             <div className="container has-text-centered">
                     <h3 className="main-title title is-4 is-size-1-desktop">{intl.formatMessage({ id: data.title})}</h3>
+    
+
+                    { show ? 
+                    <div className="formulario">
+                        <ReactTypeformEmbed popup={false} url={link} />
+                    </div>
+                    :                 
                     <div className="columns has-text-left">
                         {data.instalations.map((instalation, index) => 
                             <div key={index} className="column">
@@ -38,15 +48,20 @@ export default ({ data }) =>  {
                                         )}
                                     </ul>
                                 </div>
-                                <a className="button is-rounded is-medium is-dark" href={instalation.button_link} target="_blank" rel="noopener noreferrer">{intl.formatMessage({ id: instalation.button_text})}</a>
+                                {index === 0 ? 
+                                    <a className="button is-rounded is-medium is-dark" href={intl.formatMessage({ id: instalation.button_link})} target="_blank" rel="noopener noreferrer">{intl.formatMessage({ id: instalation.button_text})}</a> 
+                                    : 
+                                    <a className="button is-rounded is-medium is-dark" onClick={()=>handleForm()} rel="noopener noreferrer">{intl.formatMessage({ id: instalation.button_text})}</a>
+                                }
+                                
+
                             </div>
                         )}
-                    </div>
-                
+                    </div>}
 
-                    {/* <div className="">
-                <ReactTypeformEmbed popup={false} url="https://form.typeform.com/to/bkXtFW" />
-                </div> */}
+
+
+ 
             </div>
             </section>
 
