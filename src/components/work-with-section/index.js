@@ -15,7 +15,6 @@ import diputados from "./assets/diputados.jpg"
 import bs_as_ciudad from "./assets/bs_as_ciudad.jpeg"
 import red_innovacion from "./assets/red_innovacion.jpg"
 import rosario from "./assets/rosario.jpg"
-import argentina_unida from "./assets/argentina_unida.png"
 
 
 export default () =>  {

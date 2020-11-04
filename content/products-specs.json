@@ -10,7 +10,7 @@
             "product_specs.features_1_5"
         ],
         "icon": "icon1",
-        "image": "img1",
+        "image": "product_specs.img_1",
         "id": "1"
     },
     {
@@ -24,7 +24,7 @@
             "product_specs.features_2_5"
         ],
         "icon": "icon2",
-        "image": "img2",
+        "image": "product_specs.img_2",
         "id": "2"
     },
     {
@@ -38,7 +38,7 @@
             "product_specs.features_3_5"
         ],
         "icon": "icon3",
-        "image": "img3",
+        "image": "product_specs.img_3",
         "id": "3"
     },
     {
@@ -52,7 +52,7 @@
             "product_specs.features_4_5"
         ],
         "icon": "icon4",
-        "image": "img4",
+        "image": "product_specs.img_4",
         "id": "4"
     },
     {
@@ -66,7 +66,7 @@
             "product_specs.features_5_5"
         ],
         "icon": "icon5",
-        "image": "img5",
+        "image": "product_specs.img_5",
         "id": "5"
     },
     {
@@ -80,7 +80,7 @@
             "product_specs.features_6_5"
         ],
         "icon": "icon6",
-        "image": "img6",
+        "image": "product_specs.img_6",
         "id": "6"
     }
 ]

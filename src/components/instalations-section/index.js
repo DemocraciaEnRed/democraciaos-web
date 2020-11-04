@@ -51,7 +51,7 @@ export default (props) =>  {
                                 {index === 0 ? 
                                     <a className="button is-rounded is-medium is-dark" href={intl.formatMessage({ id: instalation.button_link})} target="_blank" rel="noopener noreferrer">{intl.formatMessage({ id: instalation.button_text})}</a> 
                                     : 
-                                    <a className="button is-rounded is-medium is-dark" onClick={()=>handleForm()} rel="noopener noreferrer">{intl.formatMessage({ id: instalation.button_text})}</a>
+                                    <button className="button is-rounded is-medium is-dark" onClick={()=>handleForm()} rel="noopener noreferrer">{intl.formatMessage({ id: instalation.button_text})}</button>
                                 }
                                 
 
