@@ -15,12 +15,7 @@ import productsSpecsData from "../../content/products-specs.json"
 
 import InstalationsSection from "../components/instalations-section"
 import instalationsData from "../../content/instalations.json"
-import UsSection from "../components/us-section"
-import usData from "../../content/nosotros.json"
-import CasesSection from "../components/cases-section"
-import casesData from "../../content/cases.json"
 import Footer from "../components/footer"
-import WorkWithSection from "../components/work-with-section"
 
 //Sets smooth scroll animation for anchor links
 if (typeof window !== "undefined") {
@@ -47,9 +42,6 @@ export default () => {
         )}
 
         <InstalationsSection data={instalationsData} handleForm={handleForm} show={show} />
-        <UsSection data={usData}/>
-        <WorkWithSection />
-        <CasesSection data={casesData}/>
         <Footer /> 
     </React.Fragment>
 )}

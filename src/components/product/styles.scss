@@ -10,17 +10,15 @@ $green:#6ED59F;
     overflow: hidden;
     .title {
         color: white;
-        &:after {
-            display: block;
-            content: ' ';
-            height: 3px;
-            margin: 1rem 0;
-            background-color: white;
-            width: 35px;
-        }
     }
     .subtitle {
         color: white;
+    }
+    .button-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
     .button {
         display: table;
@@ -72,6 +70,16 @@ $green:#6ED59F;
         }
         .button {
             margin-top: 3.5rem;
+        }
+        .title{
+            &:after {
+                display: block;
+                content: ' ';
+                height: 3px;
+                margin: 1rem 0;
+                background-color: white;
+                width: 35px;
+            }
         }
     }
 }
