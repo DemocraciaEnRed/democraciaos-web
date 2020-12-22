@@ -39,11 +39,11 @@ export default (props) => {
             <div id="navbarColapse" className={(isActive ? 'navbar-menu is-active' : 'navbar-menu')}>
                 <div className="navbar-start">
                     <div className="left-wrapper">
-                        <a className="navbar-item" onClick={() => setIsActive(false)} href="#productos" data-target="productos">
+                        <a className="navbar-item" onClick={() => setIsActive(false)} href="https://democraciaos.org/es/#productos" data-target="productos">
                             {intl.formatMessage({ id: "products_title" })}
                         </a>
 
-                        <a className="navbar-item" onClick={() => setIsActive(false)} href="#nosotros" data-target="nosotros">
+                        <a className="navbar-item" onClick={() => setIsActive(false)} href="https://democraciaos.org/es/#nosotros" data-target="nosotros">
                             {intl.formatMessage({ id: "us" })}
                         </a>
                     </div>
