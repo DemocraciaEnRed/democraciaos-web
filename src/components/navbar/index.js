@@ -43,12 +43,11 @@ export default (props) => {
                             {intl.formatMessage({ id: "products_title" })}
                         </a>
 
-                        <a className="navbar-item" onClick={() => setIsActive(false)} href="https://democraciaos.org/es/#nosotros" data-target="nosotros">
-                            {intl.formatMessage({ id: "us" })}
-                        </a>
+                         
                     </div>
                     <div className="lang-switch">
-                    <IntlContextConsumer>
+                    {/*
+                        <IntlContextConsumer>
                         {({ languages, language: currentLocale }) =>
                             languages.map(language => (
                                 <button className="navbar-item navbar-item-lang"
@@ -63,8 +62,12 @@ export default (props) => {
                             ))
                         }
                     </IntlContextConsumer>
+                    */}
+                    
                     </div>
-
+                    <a className="navbar-item" onClick={() => setIsActive(false)} href="https://democraciaos.org/es/#nosotros" data-target="nosotros">
+                            {intl.formatMessage({ id: "us" })}
+                        </a>   
                     <a className="navbar-item contact" onClick={()=>handleForm()} href="#implementar" rel="noopener noreferrer">
                         {intl.formatMessage({ id: "contact" })}
                     </a>

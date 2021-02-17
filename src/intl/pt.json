@@ -37,7 +37,13 @@
         "features_3_1": "Enviar projetos",
         "features_3_2": "Comentários",
         "features_3_3": "Sugestões",
-        "features_3_4": "Administração descentralizada"
+        "features_3_4": "Administração descentralizada",
+        "title_4": "Rastreamento de meta",
+        "subtitle_4":"Plataforma digital que permite a publicação de objetivos e compromissos governamentais, facilitando o monitoramento do cidadão.",
+        "description_4": "Plataforma digital que permite a publicação de objetivos e compromissos governamentais, facilitando o monitoramento do cidadão.",
+        "features_4_1": "Registro de objetivos e metas",
+        "features_4_2": "Relatórios de atualização de metas georreferenciáveis",
+        "features_4_3": "Validação e feedback do cidadão"
     },
     "instalations": {
         "main_title": "Três maneiras diferentes de implementar nossos produtos:",

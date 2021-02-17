@@ -5,11 +5,13 @@ import { useIntl } from "gatsby-plugin-intl"
 import consulta_publica from "./assets/consulta_publica.svg"
 import co_construccion from "./assets/co_construccion.svg"
 import presupuesto_participativo from "./assets/presupuesto_participativo.svg"
+import seguimiento_metas from "./assets/seguimiento_metas.svg"
 
 const icons = {
     consulta_publica,
     co_construccion,
-    presupuesto_participativo
+    presupuesto_participativo,
+    seguimiento_metas
 };
 
 export default ({ products }) =>  {
@@ -18,9 +20,9 @@ export default ({ products }) =>  {
     return (
         <section id="productos" className="section">
             <div className="container">
-                <div className="columns">
+                <div className="columns is-multiline is-mobile">
                     {products.map((product) =>
-                        <div key={product.id} className={`product-item product-item-${product.color} column has-text-centered`}>
+                        <div key={product.id} className={`product-item product-item-${product.color} column has-text-centered is-half-tablet  is-half-desktop is-full-mobile`}>
                             <figure className="image">
                                 <img src={`${icons[product.icon]}`} alt="" className={`${product.icon}`} />
                             </figure>
