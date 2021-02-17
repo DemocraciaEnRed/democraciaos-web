@@ -5,6 +5,7 @@ $orange: #fbb03b;
 $blue: #29abe2;
 $pink: #FD7B92;
 $green:#6ED59F;
+$purple: #E7B4F1;
 
 .product-item {
     display: flex;
@@ -49,6 +50,12 @@ $green:#6ED59F;
         .title:after,
         .icon {
             background-color: $blue;
+        }
+    }
+    &.product-item-purple {
+        .title:after,
+        .icon {
+            background-color: $purple;
         }
     }
     .image {

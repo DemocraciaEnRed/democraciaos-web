@@ -37,7 +37,13 @@
         "features_3_1": "Bills submit",
         "features_3_2": "Comments",
         "features_3_3": "Suggestions",
-        "features_3_4": "Follow up bills"
+        "features_3_4": "Follow up bills",
+        "title_4": "Goals tracking",
+        "subtitle_4": "Digital platform that allows the publication of government goals and commitments, facilitating citizen monitoring.",
+        "description_4": "Digital platform that allows the publication of government goals and commitments, facilitating citizen monitoring",
+        "features_4_1": "Registration of objectives and goals",
+        "features_4_2": "Georeferenceable goals update reports",
+        "features_4_3": "Validation and citizen feedback"
     },
     "instalations": {
         "main_title": "Three different ways to implement our products:",
@@ -148,7 +154,7 @@
     "implementation": "Implement",
     "see_more": "See more",
     "products_title": "products",
-    "us": "this is us",
+    "us": "about us",
     "contact": "contact us",
     "work_with": "We work with"
 }

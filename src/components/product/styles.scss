@@ -4,6 +4,7 @@ $orange: #fbb03b;
 $blue: #8BCCFD;
 $pink: #FD7B92;
 $green:#6ED59F;
+$purple: #E7B4F1;
 
 .product {
     color: white;
@@ -24,27 +25,24 @@ $green:#6ED59F;
         display: table;
         border-color: white;
         &:hover {
-            background-color: transparent;
-            color: white !important;
+            color: #ccc;
         }
     }
     &.product-pink {
         background-color: $pink;
-        .button {
-            color: $pink;
-        }
     }
     &.product-green {
         background-color: $green;
-        .button {
-            color: $green;
-        }
     }
     &.product-blue {
         background-color: $blue;
-        .button {
-            color: $blue;
-        }
+    }
+    &.product-purple {
+        background-color: $purple;
+    }
+    .is-black{
+        border: 0;
+        color: white;
     }
 }
 
@@ -64,7 +62,7 @@ $green:#6ED59F;
             margin-top: 1rem;
             max-height: 500px;
             img {
-                max-width: 90%;
+                max-width: 100%;
                 display: inline-block;
             }
         }
@@ -77,7 +75,7 @@ $green:#6ED59F;
                 content: ' ';
                 height: 3px;
                 margin: 1rem 0;
-                background-color: white;
+                background-color: black;
                 width: 35px;
             }
         }

@@ -47,5 +47,19 @@
         "icon": "co_construccion",
         "image": "co_construccion",
         "id": "co-construccion_leyes"
+    },
+    {
+        "title":"products.title_4",
+        "subtitle":"products.subtitle_4",
+        "description": "products.description_4",
+        "features": [
+            "products.features_4_1",
+            "products.features_4_2",
+            "products.features_4_3"
+        ],
+        "color": "purple",
+        "icon": "seguimiento_metas",
+        "image": "seguimiento_metas",
+        "id": "seguimiento_metas"
     }
 ]
