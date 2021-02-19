@@ -63,6 +63,7 @@ $purple: #E7B4F1;
         height: 90px; 
         line-height: 90px;
         width: 100%;
+        padding-top: 1rem;
         img {
             max-height: 90px; 
             vertical-align: middle;
@@ -70,6 +71,9 @@ $purple: #E7B4F1;
                 max-height: 60px;
             }
         }
+    }
+    .subtitle{
+        white-space: pre-wrap;
     }
 }
 
