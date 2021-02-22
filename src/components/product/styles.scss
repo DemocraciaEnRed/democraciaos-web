@@ -18,12 +18,13 @@ $purple: #E7B4F1;
     .button-container {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
         flex-wrap: wrap;
     }
     .button {
         display: table;
         border-color: white;
+        margin: 0;
+        margin-right: 1rem;
         &:hover {
             color: #ccc;
         }
@@ -43,6 +44,9 @@ $purple: #E7B4F1;
     .is-black{
         border: 0;
         color: white;
+    }
+    .list-wrapper{
+        margin-bottom: 2rem;
     }
 }
 
