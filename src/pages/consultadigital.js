@@ -34,10 +34,10 @@ export default () => {
     <React.Fragment>
         <SEO />
         <Navbar handleForm={handleForm}/>
-        <ProductHeader data={productsData}/>
-        <FeaturesSection data={FeaturesData}/>
+        <ProductHeader data={productsData[1]}/>
+        <FeaturesSection data={FeaturesData[1]}/>
   
-        {productsSpecsData.map((product) => 
+        {productsSpecsData[1].map((product) => 
             <ProductSpecs data={product} key={product.id}/>
         )}
 

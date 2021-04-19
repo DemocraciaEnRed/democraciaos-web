@@ -40,12 +40,21 @@ $green:#6ED59F;
     }
     .image {
         margin-top: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         height: 90px; 
         // line-height: 90px;
         width: 30%;
        
     }
+}
+
+.feature-container{
+    margin-top: 3em;
+    justify-content: center;
+}
+
+.color-gray{
+    background-color: #f2f2f2;
 }
 
 @include desktop {
@@ -55,6 +64,7 @@ $green:#6ED59F;
     .feature-item {
         align-items: center;
         padding: 1rem 4rem;
+        margin-bottom: 3em;
         .subtitle {
             flex-grow: 2;
         }

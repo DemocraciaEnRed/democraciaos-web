@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
-import { useIntl, IntlContextConsumer, changeLocale } from "gatsby-plugin-intl"
+import { useIntl } from "gatsby-plugin-intl"
 import "./styles.scss"
 
 export default (props) => {

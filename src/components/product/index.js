@@ -16,7 +16,7 @@ const images = {
 
 export default ({ data }) =>  {
     const intl = useIntl()
-
+    console.log(data)
     return (
         <section id={data.id} className={`hero product product-${data.color}`}>
             <div className="hero-body">
@@ -38,7 +38,7 @@ export default ({ data }) =>  {
                                 </div>
                                 <div className="button-container">
                                     <a className="button is-rounded is-medium is-black" href="#implementar">{intl.formatMessage({id: "implementation"})}</a>
-                                    {data.title === 'products.title_2' ? <a className="button is-rounded is-medium" href="https://democraciaos.org/es/consultadigital/">{intl.formatMessage({id: "see_more"})}</a> : null }
+                                    <a className="button is-rounded is-medium" href={intl.formatMessage({id: data.link})}>{intl.formatMessage({id: "see_more"})}</a>
                                 </div>
                             </div>
                             <div className="column">

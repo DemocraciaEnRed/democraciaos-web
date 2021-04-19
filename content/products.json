@@ -3,6 +3,7 @@
         "title":"products.title_1",
         "subtitle":"products.subtitle_1",
         "description": "products.description_1",
+        "link": "products.link_1",
         "features": [
             "products.features_1_1",
             "products.features_1_2",
@@ -20,6 +21,7 @@
         "title":"products.title_2",
         "subtitle":"products.subtitle_2",
         "description": "products.description_2",
+        "link": "products.link_2",
         "features": [
             "products.features_2_1",
             "products.features_2_2",
@@ -37,6 +39,7 @@
         "title":"products.title_3",
         "subtitle":"products.subtitle_3",
         "description": "products.description_3",
+        "link": "products.link_3",
         "features": [
             "products.features_3_1",
             "products.features_3_2",
@@ -52,6 +55,7 @@
         "title":"products.title_4",
         "subtitle":"products.subtitle_4",
         "description": "products.description_4",
+        "link": "products.link_4",
         "features": [
             "products.features_4_1",
             "products.features_4_2",

@@ -1,30 +1,106 @@
-
-{
-    "title": "features_section.main_title",
-    "data": [
+[
     {
-        "title":"features_section.title_1",
-        "icon": "jerarquizacion"
+        "title": "features_section_1.main_title",
+        "data": [
+            {
+                "title":"features_section_1.title_1",
+                "icon": "parametrizacion"
+            },
+            {
+                "title":"features_section_1.title_2",
+                "icon": "propuesta"
+            },
+            {
+                "title":"features_section_1.title_3",
+                "icon": "analisis"
+            },
+            {
+                "title":"features_section_1.title_4",
+                "icon": "votacionrosa"
+            },
+            {
+                "title":"features_section_1.title_5",
+                "icon": "publicacion"
+            },
+            {
+                "title":"features_section_1.title_6",
+                "icon": "seguimiento"
+            }
+        ]
     },
     {
-        "title":"features_section.title_2",
-        "icon": "causa"
+        "title": "features_section_2.main_title",
+        "data": [
+            {
+                "title":"features_section_2.title_1",
+                "icon": "jerarquizacion"
+            },
+            {
+                "title":"features_section_2.title_2",
+                "icon": "causa"
+            },
+            {
+                "title":"features_section_2.title_3",
+                "icon": "encuesta"
+            },
+            {
+                "title":"features_section_2.title_4",
+                "icon": "votacion"
+            },
+            {
+                "title":"features_section_2.title_5",
+                "icon": "rango"
+            },
+            {
+                "title":"features_section_2.title_6",
+                "icon": "idea"
+            }
+        ]
     },
     {
-        "title":"features_section.title_3",
-        "icon": "encuesta"
+        "title": "features_section_3.main_title",
+        "data": [
+            {
+                "title":"features_section_3.title_1",
+                "icon": "objetivos"
+            },
+            {
+                "title":"features_section_3.title_2",
+                "icon": "metas"
+            },
+            {
+                "title":"features_section_3.title_3",
+                "icon": "reportes"
+            },
+            {
+                "title":"features_section_3.title_4",
+                "icon": "validaciones"
+            }
+        ]
     },
     {
-        "title":"features_section.title_4",
-        "icon": "votacion"
-    },
-    {
-        "title":"features_section.title_5",
-        "icon": "rango"
-    },
-    {
-        "title":"features_section.title_6",
-        "icon": "idea"
+        "title": "features_section_4.main_title",
+        "data": [
+            {
+                "title":"features_section_4.title_1",
+                "icon": "altas"
+            },
+            {
+                "title":"features_section_4.title_2",
+                "icon": "explicacion"
+            },
+            {
+                "title":"features_section_4.title_3",
+                "icon": "apoyar"
+            },
+            {
+                "title":"features_section_4.title_4",
+                "icon": "aportes"
+            },
+            {
+                "title":"features_section_4.title_5",
+                "icon": "versiones"
+            }
+        ]
     }
 ]
-}

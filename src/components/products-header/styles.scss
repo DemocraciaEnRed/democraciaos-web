@@ -28,15 +28,41 @@
     .the-icons{
         margin: 0 auto;
         width: 100px;
-        max-height:100px;
+        max-height:150px;
     }
-
+    .title-image{
+        width: 15em;
+    }
+    .main-title{
+        color: #030303;
+    }
+    .title-header{
+        line-height: 1.125;
+    }
+    .subtitle-header{
+        font-size: 26px;
+        color: #030303;
+    }
+    .title-image{
+        display: none;
+    }
+    .title-image-container{
+        margin-top: 5em;
+    }
+    .image-container{
+        display: flex;
+        justify-content: center;
+    }
+    .header-columns{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 @include touch {
     .header {
         .column {
-            .subtitle {
+            .subtitle-header {
                 padding-bottom: 2rem;
             }
         }
@@ -60,8 +86,10 @@
 @include desktop{
     .header {
         padding: 6rem;
-        .main-title {
-            padding-bottom: 4rem;
+        padding-top: 20rem;
+        .header-columns{
+            display: flex;
+            flex-direction: row;
         }
         .column {
             padding: 1rem 4rem;
@@ -69,10 +97,34 @@
                margin-bottom: auto;
             }
         }
+        .title-header-container{
+            .flex-contaiener{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .image-container{
+                margin-right: 1em;
+            }
+            &:after {
+                display: block;
+                content: ' ';
+                height: 3px;
+                margin: 1rem 0;
+                background-color: black;
+                width: 535px;
+            }
+        }
+        .is-vcentered{
+            margin-top: 10em;
+        }
+        .title-image{
+            display: block;
+        }
         .icon-container{
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
             min-height: 310px;
             .image{
@@ -83,7 +135,23 @@
                 }
             }
         }
-        
+        .img-container{
+            display: block;
+            &:after {
+                display: block;
+                content: ' ';
+                height: 3px;
+                margin: 2rem auto;
+                background-color: black;
+                width: 35px;
+            }
+        }
+        .title-image-container{
+            display: block;
+            img{
+                width: 35em
+            };
+        }
     }
 }
 

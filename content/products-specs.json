@@ -1,86 +1,547 @@
 [
-    {
-        "title":"product_specs.title_1",
-        "subtitle":"product_specs.subtitle_1",
-        "features": [
-            "product_specs.features_1_1",
-            "product_specs.features_1_2",
-            "product_specs.features_1_3",
-            "product_specs.features_1_4",
-            "product_specs.features_1_5"
-        ],
-        "icon": "icon1",
-        "image": "product_specs.img_1",
-        "id": "1"
-    },
-    {
-        "title":"product_specs.title_2",
-        "subtitle":"product_specs.subtitle_2",
-        "features": [
-            "product_specs.features_2_1",
-            "product_specs.features_2_2",
-            "product_specs.features_2_3",
-            "product_specs.features_2_4",
-            "product_specs.features_2_5"
-        ],
-        "icon": "icon2",
-        "image": "product_specs.img_2",
-        "id": "2"
-    },
-    {
-        "title":"product_specs.title_3",
-        "subtitle":"product_specs.subtitle_3",
-        "features": [
-            "product_specs.features_3_1",
-            "product_specs.features_3_2",
-            "product_specs.features_3_3",
-            "product_specs.features_3_4",
-            "product_specs.features_3_5"
-        ],
-        "icon": "icon3",
-        "image": "product_specs.img_3",
-        "id": "3"
-    },
-    {
-        "title":"product_specs.title_4",
-        "subtitle":"product_specs.subtitle_4",
-        "features": [
-            "product_specs.features_4_1",
-            "product_specs.features_4_2",
-            "product_specs.features_4_3",
-            "product_specs.features_4_4",
-            "product_specs.features_4_5"
-        ],
-        "icon": "icon4",
-        "image": "product_specs.img_4",
-        "id": "4"
-    },
-    {
-        "title":"product_specs.title_5",
-        "subtitle":"product_specs.subtitle_5",
-        "features": [
-            "product_specs.features_5_1",
-            "product_specs.features_5_2",
-            "product_specs.features_5_3",
-            "product_specs.features_5_4",
-            "product_specs.features_5_5"
-        ],
-        "icon": "icon5",
-        "image": "product_specs.img_5",
-        "id": "5"
-    },
-    {
-        "title":"product_specs.title_6",
-        "subtitle":"product_specs.subtitle_6",
-        "features": [
-            "product_specs.features_6_1",
-            "product_specs.features_6_2",
-            "product_specs.features_6_3",
-            "product_specs.features_6_4",
-            "product_specs.features_6_5"
-        ],
-        "icon": "icon6",
-        "image": "product_specs.img_6",
-        "id": "6"
-    }
+    [
+        {
+            "title":"product_specs_1.title_1",
+            "subtitle":"product_specs_1.subtitle_1",
+            "color": "color-gray",
+            "features": [
+                {
+                    "description": "product_specs_1.features_1_1"
+                }
+            ],
+            "icon": "icon1",
+            "image": "product_specs_1.img_1",
+            "id": "1"
+        },
+        {
+            "title":"product_specs_1.title_2",
+            "subtitle":"product_specs_1.subtitle_2",
+            "color": "",
+            "features": [
+                {
+                    "description": "product_specs_1.features_2_1",
+                    "icon": "icon1_1"
+                },
+                {
+                    "description": "product_specs_1.features_2_2",
+                    "icon": "icon1_2"
+                },
+                {
+                    "description": "product_specs_1.features_2_3",
+                    "icon": "icon1_3"
+                },
+                {
+                    "description": "product_specs_1.features_2_4",
+                    "icon": "icon1_4"
+                }
+            ],
+            "icon": "icon2",
+            "image": "product_specs_1.img_2",
+            "id": "2"
+        },
+        {
+            "title":"product_specs_1.title_3",
+            "subtitle":"product_specs_1.subtitle_3",
+            "color": "color-gray",
+            "features": [
+                {
+                    "description": "product_specs_1.features_3_1",
+                    "icon": "icon1_5"
+                },
+                {
+                    "description": "product_specs_1.features_3_2",
+                    "icon": "icon1_1"
+                },
+                {
+                    "description": "product_specs_1.features_3_3",
+                    "icon": "icon1_6"
+                },
+                {
+                    "description": "product_specs_1.features_3_4",
+                    "icon": "icon1_7"
+                }
+            ],
+            "icon": "icon3",
+            "image": "product_specs_1.img_3",
+            "id": "3"
+        },
+        {
+            "title":"product_specs_1.title_4",
+            "subtitle":"product_specs_1.subtitle_4",
+            "color": "",
+            "features": [
+                {
+                    "description": "product_specs_1.features_4_1",
+                    "icon": "icon1_1"
+                },
+                {
+                    "description": "product_specs_1.features_4_2",
+                    "icon": "icon1_2"
+                },
+                {
+                    "description": "product_specs_1.features_4_3",
+                    "icon": "icon1_8"
+                },
+                {
+                    "description": "product_specs_1.features_4_4",
+                    "icon": "icon1_9"
+                }
+            ],
+            "icon": "icon4",
+            "image": "product_specs_1.img_4",
+            "id": "4"
+        },
+        {
+            "title":"product_specs_1.title_5",
+            "subtitle":"product_specs_1.subtitle_5",
+            "color": "color-gray",
+            "features": [
+                {
+                    "description": "product_specs_1.features_5_1",
+                    "icon": "icon1_10"
+                },
+                {
+                    "description": "product_specs_1.features_5_2",
+                    "icon": "icon1_11"
+                },
+                {
+                    "description": "product_specs_1.features_5_3",
+                    "icon": "icon1_12"
+                },
+                {
+                    "description": "product_specs_1.features_5_4",
+                    "icon": "icon1_1"
+                }
+            ],
+            "icon": "icon5",
+            "image": "product_specs_1.img_5",
+            "id": "5"
+        },
+        {
+            "title":"product_specs_1.title_6",
+            "subtitle":"product_specs_1.subtitle_6",
+            "color": "",
+            "features": [
+                {
+                    "description": "product_specs_1.features_6_1",
+                    "icon": "icon1_13"
+                },
+                {
+                    "description": "product_specs_1.features_6_2",
+                    "icon": "icon1_8"
+                },
+                {
+                    "description": "product_specs_1.features_6_3",
+                    "icon": "icon1_7"
+                },
+                {
+                    "description": "product_specs_1.features_6_4",
+                    "icon": "icon1_14"
+                }
+            ],
+            "icon": "icon6",
+            "image": "product_specs_1.img_6",
+            "id": "6"
+        }
+    ],
+    [
+        {
+            "title":"product_specs_2.title_1",
+            "subtitle":"product_specs_2.subtitle_1",
+            "color": "color-gray",
+            "features": [
+                {
+                    "description": "product_specs_2.features_1_1",
+                    "icon": "icon2_1"
+                },
+                {
+                    "description": "product_specs_2.features_1_2",
+                    "icon": "icon2_2"
+                },
+                {
+                    "description": "product_specs_2.features_1_3",
+                    "icon": "icon2_3"
+                },
+                {
+                    "description": "product_specs_2.features_1_4",
+                    "icon": "icon2_4"
+                },
+                {
+                    "description": "product_specs_2.features_1_5",
+                    "icon": "icon2_5"
+                }
+            ],
+            "icon": "icon7",
+            "image": "product_specs_2.img_1",
+            "id": "1"
+        },
+        {
+            "title":"product_specs_2.title_2",
+            "subtitle":"product_specs_2.subtitle_2",
+            "color": "",
+            "features": [
+                {
+                    "description": "product_specs_2.features_2_1",
+                    "icon": "icon2_1"
+                },
+                {
+                    "description": "product_specs_2.features_2_2",
+                    "icon": "icon2_2"
+                },
+                {
+                    "description": "product_specs_2.features_2_3",
+                    "icon": "icon2_3"
+                },
+                {
+                    "description": "product_specs_2.features_2_4",
+                    "icon": "icon2_4"
+                },
+                {
+                    "description": "product_specs_2.features_2_5",
+                    "icon": "icon2_5"
+                }
+            ],
+            "icon": "icon8",
+            "image": "product_specs_2.img_2",
+            "id": "2"
+        },
+        {
+            "title":"product_specs_2.title_3",
+            "subtitle":"product_specs_2.subtitle_3",
+            "color": "color-gray",
+            "features": [
+                {
+                    "description": "product_specs_2.features_3_1",
+                    "icon": "icon2_6"
+                },
+                {
+                    "description": "product_specs_2.features_3_2",
+                    "icon": "icon2_2"
+                },
+                {
+                    "description": "product_specs_2.features_3_3",
+                    "icon": "icon2_3"
+                },
+                {
+                    "description": "product_specs_2.features_3_4",
+                    "icon": "icon2_4"
+                },
+                {
+                    "description": "product_specs_2.features_3_5",
+                    "icon": "icon2_5"
+                }
+            ],
+            "icon": "icon9",
+            "image": "product_specs_2.img_3",
+            "id": "3"
+        },
+        {
+            "title":"product_specs_2.title_4",
+            "subtitle":"product_specs_2.subtitle_4",
+            "color": "",
+            "features": [
+                {
+                    "description": "product_specs_2.features_4_1",
+                    "icon": "icon2_7"
+                },
+                {
+                    "description": "product_specs_2.features_4_2",
+                    "icon": "icon2_2"
+                },
+                {
+                    "description": "product_specs_2.features_4_3",
+                    "icon": "icon2_3"
+                },
+                {
+                    "description": "product_specs_2.features_4_4",
+                    "icon": "icon2_4"
+                },
+                {
+                    "description": "product_specs_2.features_4_5",
+                    "icon": "icon2_5"
+                }
+            ],
+            "icon": "icon10",
+            "image": "product_specs_2.img_4",
+            "id": "4"
+        },
+        {
+            "title":"product_specs_2.title_5",
+            "subtitle":"product_specs_2.subtitle_5",
+            "color": "color-gray",
+            "features": [
+                {
+                    "description": "product_specs_2.features_5_1",
+                    "icon": "icon2_1"
+                },
+                {
+                    "description": "product_specs_2.features_5_2",
+                    "icon": "icon2_2"
+                },
+                {
+                    "description": "product_specs_2.features_5_3",
+                    "icon": "icon2_3"
+                },
+                {
+                    "description": "product_specs_2.features_5_4",
+                    "icon": "icon2_4"
+                },
+                {
+                    "description": "product_specs_2.features_5_5",
+                    "icon": "icon2_5"
+                }
+            ],
+            "icon": "icon11",
+            "image": "product_specs_2.img_5",
+            "id": "5"
+        },
+        {
+            "title":"product_specs_2.title_6",
+            "subtitle":"product_specs.subtitle_6",
+            "color": "",
+            "features": [
+                {
+                    "description": "product_specs_2.features_6_1",
+                    "icon": "icon2_8"
+                },
+                {
+                    "description": "product_specs_2.features_6_2",
+                    "icon": "icon2_2"
+                },
+                {
+                    "description": "product_specs_2.features_6_3",
+                    "icon": "icon2_3"
+                },
+                {
+                    "description": "product_specs_2.features_6_4",
+                    "icon": "icon2_5"
+                }
+            ],
+            "icon": "icon12",
+            "image": "product_specs_2.img_6",
+            "id": "6"
+        }
+    ],
+    [
+        {
+            "title":"product_specs_3.title_1",
+            "subtitle":"product_specs_3.subtitle_1",
+            "color": "color-gray",
+            "features": [
+                {
+                    "description": "product_specs_3.features_1_1",
+                    "icon": "icon3_1"
+                },
+                {
+                    "description": "product_specs_3.features_1_2",
+                    "icon": "icon3_2"
+                },
+                {
+                    "description": "product_specs_3.features_1_3",
+                    "icon": "icon3_3"
+                },
+                {
+                    "description": "product_specs_3.features_1_4",
+                    "icon": "icon3_4"
+                },
+                {
+                    "description": "product_specs_3.features_1_5",
+                    "icon": "icon3_5"
+                }
+            ],
+            "icon": "icon13",
+            "image": "product_specs_3.img_1",
+            "id": "1"
+        },
+        {
+            "title":"product_specs_3.title_2",
+            "subtitle":"product_specs_3.subtitle_2",
+            "color": "",
+            "features": [
+                {
+                    "description": "product_specs_3.features_2_1",
+                    "icon": "icon3_9"
+                },
+                {
+                    "description": "product_specs_3.features_2_2",
+                    "icon": "icon3_8"
+                },
+                {
+                    "description": "product_specs_3.features_2_3",
+                    "icon": "icon3_7"
+                },
+                {
+                    "description": "product_specs_3.features_2_4",
+                    "icon": "icon3_6"
+                }
+            ],
+            "icon": "icon14",
+            "image": "product_specs_3.img_2",
+            "id": "2"
+        },
+        {
+            "title":"product_specs_3.title_3",
+            "subtitle":"product_specs_3.subtitle_3",
+            "color": "color-gray",
+            "features": [
+                {
+                    "description": "product_specs_3.features_3_1",
+                    "icon": "icon3_6"
+                },
+                {
+                    "description": "product_specs_3.features_3_2",
+                    "icon": "icon3_10"
+                },
+                {
+                    "description": "product_specs_3.features_3_3",
+                    "icon": "icon3_11"
+                },
+                {
+                    "description": "product_specs_3.features_3_4",
+                    "icon": "icon3_12"
+                },
+                {
+                    "description": "product_specs_3.features_3_5",
+                    "icon": "icon3_5"
+                }
+            ],
+            "icon": "icon15",
+            "image": "product_specs_3.img_3",
+            "id": "3"
+        },
+        {
+            "title":"product_specs_3.title_4",
+            "subtitle":"product_specs.subtitle_4",
+            "color": "",
+            "features": [
+                {
+                    "description": "product_specs_3.features_4_1",
+                    "icon": "icon3_13"
+                },
+                {
+                    "description": "product_specs_3.features_4_2",
+                    "icon": "icon3_14"
+                },
+                {
+                    "description": "product_specs_3.features_4_3",
+                    "icon": "icon3_15"
+                }
+            ],
+            "icon": "icon16",
+            "image": "product_specs_3.img_4",
+            "id": "4"
+        }
+    ],
+    [
+        {
+            "title":"product_specs_4.title_1",
+            "subtitle":"product_specs_4.subtitle_1",
+            "color": "color-gray",
+            "features": [
+                {
+                    "description": "product_specs_4.features_1_1",
+                    "icon": "icon4_1"
+                },
+                {
+                    "description": "product_specs_4.features_1_2",
+                    "icon": "icon4_2"
+                },
+                {
+                    "description": "product_specs_4.features_1_3",
+                    "icon": "icon4_3"
+                }
+            ],
+            "icon": "icon17",
+            "image": "product_specs_4.img_1",
+            "id": "1"
+        },
+        {
+            "title":"product_specs_4.title_2",
+            "subtitle":"product_specs_4.subtitle_2",
+            "color": "",
+            "features": [
+                {
+                    "description": "product_specs_4.features_2_1",
+                    "icon": "icon4_6"
+                },
+                {
+                    "description": "product_specs_4.features_2_2",
+                    "icon": "icon4_5"
+                },
+                {
+                    "description": "product_specs_4.features_2_3",
+                    "icon": "icon4_4"
+                }
+            ],
+            "icon": "icon18",
+            "image": "product_specs_4.img_2",
+            "id": "2"
+        },
+        {
+            "title":"product_specs_4.title_3",
+            "subtitle":"product_specs_4.subtitle_3",
+            "color": "color-gray",
+            "features": [
+                {
+                    "description": "product_specs_4.features_3_1",
+                    "icon": "icon4_7"
+                },
+                {
+                    "description": "product_specs_4.features_3_2",
+                    "icon": "icon4_8"
+                },
+                {
+                    "description": "product_specs_4.features_3_3",
+                    "icon": "icon4_9"
+                }
+            ],
+            "icon": "icon19",
+            "image": "product_specs_4.img_3",
+            "id": "3"
+        },
+        {
+            "title":"product_specs_4.title_4",
+            "subtitle":"product_specs_4.subtitle_4",
+            "color": "",
+            "features": [
+                {
+                    "description": "product_specs_4.features_4_1",
+                    "icon": "icon4_10"
+                },
+                {
+                    "description": "product_specs_4.features_4_2",
+                    "icon": "icon4_11"
+                },
+                {
+                    "description": "product_specs_4.features_4_3",
+                    "icon": "icon4_12"
+                }
+            ],
+            "icon": "icon20",
+            "image": "product_specs_4.img_4",
+            "id": "4"
+        },
+        {
+            "title":"product_specs_4.title_5",
+            "subtitle":"product_specs_4.subtitle_5",
+            "color": "color-gray",
+            "features": [
+                {
+                    "description": "product_specs_4.features_5_1",
+                    "icon": "icon4_13"
+                },
+                {
+                    "description": "product_specs_4.features_5_2",
+                    "icon": "icon4_14"
+                },
+                {
+                    "description": "product_specs_4.features_5_3",
+                    "icon": "icon4_15"
+                }
+            ],
+            "icon": "icon21",
+            "image": "product_specs_4.img_5",
+            "id": "5"
+        }
+    ]
 ]
