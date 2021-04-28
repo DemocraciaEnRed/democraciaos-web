@@ -2,8 +2,9 @@ import React from "react"
 import "./styles.scss"
 import { useIntl } from "gatsby-plugin-intl"
 
-export default () =>  {
+export default (props) =>  {
     const intl = useIntl()
+    const { handleForm } = props;
 
     return (
         <section className="footer section has-background-grey-dark	has-text-white">
@@ -15,9 +16,9 @@ export default () =>  {
                 </div>
                 <div className="column">
                     <ul>
-                            <li><a className="footer-link" href="#productos">{intl.formatMessage({ id: "products_title" })}</a></li>
-                            <li><a className="footer-link" href="#nosotros">{intl.formatMessage({ id: "us" })}</a></li>
-                            <li><a className="footer-link" href="https://preguntarparaacordar.typeform.com/to/bkXtFW" target="_blank" rel="noopener noreferrer">{intl.formatMessage({ id: "contact" })}</a></li>
+                            <li><a className="footer-link" href="https://democraciaos.org/es/#productos">{intl.formatMessage({ id: "products_title" })}</a></li>
+                            <li><a className="footer-link" href="https://democraciaos.org/es/#nosotros">{intl.formatMessage({ id: "us" })}</a></li>
+                            <li><a className="footer-link" href="#implementar" onClick={()=>handleForm()} rel="noopener noreferrer">{intl.formatMessage({ id: "contact" })}</a></li>
                             <li className="footer-link has-text-underline"><a href="mailto:	contacto@democraciaenred.org">contacto@democraciaenred.org</a></li>
                             <li>
                                 <a href="https://www.facebook.com/democraciaenred/" target="_blank" rel="noopener noreferrer">

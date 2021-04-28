@@ -44,7 +44,7 @@ const iconTitle = {
             <div className="hero-body">
             <div className="container ">
                 <div className="columns header-columns">
-                    <div className="column">
+                    <div className="column is-two-fifths">
                         <div className="is-hidden-desktop">
                             <br/>
                             <br/>
@@ -59,7 +59,7 @@ const iconTitle = {
                                 </div>
                             </div>
                         </div>
-                        <p className="main-title subtitle-header has-text-left">{intl.formatMessage({ id: data.description})}</p>
+                        <p className="main-title subtitle-header">{intl.formatMessage({ id: data.description})}</p>
                     </div>
                     <div className="column title-image-container">
                         <img src={`${img[data.image]}`} alt="" />    

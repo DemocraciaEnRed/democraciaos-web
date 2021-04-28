@@ -47,7 +47,7 @@ export default () => {
         <UsSection data={usData}/>
         <WorkWithSection />
         <CasesSection data={casesData}/>
-        <Footer />
+        <Footer handleForm={handleForm} />
     </React.Fragment>
     )
 

@@ -38,6 +38,7 @@
     }
     .title-header{
         line-height: 1.125;
+        text-align: center;
     }
     .subtitle-header{
         font-size: 26px;
@@ -46,9 +47,6 @@
     .title-image{
         display: none;
     }
-    .title-image-container{
-        margin-top: 5em;
-    }
     .image-container{
         display: flex;
         justify-content: center;
@@ -56,6 +54,17 @@
     .header-columns{
         display: flex;
         flex-direction: column-reverse;
+    }
+
+
+}
+
+@include mobile {
+    .title-image-container{
+        margin-top: 5em;
+    }
+    .subtitle-header{
+        text-align: center;
     }
 }
 
@@ -92,7 +101,7 @@
             flex-direction: row;
         }
         .column {
-            padding: 1rem 4rem;
+            padding: 0;
             .list-wrapper {
                margin-bottom: auto;
             }
@@ -148,8 +157,9 @@
         }
         .title-image-container{
             display: block;
+            padding: 0;
             img{
-                width: 35em
+                width: 55em;
             };
         }
     }

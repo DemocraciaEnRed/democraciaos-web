@@ -68,3 +68,11 @@ $green:#6ED59F;
 .image.is-centered{
     margin: 0 auto;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+hr{
+    background-color: $grey-dark;
+}

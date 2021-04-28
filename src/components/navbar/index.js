@@ -28,7 +28,7 @@ export default (props) => {
     return (
         <nav id="navbar" className={(isActive ? 'navbar is-active' : 'navbar')} role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <h1 className="navbar-item is-size-2-desktop">democraciaOS</h1>
+                <a className="navbar-item is-size-2-desktop" href="https://democraciaos.org">democraciaOS</a>
                 <button onClick={() => setIsActive(prevState => !prevState)} className={(isActive ? 'navbar-burger is-active' : 'navbar-burger')} aria-label="menu" aria-expanded="false" data-target="navbarColapse">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
