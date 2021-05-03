@@ -4,6 +4,7 @@
   "description": "democraciaOS landing page",
   "main": "index.js",
   "scripts": {
+    "build": "gatsby build --log-pages --write-to-file",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
