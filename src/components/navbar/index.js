@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
-import { useIntl } from "gatsby-plugin-intl"
+import { useIntl, IntlContextConsumer, changeLocale  } from "gatsby-plugin-intl"
 import "./styles.scss"
 
 export default (props) => {
@@ -22,6 +22,11 @@ export default (props) => {
             enableBodyScroll(navbarElement);
         }
     }, [isActive]);
+
+    const clickContacto = () =>{
+        handleForm();
+        setIsActive(false)
+    }
 
     const { handleForm } = props;
 
@@ -46,7 +51,7 @@ export default (props) => {
                          
                     </div>
                     <div className="lang-switch">
-                    {/*
+                    
                         <IntlContextConsumer>
                         {({ languages, language: currentLocale }) =>
                             languages.map(language => (
@@ -62,13 +67,13 @@ export default (props) => {
                             ))
                         }
                     </IntlContextConsumer>
-                    */}
+                   
                     
                     </div>
                     <a className="navbar-item" onClick={() => setIsActive(false)} href="https://democraciaos.org/es/#nosotros" data-target="nosotros">
                             {intl.formatMessage({ id: "us" })}
                         </a>   
-                    <a className="navbar-item contact" onClick={()=>handleForm()} href="#implementar" rel="noopener noreferrer">
+                    <a className="navbar-item contact" onClick={()=>clickContacto()} href="#implementar" rel="noopener noreferrer">
                         {intl.formatMessage({ id: "contact" })}
                     </a>
                     <a className="navbar-item is-hidden-desktop" href="mailto:contacto@democraciaenred.org">

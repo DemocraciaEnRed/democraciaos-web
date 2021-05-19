@@ -38,7 +38,7 @@ export default ({ data }) =>  {
                                 </div>
                                 <div className="button-container">
                                     <a className="button is-rounded is-medium is-black" href="#implementar">{intl.formatMessage({id: "implementation"})}</a>
-                                    <a className="button is-rounded is-medium mt-3" href={intl.formatMessage({id: data.link})}>{intl.formatMessage({id: "see_more"})}</a>
+                                    <a className="button is-rounded is-medium" href={intl.formatMessage({id: data.link})}>{intl.formatMessage({id: "see_more"})}</a>
                                 </div>
                             </div>
                             <div className="column">

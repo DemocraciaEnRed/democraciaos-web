@@ -55,7 +55,7 @@ const iconTitle = {
                                     <img src={`${iconTitle[data.icon]}`} className="title-image"/>
                                 </div>
                                 <div className="">
-                                    <h3 className="main-title title-header is-3 is-size-1-desktop">{intl.formatMessage({ id: data.title})}</h3>
+                                    <h3 className="main-title title-header is-size-3 is-size-1-desktop">{intl.formatMessage({ id: data.title})}</h3>
                                 </div>
                             </div>
                         </div>

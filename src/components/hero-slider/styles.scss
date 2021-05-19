@@ -73,9 +73,7 @@
     .hero-slider-item {
         .slider-image-description {
             left: auto;
-            right: 20px;
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
+            right: 20px;            
             max-height: 180px;
         }
     }
@@ -106,5 +104,11 @@
                 padding-right: 18rem;
             }
         }
+    }
+}
+
+@media screen and (max-height: 600px){
+    .slider-icon {
+        margin-bottom: 0px !important;
     }
 }

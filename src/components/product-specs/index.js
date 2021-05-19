@@ -267,9 +267,10 @@ export default ({ data }) =>  {
                                         {data.features.map((feature, index) =>
                                             <li key={index}>
                                                 <div className="feature-desc-container">
+                                                    {iconosFeature[feature.icon] === undefined ? '' :
                                                     <div className="feature-icon">
                                                         <img src={`${iconosFeature[feature.icon]}`}  className="" alt="" />
-                                                    </div>    
+                                                    </div>}
                                                     <div className="feature-description">
                                                         {intl.formatMessage({id: feature.description})}
                                                     </div>

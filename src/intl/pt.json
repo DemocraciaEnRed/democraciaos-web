@@ -92,12 +92,33 @@
         "copyright_1": "Democracia OS é um projeto da ",
         "copyright_2": ", uma ONG com sede em Buenos Aires, Argentina."
     },
-    "header": {
-        "main_title": "Digital enquiries",
-        "description": "Uma ferramenta digital de participação cidadã para governos e instituições, que permite aos usuários comentar, votar, classificar, escolher entre opções ou estabelecer graus de avaliação de questões públicas.",
-        "title_1": "Personalizável",
-        "title_2": "Codificação aberta",
-        "title_3": "Configuração fácil"
+    "header_1": {
+        "main_title": "Presupuesto Participativo",
+        "description": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo, co gobernaza entre la ciudadanía y los gobiernos, adaptandola al contexto y al reglamento de cada región.",
+        "title_1": "Personalizable",
+        "title_2": "Código abierto",
+        "title_3": "Fácil instalación"
+    },
+    "header_2": {
+        "main_title": "Consultas digitales",
+        "description": "Una herramienta digital de participación ciudadana para gobiernos e instituciones, que permite a los usuarios comentar, votar, jerarquizar, optar entre opciones, o establecer grados de valoración entre temas públicos.",
+        "title_1": "Personalizable",
+        "title_2": "Código abierto",
+        "title_3": "Fácil instalación"
+    },
+    "header_3": {
+        "main_title": "Seguimiento de metas",
+        "description": "Plataforma digital para gobiernos e instituciones que permite la publicación de metas y compromisos, facilitando el seguimiento de avances y la transparencia activa.",
+        "title_1": "Personalizable",
+        "title_2": "Código abierto",
+        "title_3": "Fácil instalación"
+    },
+    "header_4": {
+        "main_title": "Co-construcción de leyes",
+        "description": "Una herramienta digital que abre el diálogo y transparenta el proceso de elaboración de normas, en donde los y las representantes ponen a consideración de la ciudadanía las leyes a elaborar, invitando a que dejen sus aportes.",
+        "title_1": "Personalizable",
+        "title_2": "Código abierto",
+        "title_3": "Fácil instalación"
     },
     "features_section": {
         "main_title": "Tipos de consulta",

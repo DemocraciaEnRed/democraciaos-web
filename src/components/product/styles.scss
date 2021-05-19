@@ -96,3 +96,11 @@ $purple: #E7B4F1;
         }
     }
 }
+
+@include mobile {
+    .button-container{
+        .button{
+            margin-bottom: 0.5em;
+        }
+    }
+}

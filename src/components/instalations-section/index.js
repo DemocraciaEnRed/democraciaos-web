@@ -17,7 +17,6 @@ export default (props) =>  {
     const { data, handleForm, show } = props
     const intl = useIntl()
     const link = intl.formatMessage({id: data.instalations[1].button_link});
-    console.log(link)
 
     return (
         <section id="implementar" className="section instalations">
@@ -51,7 +50,7 @@ export default (props) =>  {
                                 {index === 0 ? 
                                     <a className="button is-rounded is-medium is-dark" href={intl.formatMessage({ id: instalation.button_link})} target="_blank" rel="noopener noreferrer">{intl.formatMessage({ id: instalation.button_text})}</a> 
                                     : 
-                                    <button className="button is-rounded is-medium is-dark" onClick={()=>handleForm()} rel="noopener noreferrer">{intl.formatMessage({ id: instalation.button_text})}</button>
+                                    <button className="button is-rounded is-medium is-dark" href="#implementar" onClick={()=>handleForm()} rel="noopener noreferrer">{intl.formatMessage({ id: instalation.button_text})}</button>
                                 }
                                 
 

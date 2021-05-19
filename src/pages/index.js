@@ -29,7 +29,6 @@ export default () => {
 
     const handleForm = () =>{
         setShow(true);
-        console.log(show);
     }
 
     return (
