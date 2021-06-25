@@ -257,7 +257,7 @@ export default ({ data }) =>  {
                         <div className="columns ">
                             <div className="column feature-title-container">
                                 <img src={`${iconosTitle[data.icon]}`}  className="image the-icon" alt="" />
-                                <h4 className="is-3 is-size-3-desktop has-text-weight-bold">{intl.formatMessage({id: data.title})}</h4>
+                                <h4 className="is-3 is-size-3-desktop has-text-weight-bold ">{intl.formatMessage({id: data.title})}</h4>
                             </div>
                             <div className="column list-container">
                                 

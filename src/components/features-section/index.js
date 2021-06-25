@@ -58,14 +58,14 @@ export default ({ data }) =>  {
                 <div className="container">
                     <div className="columns">
                         <div className="column">
-                            <h3 className="main-title has-text-left is-size-4 is-size-1-desktop">{intl.formatMessage({ id: data.title})}</h3>
+                            <h3 className="main-title has-text-left is-size-5 is-size-1-desktop">{intl.formatMessage({ id: data.title})}</h3>
                         </div>                   
                     </div>
                     <div className="columns is-multiline feature-container">
                         {data.data.map((product) =>
                             <div key={product.id} className={`feature feature-item feature-item-green column has-text-centered is-parent ${data.data[0].icon == 'objetivos' ? 'is-3' : 'is-4'}`}>
                                 <img src={`${icons[product.icon]}`} alt="" className="image is-centered" />
-                                <h4 className="subtitle is-size-5 has-text-grey-dark">{intl.formatMessage({id: product.title})}</h4>
+                                <h4 className="subtitle is-size-4 has-text-grey-dark">{intl.formatMessage({id: product.title})}</h4>
                             </div>
                         )}
                     </div>

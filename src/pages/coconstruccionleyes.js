@@ -40,7 +40,7 @@ export default () => {
         {productsSpecsData[3].map((product) => 
             <ProductSpecs data={product} key={product.id}/>
         )}
-        <hr/>
+        
         <InstalationsSection data={instalationsData} handleForm={handleForm} show={show} />
         <Footer handleForm={handleForm} /> 
     </React.Fragment>

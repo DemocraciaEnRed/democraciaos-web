@@ -39,6 +39,8 @@
     .title-header{
         line-height: 1.125;
         text-align: center;
+        
+
     }
     .subtitle-header{
         font-size: 26px;
@@ -57,6 +59,13 @@
     }
 
 
+}
+
+@media screen and (max-width: 1024px ){
+    
+    .header .title-header{
+        margin-bottom: 40px;
+    }
 }
 
 @include mobile {
@@ -123,7 +132,7 @@
                 height: 3px;
                 margin: 1rem 0;
                 background-color: black;
-                width: 535px;
+                
             }
         }
         .is-vcentered{
@@ -165,6 +174,9 @@
             };
         }
     }
+
+    
+    
 }
 
 @include fullhd {

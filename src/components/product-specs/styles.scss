@@ -57,15 +57,15 @@ $green:#6ED59F;
     
     li{
         list-style-type: none;
-        &:after {
-            display: block;
-            content: ' ';
-            height: 1px;
-            margin: 1rem auto;
-            width: 300px;
-            background-color: #CCCC;
-            opacity: 0.3;
-        }
+        // &:after {
+        //     display: block;
+        //     content: ' ';
+        //     height: 1px;
+        //     margin: 1rem auto;
+        //     width: 300px;
+        //     background-color: #CCCC;
+        //     opacity: 0.3;
+        // }
     }
 
     .list-container{
@@ -75,6 +75,15 @@ $green:#6ED59F;
 
     .feature-description{
         text-align: left;
+        &:after {
+            display: block;
+            content: ' ';
+            height: 1px;
+            margin: 1rem auto;
+            width: 300px;
+            background-color: #CCCC;
+            opacity: 0.3;
+        }
     }
 }
 
