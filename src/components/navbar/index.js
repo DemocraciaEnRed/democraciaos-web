@@ -9,7 +9,7 @@ export default (props) => {
     const languageName = {
         es: "ESP",
         en: "ENG",
-        pt: "POR",
+        // pt: "POR",
     }
 
     useEffect(() => {
