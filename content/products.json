@@ -65,5 +65,23 @@
         "icon": "seguimiento_metas",
         "image": "seguimiento_metas",
         "id": "seguimiento_metas"
+    },
+    {
+        "title":"products.title_5",
+        "subtitle":"products.subtitle_5",
+        "description": "products.description_5",
+        "link": "products.link_5",
+        "features": [
+            "products.features_5_1",
+            "products.features_5_2",
+            "products.features_5_3",
+            "products.features_5_4",
+            "products.features_5_5",
+            "products.features_5_6"
+        ],
+        "color": "coral",
+        "icon": "votacion_autoridades",
+        "image": "votacion_autoridades",
+        "id": "votacion_autoridades"
     }
 ]

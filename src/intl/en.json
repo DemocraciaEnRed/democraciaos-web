@@ -47,7 +47,17 @@
         "link_4":"https://democraciaos.org/en/seguimientometas",
         "features_4_1": "Registration of objectives and goals",
         "features_4_2": "Georeferenceable goals update reports",
-        "features_4_3": "Validation and citizen feedback"
+        "features_4_3": "Validation and citizen feedback",
+        "title_5": "Goals tracking",
+        "subtitle_5": "Digital platform that allows the publication of government goals and commitments, facilitating citizen monitoring.",
+        "description_5": "Digital platform that allows the publication of government goals and commitments, facilitating citizen monitoring",
+        "link_5":"https://democraciaos.org/en/votacionautoridades",
+        "features_5_1": "Candidatures registration",
+        "features_5_2": "Electoral roll addition",
+        "features_5_3": "Voter registration",
+        "features_5_4": "Secure Voting",
+        "features_5_5": "Voting results",
+        "features_5_6": "Data visualization"
     },
     "instalations": {
         "main_title": "Three different ways to implement our products:",
@@ -120,6 +130,13 @@
         "title_2": "Open coding",
         "title_3": "Easy to install"
     },
+    "header_5": {
+        "main_title": "Voting of authorities",
+        "description": "Digital platform to vote authorities in elections of daily democracy, safe and integrated with physical voting.",
+        "title_1": "Customizable",
+        "title_2": "Open coding",
+        "title_3": "Easy to install"
+    },
     "features_section_1": {
         "main_title": "Features",
         "title_1": "Parameterization",
@@ -153,34 +170,48 @@
         "title_4": "Contributions",
         "title_5": "Versions"
     },
+    "features_section_5": {
+        "main_title": "Features",
+        "title_1": "Parameterization",
+        "title_2": "Candidatures registration",
+        "title_3": "Electoral voter lists",
+        "title_4": "Voter registration",
+        "title_5": "Secure voting",
+        "title_6": "Voting results"
+    },
     "product_specs_1": {
         "title_1":"Parameterization",
         "features_1_1": "Allows the team to adapt the platform to local needs by defining the segmentation in districts, the coexistence of one or more budget items, the number of votes per user, the existence of special sponsors, whether or not the platform is integrated with a classroom electoral device, etc.",
         "img_1": "img_1_1_en",
+        
         "title_2":"Citizen proposal",
         "features_2_1": "Open to citizenship in a specific area.",
         "features_2_2": "Encourages the involvement of citizens in the development of public policies on a given budget.",
         "features_2_3": "Comments: Interration - debate.",
         "features_2_4": "Possibility of sharing in social networks.",
         "img_2": "img_1_2_en",
+
         "title_3":"Feasibility analysis of proposals",
         "features_3_1": "Criteria previously prescribed.",
         "features_3_2": "Criteria informed to participating citizens clearly.",
         "features_3_3": "Communication With authors for improvement of proposals.",
         "features_3_4": "Communication of opinion of feasibility.",
         "img_3": "img_1_3_en",
+
         "title_4":"Vote on proposals",
         "features_4_1": "Open to citizens of a specific region/area.",
         "features_4_2": "Foment participation and commitment.",
         "features_4_3": "It promotes transparency.",
         "features_4_4": "Binding citizen participation.",
         "img_4": "img_1_4_en",
+
         "title_5":"Publication of results.",
         "features_5_1": "Publication of winning projects.",
         "features_5_2": "Publication of statistics.",
         "features_5_3": "Notification of the authors of the winning proposals.",
         "features_5_4": "Notifies citizens in general.",
         "img_5": "img_1_5_en",
+
         "title_6":"Monitoring the execution of projects",
         "features_6_1": "Established committees by the government/actor that opens up the participatory process.",
         "features_6_2": "Transparency the implementation process.",
@@ -196,6 +227,7 @@
         "features_1_4": "Once the vote is complete, the results are displayed.",
         "features_1_5": "Allows citizens to leave comments.",
         "img_1": "img_2_1_en",
+
         "title_2":"Supporting a cause",
         "features_2_1": "Allows the citizenry to organize or drag pre-determined options in the order that best fits your priorities.",
         "features_2_2": "Pre-determined voting time.",
@@ -203,6 +235,7 @@
         "features_2_4": "Once the vote is complete, the results are displayed.",
         "features_2_5": "Allows citizens to leave comments.",
         "img_2": "img_2_2_en",
+
         "title_3":"Multiple Choice Survey",
         "features_3_1": "Allows the citizenry to organize or drag pre-determined options in the order that best fits your priorities.",
         "features_3_2": "Pre-determined voting time.",
@@ -210,6 +243,7 @@
         "features_3_4": "Once the vote is complete, the results are displayed.",
         "features_3_5": "Allows citizens to leave comments.",
         "img_3": "img_2_3_en",
+
         "title_4":"Vote AB",
         "features_4_1": "Allows the citizenry to organize or drag pre-determined options in the order that best fits your priorities.",
         "features_4_2": "Pre-determined voting time.",
@@ -217,6 +251,7 @@
         "features_4_4": "Once the vote is complete, the results are displayed.",
         "features_4_5": "Allows citizens to leave comments.",
         "img_4": "img_2_4_en",
+
         "title_5":"Rank",
         "features_5_1": "Allows the citizenry to organize or drag pre-determined options in the order that best fits your priorities.",
         "features_5_2": "Pre-determined voting time.",
@@ -224,6 +259,7 @@
         "features_5_4": "Once the vote is complete, the results are displayed.",
         "features_5_5": "Allows citizens to leave comments.",
         "img_5": "img_2_5_en",
+
         "title_6":"Propose an idea",
         "features_6_1": "Open call for the public to propose ideas or projects.",
         "features_6_2": "Allows citizens to support ideas or proposals already made by other citizens.",
@@ -240,12 +276,14 @@
         "features_1_4": "Transparency organizations dedicated to its monitoring.",
         "features_1_5": "Possibility to subscribe to receive updates.",
         "img_1": "img_3_1_en",
+
         "title_2":"Goals",
         "features_2_1": "Quantitative: Contain measurable indicators.",
         "features_2_2": "Qualitative: Contains milestones relevant to compliance.",
         "features_2_3": "show progress with progress bar.",
         "features_2_4": "update through quantitative and descriptive reports.",
         "img_2": "img_3_2_en",
+
         "title_3":"Reports",
         "features_3_1": "Update the status of goals.",
         "features_3_2": "Can be backed up with photos and files.",
@@ -253,6 +291,7 @@
         "features_3_4": "Allows you to update the goal indicator, indicate milestone achievement, or tell a novelty.",
         "features_3_5": "Posibilidad de suscribirse para recibir actualizaciones.",
         "img_3": "img_3_3_en",
+
         "title_4":"Validation of reports",
         "features_4_1": "Encourages citizen involvement.",
         "features_4_2": "Serves as a mechanism of legitimacy of the reports.",
@@ -266,15 +305,18 @@
         "features_1_3": "Involves citizens.",
         "img_1": "img_4_1_en",
         "title_2":"Project Explanation",
+
         "features_2_1": "Clear and simple language expected .",
         "features_2_2": "Allows the inclusion of informative videos.",
         "features_2_3": "Serves as a knowledge leveler.",
         "img_2": "img_4_2_en",
+
         "title_3":"Support projects",
         "features_3_1": "Choice of preferred agendas .",
         "features_3_2": "Send news notifications.",
         "features_3_3": "Keep citizens informed.",
         "img_3": "img_4_3_en",
+
         "title_4":"Contributions to the bill",
         "features_4_1": "Encourages citizen participation to build better laws.",
         "features_4_2": "Open space dialogue between citizens and their representatives.",
@@ -285,6 +327,39 @@
         "features_5_2": "Allows a clear follow-up of the changes made.",
         "features_5_3": "Demonstrates that citizens' contributions are effectively incorporated.",
         "img_5": "img_4_5_en"
+    },
+    "product_specs_5": {
+        "title_1":"Parameterization",
+        "features_1_1": "Allows the team to adapt the platform to local needs, defining the authorities to vote, the number of votes per user, the identity validation mode and the posibility to integrate the platform with an offline electoral system.",
+        "img_1": "img_5_1_es",
+
+        "title_2":"Registration of candidatures",
+        "features_2_1": "Allows you to load candidates for various levels of authority in electoral processes",
+        "features_2_2": "The grouping to which they belong is identified",
+        "features_2_3": "Candidate Showcase",
+        "img_2": "img_5_2_es",
+
+        "title_3":"Electoral rolls of voters",
+        "features_3_1": "Digital voter rolls with voter information can be uploaded",
+        "features_3_2": "Promotes the digitization of voter lists",
+        "img_3": "img_5_3_es",
+
+        "title_4":"Online voter registration",
+        "features_4_1": "Registration on the platform via email",
+        "features_4_2": "Identity validation by uploading your ID and / or customizable unique data",
+        "img_4": "img_5_4_es",
+
+        "title_5":"Secure Vote",
+        "features_5_1": "Online voting of registered users who are in the electoral roll",
+        "features_5_2": "Allows integration with offline voting",
+        "features_5_3": "Facilitates the voting process and expands access",
+        "img_5": "img_5_5_es",
+
+        "title_6":"Voting results",
+        "features_6_1": "Security of votes using blockchain technology",
+        "features_6_2": "Results download by admins and users",
+        "features_6_3": "Results publishing at the end of the voting process",
+        "img_6": "img_5_6_es"
     },
     "requirements": "Requirements",
     "features": "Features",

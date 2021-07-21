@@ -6,12 +6,15 @@ import consulta_publica from "./assets/consulta_publica.svg"
 import co_construccion from "./assets/co_construccion.svg"
 import presupuesto_participativo from "./assets/presupuesto_participativo.svg"
 import seguimiento_metas from "./assets/seguimiento_metas.svg"
+import votacion_autoridades from "./assets/votacion_autoridades.svg"
+
 
 const icons = {
     consulta_publica,
     co_construccion,
     presupuesto_participativo,
-    seguimiento_metas
+    seguimiento_metas,
+    votacion_autoridades,
 };
 
 export default ({ products }) =>  {

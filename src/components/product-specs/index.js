@@ -23,6 +23,16 @@ import Explicacion from "./assets/iconos/Explicacion.svg"
 import Apoyar from "./assets/iconos/Apoyar.svg"
 import Aportes from "./assets/iconos/Aportes.svg"
 import Versiones from "./assets/iconos/Versiones.svg"
+import ParametrizacionCoral from "./assets/iconos/ParametrizacionCoral.svg"
+import Candidaturas from "./assets/iconos/Candidaturas.svg"
+import Padrones from "./assets/iconos/Padrones.svg"
+import Votantes from "./assets/iconos/Votantes.svg"
+import Votacion from "./assets/iconos/Votacion.svg"
+import Resultados from "./assets/iconos/Resultados.svg"
+
+
+
+
 
 import feature_1_1 from './assets/IconosFeatures/propuestaciudadana_2_1.svg'
 import feature_1_2 from './assets/IconosFeatures/propuestaciudadana_2_2.svg'
@@ -76,6 +86,19 @@ import feature_4_12 from './assets/IconosFeatures/coconstruccion_4_12.svg'
 import feature_4_13 from './assets/IconosFeatures/coconstruccion_4_13.svg'
 import feature_4_14 from './assets/IconosFeatures/coconstruccion_4_14.svg'
 import feature_4_15 from './assets/IconosFeatures/coconstruccion_4_15.svg'
+import feature_5_1 from './assets/IconosFeatures/votacion_5_1.svg'
+import feature_5_2 from './assets/IconosFeatures/votacion_5_2.svg'
+import feature_5_3 from './assets/IconosFeatures/votacion_5_3.svg'
+import feature_5_4 from './assets/IconosFeatures/votacion_5_4.svg'
+import feature_5_5 from './assets/IconosFeatures/votacion_5_5.svg'
+import feature_5_6 from './assets/IconosFeatures/votacion_5_6.svg'
+import feature_5_7 from './assets/IconosFeatures/votacion_5_7.svg'
+import feature_5_8 from './assets/IconosFeatures/votacion_5_8.svg'
+import feature_5_9 from './assets/IconosFeatures/votacion_5_9.svg'
+import feature_5_10 from './assets/IconosFeatures/votacion_5_10.svg'
+import feature_5_11 from './assets/IconosFeatures/votacion_5_11.svg'
+import feature_5_12 from './assets/IconosFeatures/votacion_5_12.svg'
+import feature_5_13 from './assets/IconosFeatures/votacion_5_13.svg'
 
 import img_1_1_es from "./assets/imagenes/PP_1_es.png"
 import img_1_2_es from "./assets/imagenes/PP_2_es.png"
@@ -120,6 +143,18 @@ import img_4_2_en from "./assets/imagenes/CL_2_en.png"
 import img_4_3_en from "./assets/imagenes/CL_3_en.png"
 import img_4_4_en from "./assets/imagenes/CL_4_en.png"
 import img_4_5_en from "./assets/imagenes/CL_5_en.png"
+import img_5_1_es from "./assets/imagenes/VA_1_es.png"
+import img_5_2_es from "./assets/imagenes/VA_2_es.png"
+import img_5_3_es from "./assets/imagenes/VA_3_es.png"
+import img_5_4_es from "./assets/imagenes/VA_4_es.png"
+import img_5_5_es from "./assets/imagenes/VA_5_es.png"
+import img_5_6_es from "./assets/imagenes/VA_6_es.png"
+import img_5_1_en from "./assets/imagenes/VA_1_en.png"
+import img_5_2_en from "./assets/imagenes/VA_2_en.png"
+import img_5_3_en from "./assets/imagenes/VA_3_en.png"
+import img_5_4_en from "./assets/imagenes/VA_4_en.png"
+import img_5_5_en from "./assets/imagenes/VA_5_en.png"
+import img_5_6_en from "./assets/imagenes/VA_6_en.png"
 
 const iconosTitle = {
     'icon1': Parametrizacion,
@@ -142,7 +177,14 @@ const iconosTitle = {
     'icon18': Explicacion,
     'icon19': Apoyar,
     'icon20': Aportes,
-    'icon21': Versiones
+    'icon21': Versiones,
+    'icon22': ParametrizacionCoral,
+    'icon23': Candidaturas,
+    'icon24': Padrones,
+    'icon25': Votantes,
+    'icon26': Votacion,
+    'icon27': Resultados,
+    
 };
 
 const iconosFeature = {
@@ -197,7 +239,20 @@ const iconosFeature = {
     'icon4_12': feature_4_12,
     'icon4_13': feature_4_13,
     'icon4_14': feature_4_14,
-    'icon4_15': feature_4_15
+    'icon4_15': feature_4_15,
+    'icon5_1':feature_5_1,
+    'icon5_2':feature_5_2,
+    'icon5_3':feature_5_3,
+    'icon5_4':feature_5_4,
+    'icon5_5':feature_5_5,
+    'icon5_6':feature_5_6,
+    'icon5_7':feature_5_7,
+    'icon5_8':feature_5_8,
+    'icon5_9':feature_5_9,
+    'icon5_10':feature_5_10,
+    'icon5_11':feature_5_11,
+    'icon5_12':feature_5_12,
+    'icon5_13':feature_5_13,
 };
 
 const images = {
@@ -222,6 +277,12 @@ const images = {
     'img_4_3_es': img_4_3_es,
     'img_4_4_es': img_4_4_es,
     'img_4_5_es': img_4_5_es,
+    'img_5_1_es': img_5_1_es,
+    'img_5_2_es': img_5_2_es,
+    'img_5_3_es': img_5_3_es,
+    'img_5_4_es': img_5_4_es,
+    'img_5_5_es': img_5_5_es,
+    'img_5_6_es': img_5_6_es,
     'img_1_1_en': img_1_1_en,
     'img_1_2_en': img_1_2_en,
     'img_1_3_en': img_1_3_en,
@@ -243,6 +304,12 @@ const images = {
     'img_4_3_en': img_4_3_en,
     'img_4_4_en': img_4_4_en,
     'img_4_5_en': img_4_5_en,
+    'img_5_1_en': img_5_1_en,
+    'img_5_2_en': img_5_2_en,
+    'img_5_3_en': img_5_3_en,
+    'img_5_4_en': img_5_4_en,
+    'img_5_5_en': img_5_5_en,
+    'img_5_6_en': img_5_6_en,
 };
 
 

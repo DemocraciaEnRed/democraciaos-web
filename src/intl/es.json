@@ -47,8 +47,18 @@
         "link_4":"https://democraciaos.org/es/seguimientometas",
         "features_4_1": "Alta de objetivos y metas",
         "features_4_2": "Reportes de actualización de metas georreferenciables",
-        "features_4_3": "Validación y comentarios ciudadanos"
-    },
+        "features_4_3": "Validación y comentarios ciudadanos",
+        "title_5":"Votación de autoridades",
+        "subtitle_5":"\n Plataforma digital para votación de autoridades en procesos electorales de democracias cotidianas.",
+        "description_5": "Plataforma digital para votación de autoridades en instituciones y organizaciones",
+        "link_5":"https://democraciaos.org/es/votacionautoridades",
+        "features_5_1": "Alta de candidaturas",
+        "features_5_2": "Alta de padrón",
+        "features_5_3": "Registro de votantes",
+        "features_5_4": "Votación segura",
+        "features_5_5": "Resultados de la votación",
+        "features_5_6":  "Visualización de datos"
+    },     
     "instalations": {
         "main_title": "Tres maneras de implementar nuestros productos:",
         "title_1": "D.I.Y. Hazlo tu mismo",
@@ -120,6 +130,13 @@
         "title_2": "Código abierto",
         "title_3": "Fácil instalación"
     },
+    "header_5": {
+        "main_title": "Votación de autoridades",
+        "description": "Plataforma digital para la votación de autoridades en elecciones de democracia cotidiana, segura e integrada con la votación física.",
+        "title_1": "Personalizable",
+        "title_2": "Código abierto",
+        "title_3": "Fácil instalación"
+    },
     "features_section_1": {
         "main_title": "Características",
         "title_1": "Parametrización",
@@ -153,22 +170,34 @@
         "title_4": "Aportes",
         "title_5": "Versiones"
     },
+    "features_section_5": {
+        "main_title": "Características",
+        "title_1": "Parametrización",
+        "title_2": "Alta de candidaturas",
+        "title_3": "Padrones de votantes",
+        "title_4": "Registro de votantes online",
+        "title_5": "Votación segura",
+        "title_6": "Resultados de la votación"
+    },
     "product_specs_1": {
         "title_1":"Parametrización",
         "features_1_1": "Permite al equipo adaptar la plataforma a las necesidades locales definiendo la segmentación en distritos, la convivencia de una o varias partidas presupuestarias, la cantidad de votos por usuario, la existencia de padrones especiales, la integración o no de la plataforma con un dispositivo electoral presencial, etc.",
-        "img_1": "img_1_1_es",
+        "img_1": "img_1_es",
+
         "title_2":"Propuesta Ciudadana",
         "features_2_1": "Abierto a la ciudadanía de un área específica",
         "features_2_2": "Fomenta el involucramiento de la ciudadanía en el desarrollo de las políticas públicas",
         "features_2_3": "Comentarios: interacción - diálogo",
         "features_2_4": "Posibilidad de compartir en redes sociales",
         "img_2": "img_1_2_es",
+
         "title_3":"Análisis de factibilidad",
         "features_3_1": "Criterios pautados previamente",
         "features_3_2": "Criterios informados a la ciudadanía participante con claridad",
         "features_3_3": "Comunicación con autores para mejora de propuestas",
         "features_3_4": "Comunicación del dictamen de factibilidad",
         "img_3": "img_1_3_es",
+
         "title_4":"Votación de propuestas",
         "features_4_1": "Abierto a la ciudadanía de determinada región/área específica",
         "features_4_2": "Fomenta la participación y el compromiso",
@@ -176,11 +205,13 @@
         "features_4_4": "Participación ciudadana vinculante",
         "img_4": "img_1_4_es",
         "title_5":"Publicación de resultados",
+
         "features_5_1": "Publicacion de proyectos ganadores",
         "features_5_2": "Publicacion de estadística",
         "features_5_3": "Se notifica a los y las autoras de las propuestas ganadoras",
         "features_5_4": "Se notifica en general a la ciudadanía",
         "img_5": "img_1_5_es",
+
         "title_6":"Seguimiento de ejecución",
         "features_6_1": "Se establecen compromisos por parte del gobierno/actor que abre el proceso participativo",
         "features_6_2": "Transparenta a la ciudadanía el proceso de ejecución",
@@ -196,6 +227,7 @@
         "features_1_4": "Una vez terminada la votación, se exhiben los resultados.",
         "features_1_5": "Permite a la ciudadanía dejar comentarios.",
         "img_1": "img_2_1_es",
+
         "title_2":"Apoyar una causa",
         "features_2_1": "Permite a la ciudadanía brindar su apoyo a una iniciativa",
         "features_2_2": "Plazo de votación pre-determinado.",
@@ -203,6 +235,7 @@
         "features_2_4": "Una vez terminada la votación, se exhiben los resultados.",
         "features_2_5": "Permite a la ciudadanía dejar comentarios.",
         "img_2": "img_2_2_es",
+
         "title_3":"Encuesta de opciones múltiples",
         "features_3_1": "Permite a la ciudadanía elegir la opción que más se ajuste a su posición entre una serie de opciones pre-establecidas.",
         "features_3_2": "Plazo de votación pre-determinado.",
@@ -210,6 +243,7 @@
         "features_3_4": "Una vez terminada la votación, se exhiben los resultados.",
         "features_3_5": "Permite a la ciudadanía dejar comentarios.",
         "img_3": "img_2_3_es",
+
         "title_4":"Votación A-B",
         "features_4_1": "Permite a la ciudadanía manifestarse a favor o en contra de una iniciativa.",
         "features_4_2": "Plazo de votación pre-determinado.",
@@ -217,6 +251,7 @@
         "features_4_4": "Una vez terminada la votación, se exhiben los resultados.",
         "features_4_5": "Permite a la ciudadanía dejar comentarios.",
         "img_4": "img_2_4_es",
+
         "title_5":"Rango",
         "features_5_1": "Permite a la ciudadanía ubicar su opinión o preferencia dentro de un rango pre-establecido.",
         "features_5_2": "Plazo de votación pre-determinado.",
@@ -224,6 +259,7 @@
         "features_5_4": "Visualización de resultados después de participar.",
         "features_5_5": "Permite a la ciudadanía dejar comentarios.",
         "img_5": "img_2_5_es",
+
         "title_6":"Proponer una idea",
         "features_6_1": "Convocatoria abierta para que la ciudadanía proponga ideas o proyectos.",
         "features_6_2": "Permite a la ciudadanía apoyar ideas o propuestas ya realizadas por otros ciudadanos.",
@@ -240,12 +276,14 @@
         "features_1_4": "Transparenta organizaciones dedicadas a su monitoreo.",
         "features_1_5": "Posibilidad de suscribirse para recibir actualizaciones.",
         "img_1": "img_3_1_es",
+
         "title_2":"Metas",
         "features_2_1": "Cuantitativas: contienen indicadores.",
         "features_2_2": "Cualitativas: contienen hitos relevantes para su cumplimiento.",
         "features_2_3": "Se muestra su avance gracias a una barra de progreso.",
         "features_2_4": "Se actualizan gracias a los reportes.",
         "img_2": "img_3_2_es",
+
         "title_3":"Reportes",
         "features_3_1": "Actualizan el estado de las metas.",
         "features_3_2": "Pueden respaldarse con fotos y archivos.",
@@ -253,6 +291,7 @@
         "features_3_4": "Pueden ser de novedad, actualización o hito, según la información que contenga.",
         "features_3_5": "Posibilidad de suscribirse para recibir actualizaciones.",
         "img_3": "img_3_3_es",
+
         "title_4":"Validaciones",
         "features_4_1": "Fomenta el involucramiento ciudadano.",
         "features_4_2": "Sirve como mecanismo de legitimidad de los reportes.",
@@ -265,6 +304,7 @@
         "features_1_2": "Transparenta el armado del proyecto.",
         "features_1_3": "Funciona como vidriera legislativa.",
         "img_1": "img_4_1_es",
+
         "title_2":"Explicación del proyecto",
         "features_2_1": "Permite la inclusión de videos informativos.",
         "features_2_2": "Se espera lenguaje claro y sencillo.",
@@ -275,16 +315,51 @@
         "features_3_2": "Envío de notiﬁcaciones ante novedades.",
         "features_3_3": "Mantiene informada a la ciudadanía.",
         "img_3": "img_4_3_es",
+
         "title_4":"Aportes",
         "features_4_1": "Fomenta la participación ciudadana.",
         "features_4_2": "Espacio abierto de diálogo entre la ciudadanía y sus representantes.",
         "features_4_3": "Implica compromisos por parte de los representantes.",
         "img_4": "img_4_4_es",
+
         "title_5":"Versiones",
         "features_5_1": "Transparenta la actividad legislativa.",
         "features_5_2": "Permite un seguimiento claro de las modificaciones realizadas.",
         "features_5_3": "Demuestra que efectivamente se incorporan los aportes ciudadanos.",
         "img_5": "img_4_5_es"
+    },
+    "product_specs_5": {
+        "title_1":"Parametrización",
+        "features_1_1": "Permite al equipo adaptar la plataforma a las necesidades locales definiendo la segmentación en distritos, la convivencia de una o varias partidas presupuestarias, la cantidad de votos por usuario, la existencia de padrones especiales, la integración o no de la plataforma con un dispositivo electoral presencial, etc.",
+        "img_1": "img_5_1_es",
+
+        "title_2":"Alta de candidaturas",
+        "features_2_1": "Permite cargar candidatos para varios niveles de autoridad en procesos electorales",
+        "features_2_2": "Se identifica la agrupación a la que pertenecen",
+        "features_2_3": "Vidriera de candidatos",
+        "img_2": "img_5_2_es",
+
+        "title_3":"Padrones de votantes",
+        "features_3_1": "Se podrán cargar padrones digitales con información de votantes",
+        "features_3_2": "Promueve la digitalización de padrones",
+        "img_3": "img_5_3_es",
+
+        "title_4":"Registro de votantes online",
+        "features_4_1": "Registro en la plataforma con correo electrónico",
+        "features_4_2": "Validación de identidad a través de la carga de su DNI y/o dato único customizable",
+        "img_4": "img_5_4_es",
+
+        "title_5":"Votación segura",
+        "features_5_1": "Votación online de usuarios registrados que se encuentren en el padrón",
+        "features_5_2": "Se puede integrar a la votación presencial",
+        "features_5_3": "Facilita el proceso de votación y amplia el acceso",
+        "img_5": "img_5_5_es",
+        
+        "title_6":"Resultados de la votación",
+        "features_6_1": "Seguridad de los votos utilizando tecnología blockchain",
+        "features_6_2": "Descarga de resultados por administradores y usuarios",
+        "features_6_3": "Publicación de resultados al finalizar la votación para votantes y candidaturas",
+        "img_6": "img_5_6_es"
     },
     "requirements": "Requisitos",
     "features": "Características",

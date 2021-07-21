@@ -102,5 +102,34 @@
                 "icon": "versiones"
             }
         ]
+    },
+    {
+        "title": "features_section_5.main_title",
+        "data": [
+            {
+                "title":"features_section_5.title_1",
+                "icon": "parametrizacioncoral"
+            },
+            {
+                "title":"features_section_5.title_2",
+                "icon": "candidaturascoral"
+            },
+            {
+                "title":"features_section_5.title_3",
+                "icon": "padroncoral"
+            },
+            {
+                "title":"features_section_5.title_4",
+                "icon": "registrocoral"
+            },
+            {
+                "title":"features_section_5.title_5",
+                "icon": "votacioncoral"
+            },
+            {
+                "title":"features_section_5.title_6",
+                "icon": "resultadoscoral"
+            }
+        ]
     }
 ]

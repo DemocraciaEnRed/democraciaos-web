@@ -7,3 +7,6 @@ public
 
 # Mac files
 .DS_Store
+
+# Port Language
+** /intl/pt.json

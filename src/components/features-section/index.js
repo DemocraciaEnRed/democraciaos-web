@@ -23,6 +23,12 @@ import explicacion from "./assets/18.svg"
 import apoyar from "./assets/19.svg"
 import aportes from "./assets/20.svg"
 import versiones from "./assets/21.svg"
+import parametrizacioncoral from "./assets/22.svg"
+import candidaturascoral from "./assets/23.svg"
+import padroncoral from "./assets/24.svg"
+import registrocoral from "./assets/25.svg"
+import votacioncoral from "./assets/26.svg"
+import resultadoscoral from "./assets/27.svg"
 
 
 const icons = {
@@ -46,7 +52,13 @@ const icons = {
     explicacion,
     apoyar,
     aportes,
-    versiones
+    versiones,
+    parametrizacioncoral,
+    candidaturascoral,
+    padroncoral,
+    registrocoral,
+    votacioncoral,
+    resultadoscoral
 };
 
 export default ({ data }) =>  {

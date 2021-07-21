@@ -10,24 +10,30 @@ import { useIntl } from "gatsby-plugin-intl"
  import consultadigital from "./assets/consultadigital.svg"
  import seguimientometas from "./assets/seguimientometas.svg"
  import coconstruccionleyes from "./assets/coconstruccion.png"
+ import votacionautoridades from "./assets/votacionautoridades.svg"
+
 
 import consulta_publica from "./assets/consulta_publica.png"
 import co_construccion from "./assets/co_construccion.png"
 import presupuesto_participativo from "./assets/presupuesto_participativo.png"
 import seguimiento_metas from "./assets/seguimiento_metas.png"
+import votacion_autoridades from "./assets/votacion_autoridades.png"
+
 
 const img = {
     consulta_publica,
     co_construccion,
     seguimiento_metas,
-    presupuesto_participativo
+    presupuesto_participativo,
+    votacion_autoridades
 }
 
 const iconTitle = {
     presupuestoParticipativo,
     consultadigital,
     seguimientometas,
-    coconstruccionleyes
+    coconstruccionleyes,
+    votacionautoridades
 }
 
  const icons = {

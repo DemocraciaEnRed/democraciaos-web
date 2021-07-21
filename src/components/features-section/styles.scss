@@ -5,6 +5,7 @@ $orange: #fbb03b;
 $blue: #29abe2;
 $pink: #FD7B92;
 $green:#6ED59F;
+$coral: #f09c77;
 
 .feature-item {
     display: flex;
@@ -36,6 +37,12 @@ $green:#6ED59F;
         .title:after,
         .icon {
             background-color: $blue;
+        }
+    }
+    &.feature-item-blue {
+        .title:after,
+        .icon {
+            background-color: $coral;
         }
     }
     .image {

@@ -6,12 +6,15 @@ import presupuesto_participativo from "./assets/presupuesto_participativo.png"
 import co_construccion from "./assets/co_construccion.png"
 import consulta_publica from "./assets/consulta_publica.png"
 import seguimiento_metas from "./assets/seguimiento_metas.png";
+import votacion_autoridades from "./assets/votacion_autoridades.png";
+
 
 const images = {
     'presupuesto_participativo': presupuesto_participativo,
     'consulta_publica': consulta_publica,
     'co_construccion': co_construccion,
-    'seguimiento_metas': seguimiento_metas
+    'seguimiento_metas': seguimiento_metas,
+    'votacion_autoridades': votacion_autoridades,
 };
 
 export default ({ data }) =>  {
@@ -37,7 +40,7 @@ export default ({ data }) =>  {
                                     </ul>
                                 </div>
                                 <div className="button-container">
-                                    <a className="button is-rounded is-medium is-black" href="#implementar">{intl.formatMessage({id: "implementation"})}</a>
+                                    <a className="button is-rounded is-medium is-black" href="#implementar">{intl.formatMessage({id: "implementation"})}</a>    
                                     <a className="button is-rounded is-medium" href={intl.formatMessage({id: data.link})}>{intl.formatMessage({id: "see_more"})}</a>
                                 </div>
                             </div>

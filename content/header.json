@@ -82,5 +82,26 @@
             "icon":"instalacion" 
         }
     ]
+  },
+  {
+    "title": "header_5.main_title",
+    "description": "header_5.description",
+    "icon": "votacionautoridades",
+    "color": "coral",
+    "image": "votacion_autoridades",
+    "header": [
+      {
+        "title": "header_5.title_1",
+        "icon":"personalizable" 
+    },
+        {
+          "title": "header_5.title_2",
+          "icon":"codigo_abierto" 
+      },
+        {
+            "title": "header_5.title_3",
+            "icon":"instalacion" 
+        }
+    ]
   }
 ]
