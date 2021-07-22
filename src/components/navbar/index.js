@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react"
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
-import { useIntl, IntlContextConsumer, changeLocale  } from "gatsby-plugin-intl"
+import { useIntl, IntlContextConsumer, changeLocale, Link  } from "gatsby-plugin-intl"
+import { PopupButton } from '@typeform/embed-react'
 import "./styles.scss"
 
-export default (props) => {
+
+const Navbar = (props) => {
     const [isActive, setIsActive] = useState(false);
     const intl = useIntl()
     const languageName = {
@@ -12,28 +14,21 @@ export default (props) => {
         // pt: "POR",
     }
 
-    useEffect(() => {
-        const navbarElement = document.querySelector('#navbar');
-        if(isActive) {
-            disableBodyScroll(navbarElement);
-            document.querySelector('html').style.overflowY =  "hidden";
-        } else {
-            document.querySelector('html').style.overflowY =  "scroll";
-            enableBodyScroll(navbarElement);
-        }
-    }, [isActive]);
-
-    const clickContacto = () =>{
-        handleForm();
-        setIsActive(false)
-    }
-
-    const { handleForm } = props;
+    // useEffect(() => {
+    //     const navbarElement = document.querySelector('#navbar');
+    //     if(isActive) {
+    //         disableBodyScroll(navbarElement);
+    //         document.querySelector('html').style.overflowY =  "hidden";
+    //     } else {
+    //         document.querySelector('html').style.overflowY =  "scroll";
+    //         enableBodyScroll(navbarElement);
+    //     }
+    // }, [isActive]);
 
     return (
         <nav id="navbar" className={(isActive ? 'navbar is-active' : 'navbar')} role="navigation" aria-label="main navigation">
             <div className="navbar-brand ">
-                <a className="navbar-item  is-size-2-desktop" href="https://democraciaos.org">democraciaOS</a>
+                <Link className="navbar-item  is-size-2-desktop" to="/">democraciaOS</Link>
                 <button onClick={() => setIsActive(prevState => !prevState)} className={(isActive ? 'navbar-burger is-active' : 'navbar-burger')} aria-label="menu" aria-expanded="false" data-target="navbarColapse">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -44,11 +39,9 @@ export default (props) => {
             <div id="navbarColapse" className={(isActive ? 'navbar-menu is-active' : 'navbar-menu')}>
                 <div className="navbar-start">
                     <div className="left-wrapper">
-                        <a className="navbar-item" onClick={() => setIsActive(false)} href="https://democraciaos.org/es/#productos" data-target="productos">
+                        <Link className="navbar-item" onClick={() => setIsActive(false)} to="/#productos" data-target="productos">
                             {intl.formatMessage({ id: "products_title" })}
-                        </a>
-
-                         
+                        </Link>                  
                     </div>
                     <div className="lang-switch">
                     
@@ -70,12 +63,12 @@ export default (props) => {
                    
                     
                     </div>
-                    <a className="navbar-item" onClick={() => setIsActive(false)} href="https://democraciaos.org/es/#nosotros" data-target="nosotros">
+                    <Link className="navbar-item" to="/#nosotros" data-target="nosotros">
                             {intl.formatMessage({ id: "us" })}
-                        </a>   
-                    <a className="navbar-item contact" onClick={()=>clickContacto()} href="#implementar" rel="noopener noreferrer">
+                        </Link>   
+                    <PopupButton id="bkXtFW" className="navbar-item contact" rel="noopener noreferrer">
                         {intl.formatMessage({ id: "contact" })}
-                    </a>
+                    </PopupButton>
                     <a className="navbar-item is-hidden-desktop" href="mailto:contacto@democraciaenred.org">
                         contacto@democraciaenred.org
                     </a>
@@ -105,3 +98,5 @@ export default (props) => {
         </nav>
     )
 };
+
+export default Navbar;

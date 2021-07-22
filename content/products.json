@@ -3,7 +3,7 @@
         "title":"products.title_1",
         "subtitle":"products.subtitle_1",
         "description": "products.description_1",
-        "link": "products.link_1",
+        "link": "/presupuestoparticipativo",
         "features": [
             "products.features_1_1",
             "products.features_1_2",
@@ -21,7 +21,7 @@
         "title":"products.title_2",
         "subtitle":"products.subtitle_2",
         "description": "products.description_2",
-        "link": "products.link_2",
+        "link": "/consultapublica",
         "features": [
             "products.features_2_1",
             "products.features_2_2",
@@ -39,7 +39,7 @@
         "title":"products.title_3",
         "subtitle":"products.subtitle_3",
         "description": "products.description_3",
-        "link": "products.link_3",
+        "link": "/coconstruccionleyes",
         "features": [
             "products.features_3_1",
             "products.features_3_2",
@@ -55,7 +55,7 @@
         "title":"products.title_4",
         "subtitle":"products.subtitle_4",
         "description": "products.description_4",
-        "link": "products.link_4",
+        "link": "/seguimientometas",
         "features": [
             "products.features_4_1",
             "products.features_4_2",
@@ -70,7 +70,7 @@
         "title":"products.title_5",
         "subtitle":"products.subtitle_5",
         "description": "products.description_5",
-        "link": "products.link_5",
+        "link": "/votacionautoridades",
         "features": [
             "products.features_5_1",
             "products.features_5_2",

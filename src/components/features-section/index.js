@@ -63,7 +63,7 @@ const icons = {
 
 export default ({ data }) =>  {
     const intl = useIntl()
-    console.log(data)
+    //console.log(data)
     return (
         <section id="features" className="section">
             <div className="hero-body">

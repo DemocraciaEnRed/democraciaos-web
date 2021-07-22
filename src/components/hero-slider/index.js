@@ -65,7 +65,7 @@ export default ({ slides }) =>  {
     };
     
     return (
-        <section className="hero is-fullheight is-large is-primary is-bold">
+        <section className="hero is-fullheight is-primary is-bold">
             <Slider {...sliderSettings}>
                 {slides.map((slider, index) =>
                 <div key={index}>

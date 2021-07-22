@@ -22,32 +22,24 @@ if (typeof window !== "undefined") {
     new SmoothScroll('a[href*="#"]');
 }
 
-
-export default () => {
-
-    const [show, setShow] = useState(false);
-
-    const handleForm = () =>{
-        setShow(true);
-    }
-
+const Home = () => {
     return (
     <React.Fragment>
         <SEO />
-        <Navbar handleForm={handleForm}/>
+        <Navbar/>
         <HeroSlider slides={heroSliderData}/>
         <ProductsSection products={productsData}/>
         {productsData.map((product) => 
             <Product data={product} key={product.id}/>
         )}
-        <InstalationsSection data={instalationsData} handleForm={handleForm} show={show} />
-       
-    
+        <InstalationsSection data={instalationsData}/>        
         <UsSection data={usData}/>
         <WorkWithSection />
         <CasesSection data={casesData}/>
-        <Footer handleForm={handleForm} />
+        <Footer />
     </React.Fragment>
     )
 
 }
+
+export default Home;

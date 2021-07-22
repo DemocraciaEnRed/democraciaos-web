@@ -13,7 +13,7 @@ const SEO = ({ description, lang, meta, title }) => {
               title
               description
               author
-              url
+              siteUrl
             }
           }
         }
@@ -47,7 +47,7 @@ const SEO = ({ description, lang, meta, title }) => {
                 },
                 {
                     property: `og:url`,
-                    content: site.siteMetadata.url,
+                    content: site.siteMetadata.siteUrl,
                 },
                 {
                     name: `twitter:card`,
@@ -67,27 +67,21 @@ const SEO = ({ description, lang, meta, title }) => {
                 },
                 {
                     name: `twitter:url`,
-                    content: site.siteMetadata.url,
+                    content: site.siteMetadata.siteUrl,
                 },
                 {
                     name: `og:image`,
-                    content: `${site.siteMetadata.url}/democraciaos-sharer.jpg`,
+                    content: `${site.siteMetadata.siteUrl}/democraciaos-sharer.jpg`,
                 },
                 {
                     name: `twitter:image`,
-                    content: `${site.siteMetadata.url}/democraciaos-sharer.jpg`,
+                    content: `${site.siteMetadata.siteUrl}/democraciaos-sharer.jpg`,
                 },
             ].concat(meta)}
         >
             <link rel="icon" type="image/png" href={favicon} />
             {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160849560-1"></script>
-            <script>
-                {`window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-160849560-1');`}
-            </script>
+
         </Helmet>
     )
 }

@@ -23,17 +23,11 @@ if (typeof window !== "undefined") {
     new SmoothScroll('a[href*="#"]');
 }
 
-export default () => {
-    const [show, setShow] = useState(false);
-
-    const handleForm = () =>{
-        setShow(true);
-        console.log(show);
-    }
+const CoConstruccionLeyes = () => {
      return (
     <React.Fragment>
         <SEO />
-        <Navbar handleForm={handleForm}/>
+        <Navbar />
         <ProductHeader data={productsData[3]}/>
         <FeaturesSection data={FeaturesData[3]}/>
   
@@ -41,7 +35,9 @@ export default () => {
             <ProductSpecs data={product} key={product.id}/>
         )}
         
-        <InstalationsSection data={instalationsData} handleForm={handleForm} show={show} />
-        <Footer handleForm={handleForm} /> 
+        <InstalationsSection data={instalationsData} />
+        <Footer /> 
     </React.Fragment>
 )}
+
+export default CoConstruccionLeyes;

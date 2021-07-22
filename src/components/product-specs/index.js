@@ -315,7 +315,7 @@ const images = {
 
 export default ({ data }) =>  {
     const intl = useIntl()
-    console.log(data)
+    //console.log(data)
     return (
         <section id={data.id} className={`section product-specs has-text-centered-mobile ${data.color}`}>
             <div className="hero-body">

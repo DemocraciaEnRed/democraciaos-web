@@ -1,12 +1,13 @@
 import React from "react"
 import "./styles.scss"
-import { useIntl } from "gatsby-plugin-intl"
-
+import { useIntl, Link } from "gatsby-plugin-intl"
+import { PopupButton } from '@typeform/embed-react'
 import presupuesto_participativo from "./assets/presupuesto_participativo.png"
 import co_construccion from "./assets/co_construccion.png"
 import consulta_publica from "./assets/consulta_publica.png"
 import seguimiento_metas from "./assets/seguimiento_metas.png";
 import votacion_autoridades from "./assets/votacion_autoridades.png";
+
 
 
 const images = {
@@ -17,9 +18,9 @@ const images = {
     'votacion_autoridades': votacion_autoridades,
 };
 
-export default ({ data }) =>  {
+export default ({ data }) => {
     const intl = useIntl()
-    console.log(data)
+    //console.log(data)
     return (
         <section id={data.id} className={`hero product product-${data.color}`}>
             <div className="hero-body">
@@ -40,8 +41,8 @@ export default ({ data }) =>  {
                                     </ul>
                                 </div>
                                 <div className="button-container">
-                                    <a className="button is-rounded is-medium is-black" href="#implementar">{intl.formatMessage({id: "implementation"})}</a>    
-                                    <a className="button is-rounded is-medium" href={intl.formatMessage({id: data.link})}>{intl.formatMessage({id: "see_more"})}</a>
+                                    <PopupButton id="bkXtFW" className="button is-rounded is-medium is-black" href="#implementar">{intl.formatMessage({ id: "implementation" })}</PopupButton>
+                                    <Link className="button is-rounded is-medium" to={data.link}>{intl.formatMessage({ id: "see_more" })}</Link>
                                 </div>
                             </div>
                             <div className="column">
