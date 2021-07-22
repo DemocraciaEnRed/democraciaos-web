@@ -3,7 +3,9 @@
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
 </p>
+
 # Landing Page de DemocraciaOS
+
 > DemocraciaOS, la web especificamente para presentar las plataformas de participación ciudadana de Democracia en Red
 > Desarrollada utilizando [Gatsby](https://www.gatsbyjs.org/) v3, framework basado en React, y [Bulma](https://bulma.io/), framework de CSS basado en Flexbox.
 
