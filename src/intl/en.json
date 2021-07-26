@@ -48,9 +48,10 @@
         "features_4_1": "Registration of objectives and goals",
         "features_4_2": "Georeferenceable goals update reports",
         "features_4_3": "Validation and citizen feedback",
-        "title_5": "Goals tracking",
-        "subtitle_5": "Digital platform that allows the publication of government goals and commitments, facilitating citizen monitoring.",
-        "description_5": "Digital platform that allows the publication of government goals and commitments, facilitating citizen monitoring",
+
+        "title_5": "Voting of Authorities",
+        "subtitle_5": "Digital platform to vote authorities of institutions and organizations ",
+        "description_5": "Digital platform to vote authorities in elections of daily democracy, safe and integrated with physical voting.",
         "link_5":"https://democraciaos.org/en/votacionautoridades",
         "features_5_1": "Candidatures registration",
         "features_5_2": "Electoral roll addition",

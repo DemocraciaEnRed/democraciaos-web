@@ -23,6 +23,7 @@
         "features_1_4": "Seguimiento de proyectos",
         "features_1_5": "Comentarios",
         "features_1_6": "Votación",
+
         "title_2":"Consultas Digitales",
         "subtitle_2":"\n Plataforma digital de consulta, diálogo y debate que conecta al gobierno con la comunidad.",
         "description_2": "Busca favorecer la participación, el debate y la interacción entre entidades y personas sobre diversas temáticas",
@@ -33,6 +34,7 @@
         "features_2_4": "Votación",
         "features_2_5": "Encuestas",
         "features_2_6":  "Priorización",
+
         "title_3":"Co-construcción de leyes",
         "subtitle_3":"\nPlataforma digital de elaboración colaborativa de normas entre representantes y ciudadanía.",
         "description_3": "Plataforma digital de elaboración colaborativa de normas entre representantes y ciudadanía.",
@@ -41,6 +43,7 @@
         "features_3_2": "Comentarios",
         "features_3_3": "Sugerencias",
         "features_3_4": "Seguimiento de proyectos",
+
         "title_4":"Seguimiento de metas",
         "subtitle_4":"Plataforma digital que permite la publicacion de metas y compromisos de gobierno facilitando el seguimiento ciudadano.",
         "description_4": "Plataforma digital que permite la publicacion de metas y compromisos de gobierno facilitando el seguimiento ciudadano",
@@ -48,9 +51,10 @@
         "features_4_1": "Alta de objetivos y metas",
         "features_4_2": "Reportes de actualización de metas georreferenciables",
         "features_4_3": "Validación y comentarios ciudadanos",
+
         "title_5":"Votación de autoridades",
-        "subtitle_5":"\n Plataforma digital para votación de autoridades en procesos electorales de democracias cotidianas.",
-        "description_5": "Plataforma digital para votación de autoridades en instituciones y organizaciones",
+        "subtitle_5":"\n Plataforma digital para votación de autoridades en instituciones y organizaciones.",
+        "description_5": "Plataforma digital para votación de autoridades en procesos electorales de democracias cotidianas",
         "link_5":"https://democraciaos.org/es/votacionautoridades",
         "features_5_1": "Alta de candidaturas",
         "features_5_2": "Alta de padrón",
