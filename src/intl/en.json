@@ -370,5 +370,8 @@
     "products_title": "products",
     "us": "about us",
     "contact": "contact us",
-    "work_with": "We work with"
+    "work_with": "We work with",
+    "metaLang":"en_EN",
+    "altLang": "es_ES",
+    "lang": "en"
 }

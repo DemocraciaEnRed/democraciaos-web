@@ -25,7 +25,7 @@ export default ({ products }) =>  {
             <div className="container">
                 <div className="columns is-multiline is-mobile is-centered">
                     {products.map((product) =>
-                        <div key={product.id} className={`product-item product-item-${product.color} column has-text-centered is-half-tablet is-half-desktop is-full-mobile`}>
+                        <div key={'p-sect'+product.id} className={`product-item product-item-${product.color} column has-text-centered is-half-tablet is-half-desktop is-full-mobile`}>
                             <figure className="image">
                                 <img src={`${icons[product.icon]}`} alt="" className={`${product.icon}`} />
                             </figure>

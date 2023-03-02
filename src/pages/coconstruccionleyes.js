@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React, { useState } from "react"
 import "./styles.scss"
 import SEO from "../components/seo"
 import Navbar from "../components/navbar"
@@ -24,20 +24,24 @@ if (typeof window !== "undefined") {
 }
 
 const CoConstruccionLeyes = () => {
-     return (
-    <React.Fragment>
-        <SEO />
-        <Navbar />
-        <ProductHeader data={productsData[3]}/>
-        <FeaturesSection data={FeaturesData[3]}/>
-  
-        {productsSpecsData[3].map((product) => 
-            <ProductSpecs data={product} key={product.id}/>
-        )}
-        
-        <InstalationsSection data={instalationsData} />
-        <Footer /> 
-    </React.Fragment>
-)}
+    const title = "Co-construcción de leyes"
+    const description = "Comentarios y aportes en proyectos de ley."
+    
+    return (
+        <React.Fragment>
+            <SEO title={title} description={description}/>
+            <Navbar />
+            <ProductHeader data={productsData[3]} />
+            <FeaturesSection data={FeaturesData[3]} />
+
+            {productsSpecsData[3].map((product) =>
+                <ProductSpecs data={product} key={'cl'+product.id} />
+            )}
+
+            <InstalationsSection data={instalationsData} />
+            <Footer />
+        </React.Fragment>
+    )
+}
 
 export default CoConstruccionLeyes;

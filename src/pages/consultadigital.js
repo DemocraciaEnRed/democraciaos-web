@@ -24,15 +24,17 @@ if (typeof window !== "undefined") {
 }
 
 const ConsultaDigital = () => {
+    const title = 'Consultas Digitales'
+    const description = "Comentarios, votación, jerarquización, apoyo y encuestas en asuntos públicos."
      return (
     <React.Fragment>
-        <SEO />
+        <SEO title={title} description={description}/>
         <Navbar/>
         <ProductHeader data={productsData[1]}/>
         <FeaturesSection data={FeaturesData[1]}/>
   
         {productsSpecsData[1].map((product) => 
-            <ProductSpecs data={product} key={product.id}/>
+            <ProductSpecs data={product} key={"cd"+product.id}/>
         )}
         <hr/>
         <InstalationsSection data={instalationsData} />

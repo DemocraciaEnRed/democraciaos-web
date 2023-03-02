@@ -24,14 +24,16 @@ if (typeof window !== "undefined") {
 }
 
 const VotacionAutoridades = () => {
+    const title= "Votación de autoridades"
+    const description="Plataforma digital para la votación de autoridades en elecciones de democracia cotidiana."
      return (
     <React.Fragment>
-        <SEO />
+        <SEO title={title} description={description}/>
         <Navbar/>
         <ProductHeader data={productsData[4]}/>
         <FeaturesSection data={FeaturesData[4]}/>
         {productsSpecsData[4].map((product) => 
-            <ProductSpecs data={product} key={product.id}/>
+            <ProductSpecs data={product} key={'va'+product.id}/>
         )}
         <hr/>
         <InstalationsSection data={instalationsData}/>
