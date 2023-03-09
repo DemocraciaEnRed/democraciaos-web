@@ -24,16 +24,17 @@ if (typeof window !== "undefined") {
 }
 
 const SeguimientoMetas = () => {
-
+    const title="Seguimiento de metas"
+    const description="La herramienta para la rendición de cuentas públicas."
      return (
     <React.Fragment>
-        <SEO />
+        <SEO title={title} description={description}/>
         <Navbar/>
         <ProductHeader data={productsData[2]}/>
         <FeaturesSection data={FeaturesData[2]}/>
   
         {productsSpecsData[2].map((product) => 
-            <ProductSpecs data={product} key={product.id}/>
+            <ProductSpecs data={product} key={'sm'+product.id}/>
         )}
         <hr/>
         <InstalationsSection data={instalationsData}/>

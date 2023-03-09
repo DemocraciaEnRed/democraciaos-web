@@ -24,16 +24,17 @@ if (typeof window !== "undefined") {
 }
 
 const PresupuestoParticipativo = () => {
-
+    const title="Presupuesto Participativo"
+    const description="Procesos enteramente digitales en permanente actualización."
      return (
     <React.Fragment>
-        <SEO />
+        <SEO title={title} description={description}/>
         <Navbar/>
         <ProductHeader data={productsData[0]}/>
         <FeaturesSection data={FeaturesData[0]}/>
   
         {productsSpecsData[0].map((product) => 
-            <ProductSpecs data={product} key={product.id}/>
+            <ProductSpecs data={product} key={'pp'+product.id}/>
         )}
         <hr/>
         <InstalationsSection data={instalationsData}/>

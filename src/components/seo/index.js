@@ -3,6 +3,8 @@ import { string, object, arrayOf } from "prop-types";
 import Helmet from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 import favicon from './assets/favicon.png'
+import { useLocation } from '@reach/router';
+import { useIntl } from "gatsby-plugin-intl"
 
 const SEO = ({ description, lang, meta, title }) => {
     const { site } = useStaticQuery(
@@ -19,14 +21,23 @@ const SEO = ({ description, lang, meta, title }) => {
         }
       `
     )
+
+    const location = useLocation()
+    const intl = useIntl()
+
     const metaDescription = description || site.siteMetadata.description;
-    const metaTitle = title || site.siteMetadata.title;
+    const webTitle = site.siteMetadata.title;
+    const metaTitle = title || 'Democracia en Red';
+
+    const metaLang = intl.formatMessage({id: 'metaLang'})
+    const altLang = intl.formatMessage({id: 'altLang'})
+    lang =  intl.formatMessage({id: 'lang'})
     return (
         <Helmet
             htmlAttributes={{
-                lang,
+                lang
             }}
-            title={metaTitle}
+            title={webTitle}
             titleTemplate={`%s | ${metaTitle}`}
             meta={[
                 {
@@ -42,12 +53,28 @@ const SEO = ({ description, lang, meta, title }) => {
                     content: metaDescription,
                 },
                 {
-                    property: `og:type`,
+                    property:`og:type`,
                     content: `website`,
                 },
                 {
                     property: `og:url`,
-                    content: site.siteMetadata.siteUrl,
+                    content: `${site.siteMetadata.siteUrl}${location.pathname}`,
+                },
+                {
+                    property: `og:site_name`,
+                    content: `${site.siteMetadata.siteUrl}`
+                },
+                {
+                    property: `og:image`,
+                    content: `${site.siteMetadata.siteUrl}/democraciaos-sharer.jpg`,
+                },
+                {
+                    property: `og:locale`,
+                    content: `${metaLang}`
+                },
+                {
+                    property: `og:locale:alternate`,
+                    content: `${altLang}`
                 },
                 {
                     name: `twitter:card`,
@@ -67,11 +94,7 @@ const SEO = ({ description, lang, meta, title }) => {
                 },
                 {
                     name: `twitter:url`,
-                    content: site.siteMetadata.siteUrl,
-                },
-                {
-                    name: `og:image`,
-                    content: `${site.siteMetadata.siteUrl}/democraciaos-sharer.jpg`,
+                    content: `${site.siteMetadata.siteUrl}${location.pathname}`,
                 },
                 {
                     name: `twitter:image`,
@@ -80,8 +103,9 @@ const SEO = ({ description, lang, meta, title }) => {
             ].concat(meta)}
         >
             <link rel="icon" type="image/png" href={favicon} />
+            <link rel="canonical" href={site.siteMetadata.siteUrl}/>
+            
             {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
-
         </Helmet>
     )
 }

@@ -25,12 +25,12 @@ if (typeof window !== "undefined") {
 const Home = () => {
     return (
     <React.Fragment>
-        <SEO />
+        <SEO title={'Home'}/>
         <Navbar/>
         <HeroSlider slides={heroSliderData}/>
         <ProductsSection products={productsData}/>
         {productsData.map((product) => 
-            <Product data={product} key={product.id}/>
+            <Product data={product} key={'prod-d'+product.id}/>
         )}
         <InstalationsSection data={instalationsData}/>        
         <UsSection data={usData}/>
