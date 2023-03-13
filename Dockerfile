@@ -16,7 +16,7 @@
 
 # COPY --from=build --chown=nginx:nginx /app/public /usr/share/nginx/html
 
-FROM node:14-alpine AS build
+FROM node:12-alpine AS build
 
 RUN apk add --no-cache --virtual .gyp python3 make g++
 
