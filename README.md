@@ -14,9 +14,9 @@
 
 ### Para correr la aplicación:
 
-1. Asegurarnos de tener utilizar la versión correcta de Node. Requiere, como minimo, NodeJS 12.x 
+1. Asegurarnos de tener utilizar la versión correcta de Node. Requiere, como minimo, NodeJS 14.x 
 ```bash
-nvm use v12.22.3
+nvm use v14.21.3
 ```
 
 2. Instalar dependencias del proyecto
@@ -43,6 +43,13 @@ Genera archivos estáticos dentro de la carpeta `build`
 npm run  serve
 ```
 Se disponibiliza el sitio en [http://localhost:9000/](http://localhost:9000/)
+
+**Nota:** Aun asi esto no es un build fiel al productivo, ya que se utiliza un plugin de Gatsby. Para ver como seria en produccion (en el caso de hacer debugs) hay que hacerlo por docker.
+
+```
+/dev/democraciaos-web$ docker build . -t der/dos:latest
+/dev/democraciaos-web$ docker run -p 9000:80 der/dos:latest
+```
 
 
 En la carpeta `content` se encuentran los textos en formato .json de la landing para facilitar su edición.

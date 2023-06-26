@@ -3,7 +3,9 @@ module.exports = {
     title: `DemocraciaOS`,
     description: `Herramientas de código abierto de participación ciudadana para gobiernos e instituciones.`,
     author: `@DemocraciaEnRed`,
-    siteUrl: `https://democraciaos.org`
+    publisher: `@DemocraciaEnRed`,
+    siteUrl: `https://www.democraciaos.org/`,
+    robot: `all`
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -34,7 +36,7 @@ module.exports = {
         // language file path
         defaultLanguage: `es`,
         // option to redirect to `/ko` when connecting `/`
-        redirect: true,
+        redirect: false,
       },
     },
   ],

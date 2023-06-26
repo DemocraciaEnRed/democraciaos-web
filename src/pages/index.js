@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React from "react"
 import "./styles.scss"
 import SEO from "../components/seo"
 import Navbar from "../components/navbar"
@@ -25,7 +25,7 @@ if (typeof window !== "undefined") {
 const Home = () => {
     return (
     <React.Fragment>
-        <SEO title={'Home'}/>
+        <SEO />
         <Navbar/>
         <HeroSlider slides={heroSliderData}/>
         <ProductsSection products={productsData}/>

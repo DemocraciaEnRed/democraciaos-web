@@ -27,7 +27,7 @@ export default (props) =>  {
                             <li><a className="footer-link" href="https://democraciaos.org/es/#productos">{intl.formatMessage({ id: "products_title" })}</a></li>
                             <li><a className="footer-link" href="https://democraciaos.org/es/#nosotros">{intl.formatMessage({ id: "us" })}</a></li>
                             <li>
-                                <PopupButton className="button is-small is-white is-outlined mx-0 mt-4 mb-2" href="https://democraciaos.org/es/#nosotros">{intl.formatMessage({ id: "contact" })}</PopupButton>
+                            <PopupButton id="bkXtFW" className="button is-rounded is-medium is-dark" rel="noopener noreferrer">{intl.formatMessage({ id: "contact" })}</PopupButton>
                             </li>
                             <li className="footer-link has-text-underline"><a href="mailto:	contacto@democraciaenred.org">contacto@democraciaenred.org</a></li>
                             <li>

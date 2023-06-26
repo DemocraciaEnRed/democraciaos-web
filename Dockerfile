@@ -31,6 +31,5 @@ COPY . .
 RUN yarn build
 
 FROM nginx:alpine
-MAINTAINER it@democraciaenred.org
 
 COPY --from=build --chown=nginx:nginx /app/public /usr/share/nginx/html
