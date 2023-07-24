@@ -10,9 +10,9 @@ module.exports = {
   plugins: [
     "gatsby-plugin-sass",
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-google-gtag",
       options: {
-        trackingId: "UA-160849560-1",
+        trackingIds: ["G-33SV6BE5DP"],
       },
     },
     "gatsby-plugin-react-helmet",
