@@ -3,12 +3,14 @@ import "./styles.scss"
 import presupuesto_participativo from "./assets/presupuesto_participativo.png"
 import leyes_abiertas from "./assets/leyes_abiertas.png"
 import consulta_publica from "./assets/consulta_publica.png"
+import seguimiento_metas from "./assets/seguimiento_metas.png"
 import { useIntl } from "gatsby-plugin-intl"
 
 const images = {
     'presupuesto_participativo': presupuesto_participativo,
     'consulta_publica': consulta_publica,
-    'leyes_abiertas': leyes_abiertas
+    'leyes_abiertas': leyes_abiertas,
+    'seguimiento_metas': seguimiento_metas,
 };
 
 export default ({data}) =>  {

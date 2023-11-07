@@ -21,6 +21,13 @@
             "color": "blue",
             "link": "https://medium.com/multitudes/leyes-abiertas-38249baa7e75",
             "image":"leyes_abiertas"
-        }
+        },
+        {
+            "title":"cases.title_4",
+            "subtitle": "cases.subtitle_4",
+            "color": "purple",
+            "link": "https://blogs.iadb.org/conocimiento-abierto/es/herramienta-rendicion-de-cuentas/",
+            "image":"seguimiento_metas"
+        }        
     ]
 }

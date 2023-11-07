@@ -3,6 +3,7 @@ $orange: #fbb03b;
 $blue: #29abe2;
 $pink: #FD7B92;
 $green:#6ED59F;
+$purple:#E7B4F1;
 
 
 .use-case-item {
@@ -36,5 +37,11 @@ $green:#6ED59F;
 .use-case-item-blue {
     .icon {
         background-color: $blue;
+    }
+}
+
+.use-case-item-purple {
+    .icon {
+        background-color: $purple;
     }
 }
